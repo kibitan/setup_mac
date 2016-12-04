@@ -13,6 +13,7 @@ setup mac
   - tap click
   - right click
   - scroll natural
+  - swipe between pages -> three fingers
 - user
   - off the guest
 - accessibility
