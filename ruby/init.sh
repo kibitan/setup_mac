@@ -1,5 +1,4 @@
 #!/bin/bash
-LIB_DIR=~/Dropbox/ctokoro_library
 pushd ~
 
 ask() {

@@ -1,8 +1,9 @@
 SHELL=/usr/local/bin/zsh
 MAILTO=uzukifirst+macbook_crontab@gmail.com
+REPO_DIR=~/Dropbox/setup_mac
 
 @daily  yes 'no' | /usr/local/bin/mackup backup
-@daily  source ~/.zshrc && cd ~/Dropbox/ctokoro_library; if [ $(git status --short --untracked-files=no | wc -l) -gt 0 ]; then; git stash && git pull --rebase && git stash pop; else; git pull --rebase; fi; /usr/local/bin/brew bundle dump --force && git add Brewfile && git commit -m "auto commit of Brewfile dump `date "+\%Y-\%m-\%d \%H:\%M:\%S"`" && git push
+@daily  source ~/.zshrc && cd $REPO_DIR; if [ $(git status --short --untracked-files=no | wc -l) -gt 0 ]; then; git stash && git pull --rebase && git stash pop; else; git pull --rebase; fi; /usr/local/bin/brew bundle dump --force && git add Brewfile && git commit -m "auto commit of Brewfile dump `date "+\%Y-\%m-\%d \%H:\%M:\%S"`" && git push
  2 */6 * * *  cd /var/www; for dir in `find ./* -maxdepth 4 -mmin -360 | cut -f2 -d / | uniq`; do echo $dir && time nice -n19 tar -czf ~/Dropbox/www/$dir.tar.gz --exclude ./vendor/bundle --exclude ./cookbooks --exclude '*.log' $dir; done
 @weekly source ~/.zshrc && time nice -n19 brew update && time nice -n19 brew upgrade && time nice -n19 brew cleanup && for c in `brew cask list`; do ! brew cask info $c | grep -qF "Not installed" || time nice -n19 brew cask install $c; done && time nice -n19 brew cask cleanup && for c in /usr/local/Caskroom/*; do vl=(`ls -t $c`) && for v in "${vl[@]:1}"; do \rm -rf "$c/$v"; done; done
 @weekly source ~/.zshrc && gibo -u

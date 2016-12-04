@@ -1,5 +1,6 @@
 #!/bin/bash
 DROPBOX_DIR=~/DropBox
+REPO_DIR=$DROPBOX_DIR/setup_mac
 
 ask() {
   printf "$* [y/n] "
@@ -37,7 +38,7 @@ if ask 'oh-my-zsh install?'; then
 fi
 
 if ask 'execute brew brewdler?(Brewfile)?'; then
-  pushd $DROPBOX_DIR/ctokoro_library
+  pushd $REPO_DIR
   brew bundle
   popd
 fi
@@ -91,7 +92,7 @@ if ask 'restore setting from mackup? (need Dropbox directory)'; then
 fi
 
 if ask 'install crontab?'; then
-  crontab < $DROPBOX_DIR/ctokoro_library/_crontab
+  crontab < $REPO_DIR/_crontab
 fi
 
 if ask 'restore /var/www?'; then
@@ -101,5 +102,5 @@ if ask 'restore /var/www?'; then
 fi
 
 if ask 'execute ruby setup?'; then
-  $DROPBOX_DIR/ctokoro_library/ruby/init.sh
+  $REPO_DIR/ruby/init.sh
 fi
