@@ -8,6 +8,8 @@ setup mac
   - firewall
   - firevalut
   - require password immediately
+- spotlight
+  - Search Results: only check  application
 - energy
   - display off time
   - stop sleeping when pluged
@@ -34,8 +36,18 @@ setup mac
 - general
   - change menubar and Dock color
 - finder
-  - left column shortcut
-  - show status bar, path bar
+  - prefference
+    - General
+      - New Finder windows show: home directory
+    - sidebar: customize
+    - advanced:
+      - show all filename extensions
+      - remove items from the trash after 30 days
+      - keep folders on top when sorting by name
+      - when perfoming a search: current folder
+  - view
+    - show status bar
+    - show path bar
   - default view option: sort by name, arrange by none
   - change default application of mp3, m4a into QuickTimePlayer
 - change screen size if retina
@@ -49,7 +61,8 @@ setup mac
   - shortcut:
     - spotlight -> control + space
     - input source -> alt + space
-  - input source:
+    - Full Keyboard access -> all controls
+  - input source:
     - change key "¥" button to '\'
     - should be disable mac original IME ( many time freeze )
   - (touch bar)
