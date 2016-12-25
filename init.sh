@@ -74,11 +74,6 @@ if ask 'set mute in mac booting sound?'; then
   sudo nvram SystemAudioVolume=%80
 fi
 
-# @see https://discussionsjapan.apple.com/thread/10153604
-if ask 'set clamshell mode off? (for multi display sleep)'; then
-  sudo nvram boot-args="niog=1"
-fi
-
 # for macOS Sierra
 # http://qiita.com/bsdmad/items/d8099682c17b6df74baa
 if ask 'set keyboard keyrepeat faster?'; then
