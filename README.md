@@ -25,6 +25,7 @@ setup mac
 - dock setting
   - auto hide
   - layout
+  - add shortcut of Applications 
 - sound
   - show in menu bar
 - general
@@ -54,10 +55,10 @@ setup mac
   - turn on DoNotDistrurb at display off
 - turn off clock, battery from menubar
 
+- see also: https://paper.dropbox.com/doc/Effective-Mac-Mac-ec4qEn9JCZbbLFtWn8wFL
+
 # run init.sh
  - if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
-
-# check brew doctor
 
 # download and install ms-office365
   - https://portal.office.com/OLS/MySoftware.aspx
@@ -94,13 +95,6 @@ setup mac
  - dash(inside of app)
  - synergy
   - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
-
-# chrome: dev-tool terminal
-  - install nodejs - https://nodejs.org/
-```sh
-(sudo) npm install -g devtools-terminal
-sudo devtools-terminal --install --id=leakmhneaibbdapdoienlkifomjceknl
-```
 
 # chrome login
  - hatena
