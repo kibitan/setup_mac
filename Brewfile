@@ -168,14 +168,11 @@ mas 'Mousepose', id: 405904955
 mas 'LINE', id: 539883307
 mas 'Network Radar', id: 507659816
 mas 'ToyViewer', id: 414298354
-mas 'GarageBand', id: 682658836
 mas 'WiFi Explorer', id: 494803304
 mas 'Kobito', id: 896624060
 mas 'WiFi Signal', id: 525912054
 mas 'Tweetbot', id: 557168941
-mas 'Numbers', id: 409203825
 mas 'Witch', id: 412485838
-mas 'Pages', id: 409201541
 mas 'iMovie', id: 408981434
 mas 'Go2Shell', id: 445770608
 mas 'Slack', id: 803453959
