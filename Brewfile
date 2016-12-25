@@ -2,6 +2,7 @@ tap 'argon/mas'
 tap 'caskroom/cask'
 tap 'caskroom/versions'
 tap 'codekitchen/dinghy'
+tap 'homebrew/boneyard'
 tap 'homebrew/brewdler'
 tap 'homebrew/core'
 tap 'homebrew/dupes'
@@ -70,6 +71,7 @@ brew 'mackup'
 brew 'mecab'
 brew 'mecab-ipadic'
 brew 'memcached', restart_service: true
+brew 'mysql@5.6'
 brew 'openssl@1.1'
 brew 'pcre'
 brew 'nginx'
@@ -100,16 +102,15 @@ brew 'terraform'
 brew 'the_silver_searcher'
 brew 'tig'
 brew 'tree'
-brew 'unfs3'
 brew 'watch'
 brew 'wget'
 brew 'youtube-dl'
 brew 'z'
 brew 'zsh'
 brew 'argon/mas/mas'
+brew 'homebrew/boneyard/unfs3'
 brew 'codekitchen/dinghy/dinghy'
 brew 'homebrew/dupes/apple-gcc42'
-brew 'homebrew/versions/mysql56'
 brew 'tldr-pages/tldr/tldr'
 cask '1password'
 cask 'adobe-creative-cloud'
@@ -119,7 +120,9 @@ cask 'blisk'
 cask 'caffeine'
 cask 'chefdk'
 cask 'clipy'
+cask 'cmd-eikana'
 cask 'cyberduck'
+cask 'dash'
 cask 'disk-inventory-x'
 cask 'dropbox'
 cask 'firefox'
@@ -148,30 +151,34 @@ cask 'spotify'
 cask 'sublime-text-dev'
 cask 'synergy'
 cask 'the-unarchiver'
+cask 'totalspaces'
 cask 'tunnelblick'
 cask 'vagrant'
 cask 'virtualbox'
 cask 'vlc'
 mas 'NetSpot Wi-Fi Reporter', id: 678464954
-mas '050plus', id: 694926804
-mas 'LINE', id: 539883307
-mas 'WinArchiver Lite', id: 414855915
 mas 'NetSpot', id: 514951692
+mas 'Quiver', id: 866773894
+mas 'WinArchiver Lite', id: 414855915
+mas '050plus', id: 694926804
 mas 'FreeMan', id: 510934532
 mas 'Keynote', id: 409183694
-mas 'Slack', id: 803453959
 mas 'MARKETSPEED', id: 946680495
 mas 'Mousepose', id: 405904955
-mas 'Quiver', id: 866773894
+mas 'LINE', id: 539883307
 mas 'Network Radar', id: 507659816
 mas 'ToyViewer', id: 414298354
+mas 'GarageBand', id: 682658836
 mas 'WiFi Explorer', id: 494803304
 mas 'Kobito', id: 896624060
 mas 'WiFi Signal', id: 525912054
 mas 'Tweetbot', id: 557168941
+mas 'Numbers', id: 409203825
 mas 'Witch', id: 412485838
+mas 'Pages', id: 409201541
+mas 'iMovie', id: 408981434
 mas 'Go2Shell', id: 445770608
+mas 'Slack', id: 803453959
 mas 'Duplicate Photos Fixer Pro', id: 963642514
 mas 'PopClip', id: 445189367
 mas 'Mactracker', id: 430255202
-mas 'Dash', id: 449589707
