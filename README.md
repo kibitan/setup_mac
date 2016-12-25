@@ -9,8 +9,10 @@ setup mac
   - firevalut
   - require password immediately
 - energy
-  - sleep time, display off time
-  - turn off hard disks to sleep when pluged
+  - display off time, 
+  - stop sleeping when pluged
+    - disable put hard disks to sleep when possible ( [SSD is not affect this setting](https://support.apple.com/en-us/HT202824) )
+    - enable prevent computer from sleeping automatically when the display is off
 - trackpad
   - tap click
   - right click
