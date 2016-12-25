@@ -17,6 +17,7 @@ setup mac
   - tap click
   - right click
   - scroll natural
+  - tracking speed
   - swipe between pages -> three fingers
 - user
   - off the guest
