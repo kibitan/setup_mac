@@ -99,6 +99,7 @@ setup mac
  - caffeine
  - google japanese ime (keyboard - input source)
  - freeman
+ - wifi signal
  - Go2Shell
   - drag with Command to Finder toolbar
   - config = open -a Go2Shell --args config
