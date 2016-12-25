@@ -115,6 +115,7 @@ brew 'tldr-pages/tldr/tldr'
 cask '1password'
 cask 'adobe-creative-cloud'
 cask 'alfred'
+cask 'appcleaner'
 cask 'bartender'
 cask 'blisk'
 cask 'caffeine'
@@ -173,8 +174,6 @@ mas 'Kobito', id: 896624060
 mas 'WiFi Signal', id: 525912054
 mas 'Tweetbot', id: 557168941
 mas 'Witch', id: 412485838
-mas 'iMovie', id: 408981434
-mas 'Go2Shell', id: 445770608
 mas 'Slack', id: 803453959
 mas 'Duplicate Photos Fixer Pro', id: 963642514
 mas 'PopClip', id: 445189367
