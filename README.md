@@ -2,13 +2,15 @@ setup mac
 
 # change mac setting
 - mission control
-  - hotcorner screenlock, turn on dashboard
-- (security)
+  - hotcorner screenlock
+  - turn on dashboard as space
+- security
   - firewall
+  - firevalut
   - require password immediately
 - energy
   - sleep time, display off time
-  - turn off automatic power off when pluged
+  - turn off hard disks to sleep when pluged
 - trackpad
   - tap click
   - right click
@@ -17,8 +19,8 @@ setup mac
 - user
   - off the guest
 - accessibility
-  - zoom
-  - turn on less transmit
+  - Zoom: Use scroll gesture with modifier keys
+  - display: turn on reduce transmit
    - (http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html)
 - dock setting
   - auto hide
@@ -31,22 +33,27 @@ setup mac
   - left column shortcut
   - show status bar, path bar
   - default view option
-    - sort by name, order by name
-  - change default application of mp3, m4a into QuickTimePlayer
-- turn off clock, battery from menubar
+    - sort by name, arrange by none
+  - change default application of mp3, m4a into QuickTimePlayer
 - change screen size if retina
+- screensaver
+  - random
+  - show with clock
 - keyboard
   - fnkey
   - Capslock to control
-  - (el capitan)
-    - shortcut:
-      - spotlight -> control + space
-      - input source -> alt + space
-    - input source:
-      - change key "¥" button to '\'
-      - should be disable mac original IME ( many time freeze )
+  - enable: show keyboard and emoji viewer in menu bar
+  - shortcut:
+    - spotlight -> control + space
+    - input source -> alt + space
+  - input source:
+    - change key "¥" button to '\'
+    - should be disable mac original IME ( many time freeze )
+  - (touch bar)
+    - customize control strip
 - notification setting
-  - oyasumi-mode on at display off
+  - turn on DoNotDistrurb at display off
+- turn off clock, battery from menubar
 
 # run init.sh
  - if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
