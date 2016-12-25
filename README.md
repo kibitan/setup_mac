@@ -55,18 +55,20 @@ setup mac
   - random
   - show with clock
 - keyboard
-  - fnkey
-  - Capslock to control
-  - enable: show keyboard and emoji viewer in menu bar
+  - keyboard:
+    - fnkey
+    - Capslock to control
+    - show keyboard and emoji viewer in menu bar
+    - (touch bar)
+      - customize control strip
   - shortcut:
     - spotlight -> control + space
     - input source -> alt + space
     - Full Keyboard access -> all controls
+    - mission control -> (first making 10 desktops then) desktops shortcuts
   - input source:
     - change key "¥" button to '\'
     - should be disable mac original IME ( many time freeze )
-  - (touch bar)
-    - customize control strip
 - notification setting
   - turn on DoNotDistrurb at display off
 - turn off clock, battery from menubar
@@ -102,15 +104,17 @@ setup mac
   - config = open -a Go2Shell --args config
  - hub command
  - cmd-eikana
+ - totalspaces
 
 # lincense install
  - 1password
  - istat menu
  - bartender
  - ms office
- - dash(inside of app)
+ - dash
  - synergy
   - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
+ - totalspaces
 
 # chrome login
  - hatena
