@@ -71,7 +71,7 @@ setup mac
     - should be disable mac original IME ( many time freeze )
 - notification setting
   - turn on DoNotDistrurb at display off
-- turn off clock, battery from menubar
+- turn off clock, battery, siri from menubar
 
 - see also: https://paper.dropbox.com/doc/Effective-Mac-Mac-ec4qEn9JCZbbLFtWn8wFL
 
@@ -85,15 +85,15 @@ setup mac
  - chrome
  - iterm
  - dropbox
- - karabiner
  - witch
+   - first done and relaunch again then, setup key to command-tab 
  - istatmenu
- - clipmenu
+ - clipy
  - shiftit
  - bartender
  - google-drive
+    - check selective sync
  - flux
- - evernote
  - popclip
  - slack
  - caffeine
@@ -105,6 +105,9 @@ setup mac
  - hub command
  - cmd-eikana
  - totalspaces
+   - need to change SIP mode `csrutil enable --without debug`
+     - https://totalspaces.binaryage.com/elcapitan
+     - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
 
 # lincense install
  - 1password
