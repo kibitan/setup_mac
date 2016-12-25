@@ -21,7 +21,7 @@ setup mac
 - accessibility
   - Zoom: Use scroll gesture with modifier keys
   - display: turn on reduce transmit
-   - (http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html)
+    - (http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html)
 - dock setting
   - auto hide
   - layout
@@ -32,9 +32,8 @@ setup mac
 - finder
   - left column shortcut
   - show status bar, path bar
-  - default view option
-    - sort by name, arrange by none
-  - change default application of mp3, m4a into QuickTimePlayer
+  - default view option: sort by name, arrange by none
+  - change default application of mp3, m4a into QuickTimePlayer
 - change screen size if retina
 - screensaver
   - random
