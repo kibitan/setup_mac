@@ -65,7 +65,7 @@ setup mac
     - spotlight -> control + space
     - input source -> alt + space
     - Full Keyboard access -> all controls
-    - mission control -> (first making 10 desktops then) desktops shortcuts
+    - mission control -> (first making 10 desktops then) enable desktops shortcuts and change to alt+*
   - input source:
     - change key "¥" button to '\'
     - should be disable mac original IME ( many time freeze )
