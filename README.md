@@ -92,7 +92,7 @@ setup mac
  - shiftit
  - bartender
  - google-drive
-    - check selective sync
+  - check selective sync
  - flux
  - popclip
  - slack
@@ -100,15 +100,12 @@ setup mac
  - google japanese ime (keyboard - input source)
  - freeman
  - wifi signal
- - Go2Shell
-  - drag with Command to Finder toolbar
-  - config = open -a Go2Shell --args config
  - hub command
  - cmd-eikana
  - totalspaces
-   - need to change SIP mode on recovery mode `csrutil enable --without debug`, then reboot and `brew cask reinstall totalspaces`, `open $(brew cask info totalspaces | grep $(brew --prefix) | cut -d' ' -f1)/TotalSpaces2.app`
-     - https://totalspaces.binaryage.com/elcapitan
-     - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
+  - need to change SIP mode on recovery mode `csrutil enable --without debug`, then reboot and `brew cask reinstall totalspaces`, `open $(brew cask info totalspaces | grep $(brew --prefix) | cut -d' ' -f1)/TotalSpaces2.app`
+    - https://totalspaces.binaryage.com/elcapitan
+    - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
 
 # lincense install
  - 1password
