@@ -116,6 +116,7 @@ setup mac
  - synergy
   - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
  - totalspaces
+ - jasper
 
 # chrome login
  - hatena
