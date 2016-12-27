@@ -89,9 +89,12 @@ if ask 'install crontab?'; then
   crontab < $REPO_DIR/_crontab
 fi
 
+if ask 'make /var/www?'; then
+  [ ! -d /var/www ] && sudo mkdir /var/www
+  sudo chown $USER /var/www
+fi
+
 if ask 'restore /var/www?'; then
-  sudo mkdir /var/www
-  sudo chown ctokoro /var/www
   cd $DROPBOX_DIR/www/; for dir in *; do tar -xzf $dir -C /var/www ; done
 fi
 
