@@ -91,7 +91,11 @@ setup mac
   - enable launch at login
   - first done and relaunch again then, setup key to command-tab 
  - istatmenu
-  - enable launch at login
+  - enable launch at login  
+ - tunnelblick
+  - enable launch at login  
+ - soundflower
+ - Mousepose
  - clipy
   - enable launch at login
   - import snipet file
@@ -101,6 +105,8 @@ setup mac
   - enable launch at login
  - google-drive
   - check selective sync
+ - google-photos-backup
+  - enable launch at login
  - flux
   - enable launch at login
  - popclip
