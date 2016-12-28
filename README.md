@@ -84,33 +84,51 @@ setup mac
 # launch apps
  - chrome
  - iterm
+  - enable launch at login
+  - setup preference file
  - dropbox
  - witch
-   - first done and relaunch again then, setup key to command-tab 
+  - enable launch at login
+  - first done and relaunch again then, setup key to command-tab 
  - istatmenu
+  - enable launch at login
  - clipy
+  - enable launch at login
+  - import snipet file
  - shiftit
+  - enable launch at login
  - bartender
+  - enable launch at login
  - google-drive
   - check selective sync
  - flux
+  - enable launch at login
  - popclip
+  - enable launch at login
  - slack
+  - enable launch at login
  - caffeine
  - google japanese ime (keyboard - input source)
  - freeman
+  - enable launch at login
  - wifi signal
+  - enable launch at login
  - hub command
  - cmd-eikana
+  - enable launch at login
  - totalspaces
+  - enable launch at login
   - need to change SIP mode on recovery mode `csrutil enable --without debug`, then reboot and `brew cask reinstall totalspaces`, `open $(brew cask info totalspaces | grep $(brew --prefix) | cut -d' ' -f1)/TotalSpaces2.app`
     - https://totalspaces.binaryage.com/elcapitan
     - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
-
+  - quiver
+   - setup preference file
 # lincense install
  - 1password
  - istat menu
+  - enable launch at login
  - bartender
+  - enable launch at login
  - ms office
  - dash
  - synergy
@@ -121,3 +139,4 @@ setup mac
 # chrome login
  - hatena
  - octotree
+ - import session buddy
