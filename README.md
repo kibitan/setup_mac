@@ -78,9 +78,6 @@ setup mac
 # run init.sh
  - if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
 
-# download and install ms-office365
-  - https://portal.office.com/OLS/MySoftware.aspx
-
 # launch apps
  - chrome
  - iterm
@@ -127,8 +124,9 @@ setup mac
   - need to change SIP mode on recovery mode `csrutil enable --without debug`, then reboot and `brew cask reinstall totalspaces`, `open $(brew cask info totalspaces | grep $(brew --prefix) | cut -d' ' -f1)/TotalSpaces2.app`
     - https://totalspaces.binaryage.com/elcapitan
     - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
-  - quiver
-   - setup preference file
+ - quiver
+  - setup preference file
+
 # lincense install
  - 1password
  - istat menu
