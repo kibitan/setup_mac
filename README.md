@@ -169,3 +169,5 @@ see also: https://support.apple.com/en-us/HT201065
 
 ## reinstall macos
 see: https://support.apple.com/en-us/HT204904
+
+tips: no space, no multibyte  character to username/fullname of account
