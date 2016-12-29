@@ -1,6 +1,6 @@
-setup mac
+# setup
 
-# change mac setting
+## change mac setting
 - mission control
   - hotcorner screenlock
   - turn on dashboard as space
@@ -46,8 +46,9 @@ setup mac
       - keep folders on top when sorting by name
       - when perfoming a search: current folder
   - view
-    - show status bar
-    - show path bar
+    - set as default setting
+      - show status bar
+      - show path bar
   - default view option: sort by name, arrange by none
   - change default application of mp3, m4a into QuickTimePlayer
 - change screen size if retina
@@ -75,10 +76,10 @@ setup mac
 
 - see also: https://paper.dropbox.com/doc/Effective-Mac-Mac-ec4qEn9JCZbbLFtWn8wFL
 
-# run init.sh
+## run init.sh
  - if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
 
-# launch apps
+## launch apps
  - chrome
  - iterm
   - enable launch at login
@@ -91,7 +92,6 @@ setup mac
   - enable launch at login  
  - tunnelblick
   - enable launch at login  
- - soundflower
  - Mousepose
  - clipy
   - enable launch at login
@@ -111,6 +111,7 @@ setup mac
  - slack
   - enable launch at login
  - caffeine
+  - enable launch at login
  - google japanese ime (keyboard - input source)
  - freeman
   - enable launch at login
@@ -127,7 +128,7 @@ setup mac
  - quiver
   - setup preference file
 
-# lincense install
+## lincense install
  - 1password
  - istat menu
   - enable launch at login
@@ -140,7 +141,19 @@ setup mac
  - totalspaces
  - jasper
 
-# chrome login
+## chrome login
  - hatena
  - octotree
  - import session buddy
+ 
+# release
+
+## deactivate
+see also: https://support.apple.com/en-us/HT201065
+
+ - dropbox
+ - microsoft office
+ - itunes
+ - icloud
+ - imessage
+ - https://getsupport.apple.com/
