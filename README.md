@@ -92,6 +92,7 @@
   - enable launch at login  
  - itunes
   - authorize computer
+  - setup iphone
  - tunnelblick
   - enable launch at login  
  - Mousepose
@@ -133,6 +134,7 @@
   - setup preference file
  - sublime text
   - install package control
+ - tweet bot
 
 ## lincense install
  - 1password
@@ -158,7 +160,8 @@
 see also: https://support.apple.com/en-us/HT201065
 
  - dropbox
- - microsoft office
+ - microsoft office (office 365)
+ - adobe creative cloud
  - itunes
  - icloud
  - imessage
