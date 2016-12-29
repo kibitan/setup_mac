@@ -166,3 +166,6 @@ see also: https://support.apple.com/en-us/HT201065
  - icloud
  - imessage
  - https://getsupport.apple.com/
+
+## reinstall macos
+see: https://support.apple.com/en-us/HT204904
