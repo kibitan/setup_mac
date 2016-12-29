@@ -90,6 +90,8 @@
   - first done and relaunch again then, setup key to command-tab 
  - istatmenu
   - enable launch at login  
+ - itunes
+  - authorize computer
  - tunnelblick
   - enable launch at login  
  - Mousepose
