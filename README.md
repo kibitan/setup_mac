@@ -106,6 +106,8 @@
   - enable launch at login
  - flux
   - enable launch at login
+ - franz
+  - enable launch at login
  - popclip
   - enable launch at login
  - slack
