@@ -129,6 +129,8 @@
     - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
  - quiver
   - setup preference file
+ - sublime text
+  - install package control
 
 ## lincense install
  - 1password
