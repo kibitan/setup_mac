@@ -70,11 +70,9 @@
      - mission control -> (first making 10 desktops then) enable desktops shortcuts and change to alt+*
    - input source:
      - change key "¥" button to '\'
-     - should be disable mac original IME ( many time freeze )
+     - disable mac original IME ( many time freeze )
  - notification setting
     - turn on DoNotDistrurb at display off
-
-see also: https://paper.dropbox.com/doc/Effective-Mac-Mac-ec4qEn9JCZbbLFtWn8wFL
 
 ## run init.sh
  - if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
