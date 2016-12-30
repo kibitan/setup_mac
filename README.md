@@ -71,6 +71,8 @@
    - input source:
      - change key "¥" button to '\'
      - disable mac original IME ( many time freeze )
+   - dictation
+     - on, use enhanced dictation
  - notification setting
     - turn on DoNotDistrurb at display off
 
