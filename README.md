@@ -80,7 +80,20 @@
  - if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
 
 ## apps
+### lincense install
+ - 1password
+ - istat menu
+ - bartender
+ - microsoft office (office 365)
+ - adobe creative cloud 
+ - dash
+ - synergy
+   - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
+ - totalspaces
+ - jasper
+
 ### manually launch
+ - 1password
  - itunes
    - authorize computer
    - setup iphone
@@ -92,9 +105,13 @@
  - sublime text
    - install package control
  - tweet bot
+ - dash
 
 ### with auto launch at login 
  - chrome
+   - login hatena
+   - set github token to octotree
+   - import session buddy
  - iterm
    - setup preference file
  - dropbox
@@ -122,24 +139,6 @@
    - need to change SIP mode on recovery mode `csrutil enable --without debug`, then reboot and `brew cask reinstall totalspaces`, `open $(brew cask info totalspaces | grep $(brew --prefix) | cut -d' ' -f1)/TotalSpaces2.app`
      - https://totalspaces.binaryage.com/elcapitan
      - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
-
-## lincense install
- - 1password
- - istat menu
-   - enable launch at login
- - bartender
-   - enable launch at login
- - ms office
- - dash
- - synergy
-   - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
- - totalspaces
- - jasper
-
-## chrome login
- - hatena
- - octotree
- - import session buddy
  
 # release
 
