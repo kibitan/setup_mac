@@ -82,6 +82,7 @@ if ask 'set keyboard keyrepeat faster?'; then
 fi
 
 if ask 'restore setting from mackup? (need Dropbox directory)'; then
+  echo 'warning: do not overwrite .ssh/config, it will be deleted...'
   mackup restore
 fi
 
