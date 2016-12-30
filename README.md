@@ -79,63 +79,49 @@
 ## run init.sh
  - if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
 
-## launch apps
- - chrome
- - iterm
-   - enable launch at login
-   - setup preference file
- - dropbox
- - witch
-   - enable launch at login
-   - first done and relaunch again then, setup key to command-tab 
- - istatmenu
-   - enable launch at login  
+## apps
+### manually launch
  - itunes
    - authorize computer
    - setup iphone
- - tunnelblick
-   - enable launch at login  
  - Mousepose
- - clipy
-   - enable launch at login
-   - import snipet file
- - shiftit
-   - enable launch at login
- - bartender
-   - enable launch at login
- - google-drive
-   - check selective sync
- - google-photos-backup
-   - enable launch at login
- - flux
-   - enable launch at login
- - franz
-   - enable launch at login
- - popclip
-   - enable launch at login
- - slack
-   - enable launch at login
- - caffeine
-   - enable launch at login
  - google japanese ime (keyboard - input source)
- - freeman
-   - enable launch at login
-   - auto free setting
- - wifi signal
-   - enable launch at login
  - hub command
- - cmd-eikana
-   - enable launch at login
- - totalspaces
-   - enable launch at login
-   - need to change SIP mode on recovery mode `csrutil enable --without debug`, then reboot and `brew cask reinstall totalspaces`, `open $(brew cask info totalspaces | grep $(brew --prefix) | cut -d' ' -f1)/TotalSpaces2.app`
-     - https://totalspaces.binaryage.com/elcapitan
-     - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
  - quiver
    - setup preference file
  - sublime text
    - install package control
  - tweet bot
+
+### with auto launch at login 
+ - chrome
+ - iterm
+   - setup preference file
+ - dropbox
+ - witch
+   - first done and relaunch again then, setup key to command-tab 
+ - istatmenu
+ - tunnelblick
+ - clipy
+   - import snipet file
+ - shiftit
+ - bartender
+ - google-drive
+   - check selective sync
+ - google-photos-backup
+ - flux
+ - franz
+ - popclip
+ - slack
+ - caffeine
+ - freeman
+   - auto free setting
+ - wifi signal
+ - cmd-eikana
+ - totalspaces
+   - need to change SIP mode on recovery mode `csrutil enable --without debug`, then reboot and `brew cask reinstall totalspaces`, `open $(brew cask info totalspaces | grep $(brew --prefix) | cut -d' ' -f1)/TotalSpaces2.app`
+     - https://totalspaces.binaryage.com/elcapitan
+     - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
 
 ## lincense install
  - 1password
