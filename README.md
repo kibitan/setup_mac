@@ -1,5 +1,15 @@
 # setup
 
+## run init.sh
+```bash
+$ cd ~ 
+$ git clone git@github.com:kibitan/setup_mac.git
+$ cd ~/setup_mac
+$ ./init.sh
+```
+
+if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
+
 ## change mac setting
  - mission control
    - hotcorner screenlock
@@ -76,9 +86,6 @@
  - notification setting
     - turn on DoNotDistrurb at display off
 
-## run init.sh
- - if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
-
 ## apps
 ### lincense install
  - 1password
@@ -139,7 +146,7 @@
    - need to change SIP mode on recovery mode `csrutil enable --without debug`, then reboot and `brew cask reinstall totalspaces`, `open $(brew cask info totalspaces | grep $(brew --prefix) | cut -d' ' -f1)/TotalSpaces2.app`
      - https://totalspaces.binaryage.com/elcapitan
      - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
- - TouchSwitcher
+ - (touch bar) TouchSwitcher
  
 # release
 
