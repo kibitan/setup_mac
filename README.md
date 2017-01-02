@@ -36,7 +36,7 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
  - accessibility
    - Zoom: Use scroll gesture with modifier keys
    - display: turn on reduce transmit
-     - (http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html)
+     - http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html
  - dock setting
    - auto hide
    - layout
@@ -92,7 +92,8 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
  - istat menu
  - bartender
  - microsoft office (office 365)
- - adobe creative cloud 
+ - adobe creative cloud
+   - `open $(brew cask info adobe-creative-cloud | grep $(brew --prefix) | cut -d' ' -f1)/Creative Cloud Installer.app` 
  - dash
  - synergy
    - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
