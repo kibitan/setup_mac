@@ -49,8 +49,9 @@ if ask 'install diff-highlight?'; then
   wget https://raw.github.com/git/git/master/contrib/diff-highlight/diff-highlight && chmod +x diff-highlight && sudo mv diff-highlight /usr/local/bin
 fi
 
-# https://github.com/edihbrandon/RictyDiminished
 if ask 'install Ricty font?'; then
+  # https://github.com/edihbrandon/RictyDiminished
+  [ ! -d $RICTY_FONT_DIR ] && git clone git@github.com:edihbrandon/RictyDiminished.git $RICTY_FONT_DIR
   ls $RICTY_FONT_DIR/*.ttf | xargs open
 fi
 
