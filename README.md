@@ -156,7 +156,8 @@ see also: https://support.apple.com/en-us/HT201065
  - itunes
  - icloud
  - imessage
- - https://getsupport.apple.com/
+ - https://appleid.apple.com/account/manage
+   - https://support.apple.com/en-us/HT205064
  - dropbox
    - https://www.dropbox.com/account/security
  - microsoft office (office 365)
