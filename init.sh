@@ -1,7 +1,7 @@
 #!/bin/bash
 DROPBOX_DIR=~/DropBox
 REPO_DIR=~/setup_mac
-RICTY_FONT_DIR="$DROPBOX_DIR/C&S/material/RictyDiminished-master"
+RICTY_FONT_DIR="$DROPBOX_DIR/C&S/material/RictyDiminished"
 DEV_DIR=/var/www
 DROPBOX_DEV_DIR=~/DropBox/www
 
