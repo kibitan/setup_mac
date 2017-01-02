@@ -154,8 +154,12 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
 see also: https://support.apple.com/en-us/HT201065
 
  - dropbox
+   - https://www.dropbox.com/account/security
  - microsoft office (office 365)
+   - https://portal.office.com/Account#installs
  - adobe creative cloud
+   - https://accounts.adobe.com/
+   - https://helpx.adobe.com/en/creative-cloud/help/sign-in-out-activate-apps.html
  - itunes
  - icloud
  - imessage
