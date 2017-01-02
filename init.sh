@@ -1,6 +1,6 @@
 #!/bin/bash
 DROPBOX_DIR=~/DropBox
-REPO_DIR=$DROPBOX_DIR/setup_mac
+REPO_DIR=~/setup_mac
 
 ask() {
   printf "$* [y/n] "
