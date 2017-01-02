@@ -1,6 +1,9 @@
 #!/bin/bash
 DROPBOX_DIR=~/DropBox
 REPO_DIR=~/setup_mac
+RICTY_FONT_DIR="$DROPBOX_DIR/C&S/material/RictyDiminished-master"
+DEV_DIR=/var/www
+DROPBOX_DEV_DIR=~/DropBox/www
 
 ask() {
   printf "$* [y/n] "
@@ -46,9 +49,9 @@ if ask 'install diff-highlight?'; then
   wget https://raw.github.com/git/git/master/contrib/diff-highlight/diff-highlight && chmod +x diff-highlight && sudo mv diff-highlight /usr/local/bin
 fi
 
-# https://github.com/yascentur/RictyDiminished
+# https://github.com/edihbrandon/RictyDiminished
 if ask 'install Ricty font?'; then
-  ls $DROPBOX_DIR/materials/RictyDiminished-master/*.ttf | xargs open
+  ls $RICTY_FONT_DIR/*.ttf | xargs open
 fi
 
 ## mac setting
@@ -90,13 +93,13 @@ if ask 'install crontab?'; then
   crontab < $REPO_DIR/_crontab
 fi
 
-if ask 'make /var/www?'; then
-  [ ! -d /var/www ] && sudo mkdir /var/www
-  sudo chown $USER /var/www
+if ask "make $DEV_DIR ?"; then
+  [ ! -d $DEV_DIR ] && sudo mkdir $DEV_DIR
+  sudo chown $USER DEV_DIR
 fi
 
-if ask 'restore /var/www?'; then
-  cd $DROPBOX_DIR/www/; for dir in *; do tar -xzf $dir -C /var/www ; done
+if ask "restore $DEV_DIR from $DROPBOX_DEV_DIR?"; then
+  cd $DROPBOX_DEV_DIR; for dir in *; do tar -xzf $dir -C $DEV_DIR ; done
 fi
 
 if ask 'execute ruby setup?'; then
