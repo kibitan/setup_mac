@@ -2,8 +2,7 @@
 
 ## run init.sh
 ```bash
-$ cd ~ 
-$ git clone git@github.com:kibitan/setup_mac.git
+$ git clone git@github.com:kibitan/setup_mac.git ~/setup_mac
 $ cd ~/setup_mac
 $ ./init.sh
 ```
