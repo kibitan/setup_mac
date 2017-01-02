@@ -153,6 +153,10 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
 ## deactivate
 see also: https://support.apple.com/en-us/HT201065
 
+ - itunes
+ - icloud
+ - imessage
+ - https://getsupport.apple.com/
  - dropbox
    - https://www.dropbox.com/account/security
  - microsoft office (office 365)
@@ -160,10 +164,6 @@ see also: https://support.apple.com/en-us/HT201065
  - adobe creative cloud
    - https://accounts.adobe.com/
    - https://helpx.adobe.com/en/creative-cloud/help/sign-in-out-activate-apps.html
- - itunes
- - icloud
- - imessage
- - https://getsupport.apple.com/
 
 ## reinstall macos
 see: https://support.apple.com/en-us/HT204904
