@@ -1,10 +1,10 @@
 # setup
 
-## run init.sh
+## run setup.sh
 ```bash
 $ git clone git@github.com:kibitan/setup_mac.git ~/setup_mac
 $ cd ~/setup_mac
-$ ./init.sh
+$ ./setup.sh
 ```
 
 if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
