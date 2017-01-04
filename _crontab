@@ -2,8 +2,8 @@ SHELL=/usr/local/bin/zsh
 MAILTO=uzukifirst+macbook_crontab@gmail.com
 
 @daily  yes 'no' | /usr/local/bin/mackup backup
-@daily  ~/setup_mac/update_brewfile.sh
-2 */6 * * * ~/setup_mac/backup_dev_dir.sh
-@weekly ~/setup_mac/update_brew.sh
-@weekly ~/setup_mac/update_brew_cask.sh
+@daily  ~/setup_mac/bin/update_brewfile
+2 */6 * * * ~/setup_mac/bin/backup_dev_dir
+@weekly ~/setup_mac/bin/update_brew
+@weekly ~/setup_mac/bin/update_brew_cask
 @weekly source ~/.zshrc && gibo -u
