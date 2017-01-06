@@ -85,7 +85,7 @@ brew 'parallel'
 brew 'peco'
 brew 'pkg-config'
 brew 'readline'
-brew 'postgresql', restart_service: true
+brew 'postgresql'
 brew 'proctools'
 brew 'pstree'
 brew 'pyenv'
