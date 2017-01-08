@@ -1,8 +1,11 @@
 #!/usr/bin/env ruby
 require 'pathname'
+EXCEPT_PACKAGE = %w(
+  microsoft-office
+)
 
 system 'brew update'
-CASK_LIST = `brew cask list`.split("\n").freeze
+CASK_LIST = (`brew cask list`.split("\n") - EXCEPT_PACKAGE).freeze
 CASK_DIR  = Pathname(`echo $(brew --prefix)/Caskroom`.delete("\n")).freeze
 
 CASK_LIST.each do |package_name|
