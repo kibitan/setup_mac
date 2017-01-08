@@ -2,7 +2,7 @@
 require 'pathname'
 EXCEPT_PACKAGE = %w(
   microsoft-office
-)
+).freeze
 
 system 'brew update'
 CASK_LIST = (`brew cask list`.split("\n") - EXCEPT_PACKAGE).freeze
