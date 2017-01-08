@@ -9,19 +9,10 @@ CASK_LIST.each do |package_name|
   package_info = `brew cask info #{package_name}`.scrub
   package_dir  = CASK_DIR + package_name
 
-  ## for debug
-  # p package_name
-  # puts package_info
-  # p package_dir
-
   # note: capture current version withou "(does not exist)"
   #       see https://github.com/caskroom/homebrew-cask/issues/24873
   current_version = package_info[/^#{package_dir}\/(.+?)\s\((?!does not exist).+$/, 1]
   latest_version  = package_info[/^#{package_name}: (.+)$/, 1]
-
-  ## for debug
-  # p current_version
-  # p latest_version
 
   if current_version != latest_version
     puts "update #{package_name} from #{current_version} to #{latest_version}..."
