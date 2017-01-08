@@ -16,8 +16,7 @@ CASK_LIST.each do |package_name|
 
   if current_version != latest_version
     puts "update #{package_name} from #{current_version} to #{latest_version}..."
-    system "brew cask install --force #{package_name}"
-    system "mv #{package_dir + current_version} ~/.Trash/"
+    system "brew cask install --force #{package_name} && mv #{package_dir + current_version} ~/.Trash/"
   end
 end
 
