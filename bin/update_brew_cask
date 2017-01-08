@@ -6,7 +6,7 @@ CASK_LIST = `brew cask list`.split("\n").freeze
 CASK_DIR  = Pathname(`echo $(brew --prefix)/Caskroom`.delete("\n")).freeze
 
 CASK_LIST.each do |package_name|
-  package_info = `brew cask info #{package_name}`
+  package_info = `brew cask info #{package_name}`.scrub
   package_dir  = CASK_DIR + package_name
 
   # note: capture current version withou "(does not exist)"
