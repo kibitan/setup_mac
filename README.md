@@ -113,6 +113,9 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
    - install package control
  - tweet bot
  - dash
+ - atom
+   1. `$ apm install package-sync`
+   1. command+shift+p, run `Package Sync: Sync`
 
 ### with auto launch at login 
  - chrome
