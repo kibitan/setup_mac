@@ -29,7 +29,10 @@ def with_retry!(max_attempt_count: 5, sleep_second: 60, &block)
   raise "Exceed maximum attempt"
 end
 
-with_retry! { system 'brew update' || raise }
+with_retry! do
+  result = system 'brew update'
+  raise unless result
+end
 
 CASK_LIST.each do |package_name|
   package_info = `brew cask info #{package_name}`.scrub
