@@ -8,9 +8,9 @@ DROPBOX_DEV_DIR=${DROPBOX_DEV_DIR:-~/DropBox/www}
 set +x
 
 ask() {
-  printf "$* [y/n] "
+  printf "%s [y/n] " "$*"
   local answer
-  read answer
+  read -r answer
 
   case $answer in
     "yes" ) return 0 ;;
@@ -42,7 +42,7 @@ if ask 'oh-my-zsh install?'; then
 fi
 
 if ask 'execute brew brewdler?(Brewfile)?'; then
-  pushd $REPO_DIR
+  pushd "$REPO_DIR"
   brew bundle
   popd
 fi
@@ -53,8 +53,8 @@ fi
 
 if ask 'install Ricty font?'; then
   # https://github.com/edihbrandon/RictyDiminished
-  [ ! -d $RICTY_FONT_DIR ] && git clone git@github.com:edihbrandon/RictyDiminished.git $RICTY_FONT_DIR
-  ls $RICTY_FONT_DIR/*.ttf | xargs open
+  [[ ! -d $RICTY_FONT_DIR ]] && git clone git@github.com:edihbrandon/RictyDiminished.git
+  find "$RICTY_FONT_DIR" -name "*.ttf" -print0 | xargs -0 open
 fi
 
 ## mac setting
@@ -93,18 +93,18 @@ if ask 'restore setting from mackup? (need Dropbox directory)'; then
 fi
 
 if ask 'install crontab?'; then
-  crontab < $REPO_DIR/_crontab
+  crontab < "$REPO_DIR/_crontab"
 fi
 
 if ask "make $DEV_DIR ?"; then
-  [ ! -d $DEV_DIR ] && sudo mkdir $DEV_DIR
-  sudo chown $USER DEV_DIR
+  [ ! -d "$DEV_DIR" ] && sudo mkdir "$DEV_DIR"
+  sudo chown "$USER DEV_DIR"
 fi
 
 if ask "restore $DEV_DIR from $DROPBOX_DEV_DIR?"; then
-  cd $DROPBOX_DEV_DIR; for dir in *; do tar -xzf $dir -C $DEV_DIR ; done
+  cd "$DROPBOX_DEV_DIR"; for dir in *; do tar -xzf "$dir" -C "$DEV_DIR"; done
 fi
 
 if ask 'execute ruby setup?'; then
-  $REPO_DIR/ruby/init.sh
+  "$REPO_DIR/ruby/init.sh"
 fi
