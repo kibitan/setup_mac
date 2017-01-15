@@ -1,9 +1,11 @@
 #!/bin/bash
-DROPBOX_DIR=~/DropBox
-REPO_DIR=~/setup_mac
-RICTY_FONT_DIR="$DROPBOX_DIR/C&S/material/RictyDiminished"
-DEV_DIR=/var/www
-DROPBOX_DEV_DIR=~/DropBox/www
+set -x
+DROPBOX_DIR=${DROPBOX_DIR:-~/DropBox}
+REPO_DIR=${REPO_DIR:-~/setup_mac}
+RICTY_FONT_DIR=${RICTY_FONT_DIR:-$DROPBOX_DIR/C&S/material/RictyDiminished}
+DEV_DIR=${DEV_DIR:-/var/www}
+DROPBOX_DEV_DIR=${DROPBOX_DEV_DIR:-~/DropBox/www}
+set +x
 
 ask() {
   printf "$* [y/n] "
