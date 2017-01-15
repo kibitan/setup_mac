@@ -26,7 +26,11 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
 
   dump all installed packages by [homebrew-bundle](https://github.com/Homebrew/homebrew-bundle) as [Brewfile](./Brewfile) and commit/push it to remote repository
 
-## change mac setting
+## [ruby/init.sh](./ruby/init.sh)
+
+(not documented yet)
+
+## change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726)
  - mission control
    - hotcorner screenlock
    - turn on dashboard as space
