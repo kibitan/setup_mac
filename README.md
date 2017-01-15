@@ -1,6 +1,6 @@
 # setup
 
-## run setup.sh
+## run [setup.sh](./setup.sh)
 ```bash
 $ git clone git@github.com:kibitan/setup_mac.git ~/setup_mac
 $ cd ~/setup_mac
@@ -8,6 +8,23 @@ $ ./setup.sh
 ```
 
 if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
+
+## [crontab](./_crontab) bins
+ - [bin/backup_dev_dir](./bin/backup_dev_dir)
+
+  compressing working directory(ex. `/var/www` ), mainly store source codes, and put it under Dropbox directory (ex. `~/Dropbox/www` )
+
+ - [bin/update_brew](./bin/update_brew)
+
+  update installed [HomeBrew](http://brew.sh/) packages
+
+ - [bin/update_brew_cask](./bin/update_brew_cask)
+
+  update installed [Homebrew Cask](https://caskroom.github.io/) packages
+
+ - [bin/update_brewfile](./bin/update_brewfile)
+
+  dump all installed packages by [homebrew-bundle](https://github.com/Homebrew/homebrew-bundle) as [Brewfile](./Brewfile) and commit/push it to remote repository
 
 ## change mac setting
  - mission control
@@ -150,7 +167,7 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
      - https://totalspaces.binaryage.com/elcapitan
      - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
  - (touch bar) TouchSwitcher
- 
+
 # release
 
 ## deactivate
