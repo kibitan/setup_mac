@@ -6,6 +6,11 @@ EXCEPT_PACKAGE = %w(
 CASK_LIST = (`brew cask list`.split("\n") - EXCEPT_PACKAGE).freeze
 CASK_DIR  = Pathname(`echo $(brew --prefix)/Caskroom`.delete("\n")).freeze
 
+unless ''.respond_to?(:scrub)
+  STDERR.puts 'use ruby version >= 2.1.0 or install https://github.com/hsbt/string-scrub'
+  exit!
+end
+
 system 'brew update'
 
 CASK_LIST.each do |package_name|
