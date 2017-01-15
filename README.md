@@ -12,7 +12,7 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
 ## [crontab](./_crontab) bins
  - [bin/backup_dev_dir](./bin/backup_dev_dir)
 
-  compressing working directory(ex. `/var/www` ), mainly store source codes, and put it under Dropbox directory (ex. `~/Dropbox/www` )
+  compress working directory(ex. `/var/www` ), mainly store source codes, and put it under Dropbox directory (ex. `~/Dropbox/www` )
 
  - [bin/update_brew](./bin/update_brew)
 
