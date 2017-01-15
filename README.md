@@ -1,3 +1,8 @@
+#### related document
+  - (japanese) [Mac 環境構築の自動化 2015年末版 ( homebrew + homebrew-cask + homebrew-brewdle + mackup + crontab + mas-cli ) - Qiita](http://qiita.com/kibitan/items/d564248eeaebbf003edc)
+
+
+
 # setup
 
 ## run [setup.sh](./setup.sh)
