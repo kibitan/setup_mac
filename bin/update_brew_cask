@@ -12,7 +12,7 @@ CASK_LIST = (`brew cask list`.split("\n") - EXCEPT_PACKAGE).freeze
 CASK_DIR  = Pathname(`echo $(brew --prefix)/Caskroom`.delete("\n")).freeze
 
 # Retries with Exponential Backoff
-def with_retry!(max_attempt_count: 5, sleep_second: 60, &block)
+def with_retry!(max_attempt_count: 5, sleep_second: 60)
   attempt_count = 0
 
   while attempt_count < max_attempt_count
@@ -26,7 +26,7 @@ def with_retry!(max_attempt_count: 5, sleep_second: 60, &block)
       sleep_second *= 2
     end
   end
-  raise "Exceed maximum attempt"
+  raise 'Exceed maximum attempt'
 end
 
 with_retry! do
