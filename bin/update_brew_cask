@@ -3,10 +3,10 @@ require 'pathname'
 EXCEPT_PACKAGE = %w(
   microsoft-office
 ).freeze
-
-system 'brew update'
 CASK_LIST = (`brew cask list`.split("\n") - EXCEPT_PACKAGE).freeze
 CASK_DIR  = Pathname(`echo $(brew --prefix)/Caskroom`.delete("\n")).freeze
+
+system 'brew update'
 
 CASK_LIST.each do |package_name|
   package_info = `brew cask info #{package_name}`.scrub
@@ -14,13 +14,13 @@ CASK_LIST.each do |package_name|
 
   # note: capture current version withou "(does not exist)"
   #       see https://github.com/caskroom/homebrew-cask/issues/24873
-  current_version = package_info[/^#{package_dir}\/(.+?)\s\((?!does not exist).+$/, 1]
+  current_version = package_info[%r{^#{package_dir}/(.+?)\s\((?!does not exist).+$}, 1]
   latest_version  = package_info[/^#{package_name}: (.+)$/, 1]
 
-  if current_version != latest_version
-    puts "update #{package_name} from #{current_version} to #{latest_version}..."
-    system "brew cask install --force #{package_name} && mv #{package_dir + current_version} ~/.Trash/"
-  end
+  next if current_version == latest_version
+
+  puts "update #{package_name} from #{current_version} to #{latest_version}.."
+  system "brew cask install --force #{package_name} && mv #{package_dir + current_version} ~/.Trash/"
 end
 
 system 'brew cask cleanup'
