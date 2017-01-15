@@ -1,17 +1,35 @@
 #!/usr/bin/env ruby
 require 'pathname'
-EXCEPT_PACKAGE = %w(
-  microsoft-office
-).freeze
-CASK_LIST = (`brew cask list`.split("\n") - EXCEPT_PACKAGE).freeze
-CASK_DIR  = Pathname(`echo $(brew --prefix)/Caskroom`.delete("\n")).freeze
-
 unless ''.respond_to?(:scrub)
   STDERR.puts 'use ruby version >= 2.1.0 or install https://github.com/hsbt/string-scrub'
   exit!
 end
+EXCEPT_PACKAGE = %w(
+  microsoft-office
+).freeze
+MAX_RETRY_COUNT = 5
+CASK_LIST = (`brew cask list`.split("\n") - EXCEPT_PACKAGE).freeze
+CASK_DIR  = Pathname(`echo $(brew --prefix)/Caskroom`.delete("\n")).freeze
 
-system 'brew update'
+# Retries with Exponential Backoff
+def with_retry!(max_attempt_count: 5, sleep_second: 60, &block)
+  attempt_count = 0
+
+  while attempt_count < max_attempt_count
+    attempt_count += 1
+    begin
+      res = yield
+      return res
+    rescue
+      puts "attempt #{attempt_count} failed, sleep #{sleep_second} sec and retry..."
+      sleep sleep_second
+      sleep_second *= 2
+    end
+  end
+  raise "Exceed maximum attempt"
+end
+
+with_retry! { system 'brew update' || raise }
 
 CASK_LIST.each do |package_name|
   package_info = `brew cask info #{package_name}`.scrub
