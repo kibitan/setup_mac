@@ -68,6 +68,10 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
    - add shortcut of Applications 
  - sound
    - show in menu bar
+ - Language & Region
+   - set English as Primary
+   - add Japanese
+   - set Region: Japan
  - general
    - change menubar and Dock color
  - finder
