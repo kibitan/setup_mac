@@ -167,6 +167,7 @@ cask 'touchswitcher'
 cask 'tunnelblick'
 cask 'vagrant'
 cask 'virtualbox'
+cask 'visual-studio-code'
 cask 'vlc'
 mas 'NetSpot Wi-Fi Reporter', id: 678464954
 mas 'NetSpot', id: 514951692
