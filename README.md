@@ -146,6 +146,8 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
  - atom
    1. `$ apm install package-sync`
    1. command+shift+p, run `Package Sync: Sync`
+ - bdash
+   - setup github accesstoken ( need gist scope )
 
 ### with auto launch at login 
  - chrome
