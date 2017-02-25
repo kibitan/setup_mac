@@ -171,24 +171,25 @@ cask 'vagrant'
 cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
-mas 'NetSpot Wi-Fi Reporter', id: 678464954
-mas 'NetSpot', id: 514951692
-mas 'Quiver', id: 866773894
-mas 'WinArchiver Lite', id: 414855915
 mas '050plus', id: 694926804
+mas 'Duplicate Photos Fixer Pro', id: 963642514
 mas 'FreeMan', id: 510934532
 mas 'Keynote', id: 409183694
-mas 'Mousepose', id: 405904955
-mas 'LINE', id: 539883307
-mas 'MARKETSPEED', id: 946680495
-mas 'Network Radar', id: 507659816
-mas 'ToyViewer', id: 414298354
-mas 'WiFi Explorer', id: 494803304
 mas 'Kobito', id: 896624060
-mas 'WiFi Signal', id: 525912054
-mas 'Tweetbot', id: 557168941
-mas 'Witch', id: 412485838
-mas 'Slack', id: 803453959
-mas 'Duplicate Photos Fixer Pro', id: 963642514
-mas 'PopClip', id: 445189367
+mas 'LINE', id: 539883307
 mas 'Mactracker', id: 430255202
+mas 'MARKETSPEED', id: 946680495
+mas 'Mousepose', id: 405904955
+mas 'NetSpot', id: 514951692
+mas 'NetSpot Wi-Fi Reporter', id: 678464954
+mas 'Network Radar', id: 507659816
+mas 'PopClip', id: 445189367
+mas 'Quiver', id: 866773894
+mas 'Slack', id: 803453959
+mas 'ToyViewer', id: 414298354
+mas 'Tweetbot', id: 557168941
+mas 'Twitter', id: 409789998
+mas 'WiFi Explorer', id: 494803304
+mas 'WiFi Signal', id: 525912054
+mas 'WinArchiver Lite', id: 414855915
+mas 'Witch', id: 412485838
