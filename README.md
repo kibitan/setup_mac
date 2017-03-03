@@ -17,7 +17,7 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
 ## [crontab](./_crontab) bins
  - [bin/backup_dev_dir](./bin/backup_dev_dir)
 
-  compress working directory(ex. `/var/www` ), mainly store source codes, and put it under Dropbox directory (ex. `~/Dropbox/www` )
+  compress working directory(ex. `~/www` ), mainly store source codes, and put it under Dropbox directory (ex. `~/Dropbox/www` )
 
  - [bin/update_brew](./bin/update_brew)
 
@@ -65,7 +65,7 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
  - dock setting
    - auto hide
    - layout
-   - add shortcut of Applications 
+   - add shortcut of Applications
  - sound
    - show in menu bar
  - Language & Region
@@ -126,7 +126,7 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
  - bartender
  - microsoft office (office 365)
  - adobe creative cloud
-   - `open $(brew cask info adobe-creative-cloud | grep $(brew --prefix) | cut -d' ' -f1)/Creative Cloud Installer.app` 
+   - `open $(brew cask info adobe-creative-cloud | grep $(brew --prefix) | cut -d' ' -f1)/Creative Cloud Installer.app`
  - dash
  - synergy
    - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
@@ -154,7 +154,7 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
    - setup github accesstoken ( need gist scope )
  - docker
 
-### with auto launch at login 
+### with auto launch at login
  - chrome
    - login hatena
    - set github token to octotree
@@ -163,7 +163,7 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
    - setup preference file
  - dropbox
  - witch
-   - first done and relaunch again then, setup key to command-tab 
+   - first done and relaunch again then, setup key to command-tab
  - istatmenu
  - tunnelblick
  - clipy
