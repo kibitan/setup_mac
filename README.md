@@ -153,6 +153,7 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
  - bdash
    - setup github accesstoken ( need gist scope )
  - docker
+ - better touch tool
 
 ### with auto launch at login
  - chrome
