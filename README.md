@@ -154,6 +154,7 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
    - setup github accesstoken ( need gist scope )
  - docker
  - better touch tool
+ - (evernote)
 
 ### with auto launch at login
  - chrome
