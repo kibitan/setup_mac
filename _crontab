@@ -8,3 +8,4 @@ MAILTO=uzukifirst+macbook_pro_crontab@gmail.com
 @weekly time bash -lc '~/setup_mac/bin/update_brew_cask'
 @weekly gibo -u
 @weekly tldr --update
+@weekly yes | apm update
