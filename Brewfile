@@ -129,6 +129,7 @@ cask 'blisk'
 cask 'caffeine'
 cask 'charles'
 cask 'chefdk'
+cask 'cleanarchiver'
 cask 'clipy'
 cask 'cmd-eikana'
 cask 'cyberduck'
@@ -155,8 +156,8 @@ cask 'licecap'
 cask 'maczip4win'
 cask 'medis'
 cask 'microsoft-office'
-cask 'near-lock'
 cask 'ngrok'
+cask 'postico'
 cask 'postman'
 cask 'psequel'
 cask 'sequel-pro'
@@ -174,6 +175,7 @@ cask 'virtualbox'
 cask 'visual-studio-code'
 cask 'vlc'
 mas '050plus', id: 694926804
+mas 'Bandwidth+', id: 490461369
 mas 'Duplicate Photos Fixer Pro', id: 963642514
 mas 'FreeMan', id: 510934532
 mas 'Hang', id: 1050779754
@@ -194,5 +196,4 @@ mas 'Tweetbot', id: 557168941
 mas 'Twitter', id: 409789998
 mas 'WiFi Explorer', id: 494803304
 mas 'WiFi Signal', id: 525912054
-mas 'WinArchiver Lite', id: 414855915
 mas 'Witch', id: 412485838
