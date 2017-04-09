@@ -189,6 +189,7 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
      - https://totalspaces.binaryage.com/elcapitan
      - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
  - (touch bar) TouchSwitcher
+ - bandwidth+
 
 # release
 
