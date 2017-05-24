@@ -1,189 +1,188 @@
-tap 'argon/mas'
-tap 'caskroom/cask'
-tap 'caskroom/versions'
-tap 'codekitchen/dinghy'
-tap 'homebrew/boneyard'
-tap 'homebrew/brewdler'
-tap 'homebrew/core'
-tap 'homebrew/dupes'
-tap 'homebrew/services'
-tap 'homebrew/versions'
-tap 'rcmdnk/file'
-tap 'tldr-pages/tldr'
-cask 'java'
-cask 'xquartz'
-brew 'apple-gcc42'
-brew 'autoconf'
-brew 'autossh'
-brew 'awscli'
-brew 'gettext'
-brew 'axel'
-brew 'boost'
-brew 'bsdmake'
-brew 'cctools'
-brew 'cmake'
-brew 'colordiff'
-brew 'curl'
-brew 'diff-so-fancy'
-brew 'direnv'
-brew 'dnsmasq'
-brew 'icu4c'
-brew 'dwdiff'
-brew 'elasticsearch'
-brew 'exiftool'
-brew 'lame'
-brew 'git'
-brew 'xvid'
-brew 'ffmpeg'
-brew 'freetype'
-brew 'fontconfig'
-brew 'fortune'
-brew 'jpeg'
-brew 'gd'
-brew 'gdbm'
-brew 'ghi'
-brew 'little-cms2'
-brew 'ghostscript'
-brew 'ghq'
-brew 'gibo'
-brew 'gnu-getopt'
-brew 'git-now'
-brew 'git-secrets'
-brew 'go'
-brew 'libtool'
-brew 'graphviz'
-brew 'heroku'
-brew 'hostess'
-brew 'hub'
-brew 'xz'
-brew 'imagemagick@6'
-brew 'jbig2dec'
-brew 'jo'
-brew 'oniguruma'
-brew 'jq'
-brew 'libevent'
-brew 'libffi'
-brew 'libvo-aacenc'
-brew 'libyaml'
-brew 'libzip'
-brew 'mackup'
-brew 'mecab'
-brew 'mecab-ipadic'
-brew 'memcached', restart_service: true
-brew 'mysql', restart_service: true
-brew 'pcre'
-brew 'nginx'
-brew 'nodebrew'
-brew 'packer'
-brew 'parallel'
-brew 'peco'
-brew 'phantomjs'
-brew 'pkg-config'
-brew 'postgresql', restart_service: true
-brew 'proctools'
-brew 'pstree'
-brew 'pyenv'
-brew 'pyenv-virtualenv'
-brew 'q'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'rbenv-binstubs'
-brew 'reattach-to-user-namespace'
-brew 'redis', restart_service: true
-brew 'rmtrash'
-brew 'shellcheck'
-brew 'source-highlight'
-brew 'spark'
-brew 'sshrc'
-brew 'terminal-notifier'
-brew 'the_silver_searcher'
-brew 'tig'
-brew 'tree'
-brew 'v8@3.15'
-brew 'watch'
-brew 'wget'
-brew 'youtube-dl'
-brew 'z'
-brew 'zsh'
-brew 'zsh-completions'
-brew 'argon/mas/mas'
-brew 'codekitchen/dinghy/unfs3'
-brew 'codekitchen/dinghy/dinghy'
-brew 'tldr-pages/tldr/tldr'
-cask '1password'
-cask 'adobe-creative-cloud'
-cask 'appcleaner'
-cask 'atom'
-cask 'bartender'
-cask 'bdash'
-cask 'bettertouchtool'
-cask 'blisk'
-cask 'caffeine'
-cask 'charles'
-cask 'cleanarchiver'
-cask 'clipy'
-cask 'cmd-eikana'
-cask 'cyberduck'
-cask 'dash'
-cask 'disk-inventory-x'
-cask 'docker'
-cask 'dropbox'
-cask 'firefox'
-cask 'flux'
-cask 'franz'
-cask 'google-chrome'
-cask 'google-drive'
-cask 'google-japanese-ime'
-cask 'google-photos-backup'
-cask 'handbrake'
-cask 'hosts'
-cask 'imageoptim'
-cask 'istat-menus'
-cask 'iterm2-beta'
-cask 'jasper'
-cask 'kindle'
-cask 'licecap'
-cask 'medis'
-cask 'microsoft-office'
-cask 'ngrok'
-cask 'postico'
-cask 'postman'
-cask 'psequel'
-cask 'screenhero'
-cask 'sequel-pro'
-cask 'shiftit'
-cask 'skype'
-cask 'soundflower'
-cask 'spotify'
-cask 'synergy'
-cask 'the-unarchiver'
-cask 'totalspaces'
-cask 'touchswitcher'
-cask 'vagrant'
-cask 'virtualbox'
-cask 'visual-studio-code'
-cask 'vlc'
-cask 'wireshark'
-mas '050plus', id: 694926804
-mas 'Bandwidth+', id: 490461369
-mas 'Duplicate Photos Fixer Pro', id: 963642514
-mas 'FreeMan', id: 510934532
-mas 'Hang', id: 1050779754
-mas 'Keynote', id: 409183694
-mas 'Kobito', id: 896624060
-mas 'LINE', id: 539883307
-mas 'Mactracker', id: 430255202
-mas 'MARKETSPEED', id: 946680495
-mas 'Mousepose', id: 405904955
-mas 'NetSpot', id: 514951692
-mas 'NetSpot Wi-Fi Reporter', id: 678464954
-mas 'Network Radar', id: 507659816
-mas 'PopClip', id: 445189367
-mas 'Quiver', id: 866773894
-mas 'Slack', id: 803453959
-mas 'ToyViewer', id: 414298354
-mas 'Tweetbot', id: 557168941
-mas 'Twitter', id: 409789998
-mas 'WiFi Explorer', id: 494803304
-mas 'WiFi Signal', id: 525912054
-mas 'Witch', id: 412485838
+tap "argon/mas"
+tap "caskroom/cask"
+tap "caskroom/versions"
+tap "codekitchen/dinghy"
+tap "homebrew/boneyard"
+tap "homebrew/brewdler"
+tap "homebrew/core"
+tap "homebrew/dupes"
+tap "homebrew/services"
+tap "homebrew/versions"
+tap "rcmdnk/file"
+tap "tldr-pages/tldr"
+cask "java"
+cask "xquartz"
+brew "apple-gcc42"
+brew "autoconf"
+brew "autossh"
+brew "awscli"
+brew "gettext"
+brew "axel"
+brew "boost"
+brew "bsdmake"
+brew "cctools"
+brew "cmake"
+brew "colordiff"
+brew "curl"
+brew "diff-so-fancy"
+brew "direnv"
+brew "dnsmasq"
+brew "icu4c"
+brew "dwdiff"
+brew "elasticsearch"
+brew "exiftool"
+brew "lame"
+brew "git"
+brew "xvid"
+brew "ffmpeg"
+brew "fontconfig"
+brew "fortune"
+brew "jpeg"
+brew "gd"
+brew "gdbm"
+brew "ghi"
+brew "little-cms2"
+brew "ghostscript"
+brew "ghq"
+brew "gibo"
+brew "gnu-getopt"
+brew "git-now"
+brew "git-secrets"
+brew "go"
+brew "libtool"
+brew "graphviz"
+brew "heroku"
+brew "hostess"
+brew "hub"
+brew "xz"
+brew "imagemagick@6"
+brew "jbig2dec"
+brew "jo"
+brew "oniguruma"
+brew "jq"
+brew "libevent"
+brew "libffi"
+brew "libvo-aacenc"
+brew "libyaml"
+brew "libzip"
+brew "mackup"
+brew "mecab"
+brew "mecab-ipadic"
+brew "memcached", restart_service: true
+brew "mysql", restart_service: true
+brew "pcre"
+brew "nginx"
+brew "nodebrew"
+brew "packer"
+brew "parallel"
+brew "peco"
+brew "phantomjs"
+brew "pkg-config"
+brew "postgresql", restart_service: true
+brew "proctools"
+brew "pstree"
+brew "pyenv"
+brew "pyenv-virtualenv"
+brew "q"
+brew "ruby-build"
+brew "rbenv"
+brew "rbenv-binstubs"
+brew "reattach-to-user-namespace"
+brew "redis", restart_service: true
+brew "rmtrash"
+brew "shellcheck"
+brew "source-highlight"
+brew "spark"
+brew "sshrc"
+brew "terminal-notifier"
+brew "the_silver_searcher"
+brew "tig"
+brew "tree"
+brew "v8@3.15"
+brew "watch"
+brew "wget"
+brew "youtube-dl"
+brew "z"
+brew "zsh"
+brew "zsh-completions"
+brew "argon/mas/mas"
+brew "codekitchen/dinghy/unfs3"
+brew "codekitchen/dinghy/dinghy"
+brew "tldr-pages/tldr/tldr"
+cask "1password"
+cask "adobe-creative-cloud"
+cask "appcleaner"
+cask "atom"
+cask "bartender"
+cask "bdash"
+cask "bettertouchtool"
+cask "blisk"
+cask "caffeine"
+cask "charles"
+cask "cleanarchiver"
+cask "clipy"
+cask "cmd-eikana"
+cask "cyberduck"
+cask "dash"
+cask "disk-inventory-x"
+cask "docker"
+cask "dropbox"
+cask "firefox"
+cask "flux"
+cask "franz"
+cask "google-chrome"
+cask "google-drive"
+cask "google-japanese-ime"
+cask "google-photos-backup"
+cask "handbrake"
+cask "hosts"
+cask "imageoptim"
+cask "istat-menus"
+cask "iterm2-beta"
+cask "jasper"
+cask "kindle"
+cask "licecap"
+cask "medis"
+cask "microsoft-office"
+cask "ngrok"
+cask "postico"
+cask "postman"
+cask "psequel"
+cask "screenhero"
+cask "sequel-pro"
+cask "shiftit"
+cask "skype"
+cask "soundflower"
+cask "spotify"
+cask "synergy"
+cask "the-unarchiver"
+cask "totalspaces"
+cask "touchswitcher"
+cask "vagrant"
+cask "virtualbox"
+cask "visual-studio-code"
+cask "vlc"
+cask "wireshark"
+mas "050plus", id: 694926804
+mas "Bandwidth+", id: 490461369
+mas "Duplicate Photos Fixer Pro", id: 963642514
+mas "FreeMan", id: 510934532
+mas "Hang", id: 1050779754
+mas "Keynote", id: 409183694
+mas "Kobito", id: 896624060
+mas "LINE", id: 539883307
+mas "Mactracker", id: 430255202
+mas "MARKETSPEED", id: 946680495
+mas "Mousepose", id: 405904955
+mas "NetSpot", id: 514951692
+mas "NetSpot Wi-Fi Reporter", id: 678464954
+mas "Network Radar", id: 507659816
+mas "PopClip", id: 445189367
+mas "Quiver", id: 866773894
+mas "Slack", id: 803453959
+mas "ToyViewer", id: 414298354
+mas "Tweetbot", id: 557168941
+mas "Twitter", id: 409789998
+mas "WiFi Explorer", id: 494803304
+mas "WiFi Signal", id: 525912054
+mas "Witch", id: 412485838
