@@ -114,6 +114,8 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
      - on, use enhanced dictation
  - notification setting
     - turn on DoNotDistrurb at display off
+ - display
+    - turn on Night Shift
 
 ## change storage setting by [Storage Management](https://support.apple.com/en-us/HT206996)
  - turn on Optimize Storage
@@ -175,7 +177,6 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
  - google-drive
    - check selective sync
  - google-photos-backup
- - flux
  - franz
  - popclip
  - slack
