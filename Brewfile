@@ -85,6 +85,7 @@ brew "pyenv-virtualenv"
 brew "q"
 brew "rbenv"
 brew "rbenv-binstubs"
+brew "rclone"
 brew "reattach-to-user-namespace"
 brew "redis", restart_service: true
 brew "rmtrash"
