@@ -177,12 +177,10 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
  - google-drive
    - check selective sync
  - google-photos-backup
- - franz
+ - rambox
  - popclip
  - slack
  - caffeine
- - freeman
-   - auto free setting
  - wifi signal
  - cmd-eikana
  - totalspaces
