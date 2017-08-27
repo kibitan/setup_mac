@@ -160,6 +160,7 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "vlc"
 cask "wireshark"
+cask "xmind"
 mas "050plus", id: 694926804
 mas "Bandwidth+", id: 490461369
 mas "Duplicate Photos Fixer Pro", id: 963642514
