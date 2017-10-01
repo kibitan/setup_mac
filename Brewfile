@@ -131,7 +131,6 @@ cask "handbrake"
 cask "hosts"
 cask "imageoptim"
 cask "istat-menus"
-cask "iterm2-beta"
 cask "jasper"
 cask "java"
 cask "kindle"
@@ -160,6 +159,7 @@ cask "visual-studio-code"
 cask "vlc"
 cask "wireshark"
 cask "xmind"
+cask "caskroom/versions/iterm2-beta"
 mas "050plus", id: 694926804
 mas "Bandwidth+", id: 490461369
 mas "Duplicate Photos Fixer Pro", id: 963642514
