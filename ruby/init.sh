@@ -27,8 +27,9 @@ if ask "Do you want to install ruby by rbenv-rubybuild?"; then
   RUBY_CONFIGURE_OPTS="--with-readline-dir=$(brew --prefix readline)" rbenv install $INSTALL_RUBY_VERSION
 fi
 
-if ask "Do you want to install pow?"; then
-  curl get.pow.cx | sh
+if ask "Do you want to setup puma-dev?"; then
+  sudo puma-dev -setup
+  puma-dev -install
 fi
 
 if ask "Do you want to install Gemfile?"; then
