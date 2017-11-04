@@ -36,86 +36,105 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
 (not documented yet)
 
 ## change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726)
- - mission control
+ - General
+   - use dark menu bar and Dock
+ - Desktop & Screen Saver
+   - random
+   - show with clock
+ - Dock
+   - auto hide - enable
+   - layout - left
+   - add shortcut of Applications
+   - customize shortcuts
+ - Mission Control
    - hotcorner screenlock
    - turn on dashboard as space
- - security
-   - firewall
-   - firevalut
-   - require password immediately
- - spotlight
-   - Search Results: only check  application
- - energy
-   - display off time
-   - stop sleeping when pluged
-     - disable put hard disks to sleep when possible ( [SSD is not affect this setting](https://support.apple.com/en-us/HT202824) )
-     - enable prevent computer from sleeping automatically when the display is off
- - trackpad
-   - tap click
-   - right click
-   - scroll natural
-   - tracking speed
-   - swipe between pages -> three fingers
- - user
-   - off the guest
- - accessibility
-   - Zoom: Use scroll gesture with modifier keys
-   - display: turn on reduce transmit
-     - http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html
- - dock setting
-   - auto hide
-   - layout
-   - add shortcut of Applications
- - sound
-   - show in menu bar
  - Language & Region
    - set English as Primary
    - add Japanese
    - set Region: Japan
- - general
-   - change menubar and Dock color
- - finder
-   - prefference
-     - General
-       - New Finder windows show: home directory
-     - sidebar: customize
-     - advanced:
-        - show all filename extensions
-        - remove items from the trash after 30 days
-        - keep folders on top when sorting by name
-        - when perfoming a search: current folder
-   - view
-     - set as default setting
-        - show status bar
-        - show path bar
-   - default view option: sort by name, arrange by none
-   - change default application of mp3, m4a into QuickTimePlayer
- - change screen size if retina
- - turn off clock, battery, siri from menubar
- - screensaver
-   - random
-   - show with clock
- - keyboard
-   - keyboard:
-     - fnkey
-     - Capslock to control
+ - Security & Privacy
+   - firewall
+   - firevalut
+   - require password immediately
+ - Spotlight
+   - Search Results: only check application
+ - Notifications
+    - turn on DoNotDisturb at display is sleepin
+
+
+ - Displays
+    - turn on Night Shift
+    - change screen size if retina
+ - Energy Saver
+   - display off time
+   - stop sleeping when pluged
+     - disable put hard disks to sleep when possible ( [SSD is not affect this setting](https://support.apple.com/en-us/HT202824) )
+     - enable prevent computer from sleeping automatically when the display is off
+   - battery status in menu bar - disable ( use istat menu instead )
+ - Keyboard
+   - Keyboard:
+     - fnkey - Show F1 F2, etc, keys
+     - Modifier Keys: Capslock to control
      - show keyboard and emoji viewer in menu bar
-     - (touch bar)
-       - customize control strip
-   - shortcut:
-     - spotlight -> control + space
-     - input source -> alt + space
-     - Full Keyboard access -> all controls
-     - mission control -> (first making 10 desktops then) enable desktops shortcuts and change to alt+*
-   - input source:
-     - change key "¥" button to '\'
-     - disable mac original IME ( many time freeze )
+     - customize control strip (touch bar)
+   - Shortcuts:
+     - Mission Control
+       - (first making 10 desktops then) enable desktops shortcuts and change to alt+*
+     - Input Sources
+       - select the previous input source - alt + space
+       - select next source in input menu - shift + alt + space
+     - Spotlight
+       - Show Spotlight search - control + space
+     - Full Keyboard Access - all controls
+   - Input Sources:
+     - disable mac original japanese IME ( many time freeze )
+     - Japanese
+       - change key "¥" button to '\'
    - dictation
      - on, use enhanced dictation
- - notification setting
-    - turn on DoNotDistrurb at display off
- - display
-    - turn on Night Shift
+     - download English and Japanese
+ - Trackpad
+   - secondary click - right corner
+   - tap click - enable
+   - tracking speed
+   - scroll natural - disable
+   - swipe between pages - three fingers
+ - Sound
+   - show in menu bar
+
+
+ - User & Group
+   - off the guest
+ - Siri
+   - disable
+   - show siri in menu bar - disable
+ - Date and Time
+   - disable show date and time in menu bar ( use istat menu instead )
+ - Accessibility
+   - Zoom: Use scroll gesture with modifier keys
+   - display: turn on reduce transparent
+     - http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html
+
+## change finder setting
+ - Prefferences
+   - General
+     - New Finder windows show: home directory
+   - sidebar: customize
+   - advanced:
+      - show all filename extensions - enable
+      - remove items from the trash after 30 days - enable
+      - keep folders on top when sorting by name - enable
+      - when perfoming a search - current folder
+ - View
+   - Show Path Bar
+   - Show Status Bar
+   - Show View Option
+     - arrange by none, sort by name - use as default
+   - Customize Toolbar
+   - Customize Touch Bar
+ - change default application of mp3, m4a into QuickTimePlayer by [Get info](https://www.imore.com/how-set-mac-app-default-when-opening-file?upgrade) 
+
 
 ## change storage setting by [Storage Management](https://support.apple.com/en-us/HT206996)
  - turn on Optimize Storage
