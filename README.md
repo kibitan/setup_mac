@@ -12,7 +12,7 @@ $ cd ~/setup_mac
 $ ./setup.sh
 ```
 
-if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
+if `permittion denied` happen, then try `sudo chmod 0775 /usr/local/etc`
 
 ## [crontab](./_crontab) bins
  - [bin/backup_dev_dir](./bin/backup_dev_dir)
@@ -136,7 +136,7 @@ if 'permittion denied' happen, then `sudo chmod 0775 /usr/local/etc`
  - change default application of mp3, m4a into QuickTimePlayer by [Get info](https://www.imore.com/how-set-mac-app-default-when-opening-file?upgrade) 
 
 
-## change storage setting by [Storage Management](https://support.apple.com/en-us/HT206996)
+## change storage setting by [Storage Management](https://support.apple.com/en-us/HT206996) ( apple menu - About This Mac - Storage - Manage )
  - turn on Optimize Storage
  - turn on Empty Trash Automatically
 
