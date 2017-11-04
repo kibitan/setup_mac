@@ -132,7 +132,9 @@ $ ./setup.sh
    - Show Path Bar
    - Show Status Bar
    - Show View Option
-     - arrange by none, sort by name - use as default
+     - arrange by none, sort by name
+     - Icon size = 180 x 180
+     - click: use as default
    - Customize Toolbar
    - Customize Touch Bar
  - change default application of mp3, m4a into QuickTimePlayer by [Get info](https://www.imore.com/how-set-mac-app-default-when-opening-file?upgrade) 
