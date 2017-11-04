@@ -82,7 +82,7 @@ $ ./setup.sh
      - customize control strip (touch bar)
    - Shortcuts:
      - Mission Control
-       - (first making 10 desktops then) enable desktops shortcuts and change to alt+*
+       - (first making 10 desktops then) enable desktops shortcuts and change to command + *
      - Input Sources
        - select the previous input source - alt + space
        - select next source in input menu - shift + alt + space
