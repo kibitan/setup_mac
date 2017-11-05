@@ -155,20 +155,21 @@ $ ./setup.sh
  - dash
  - synergy
    - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
- - totalspaces
+ - better touch tool
  - jasper
 
 ### manually launch
  - 1password
  - itunes
-   - authorize computer
+   - Account - Authorizations - Authorize This Computer
    - setup iphone
  - Mousepose
  - google japanese ime (keyboard - input source)
    - setup user dictionally (manually)
+ - LINE
  - hub command
  - quiver
-   - setup preference file
+   - Preferences - Sync - Library Location - `mac_setting/Quiver.qvlibrary`
  - tweet bot
  - dash
  - atom
@@ -179,6 +180,9 @@ $ ./setup.sh
  - docker
  - better touch tool
  - (evernote)
+ - tunnelblick
+ - caffeine
+ - WhatsApp
 
 ### with auto launch at login
  - chrome
@@ -186,23 +190,22 @@ $ ./setup.sh
    - set github token to octotree
    - import session buddy
  - iterm
-   - setup preference file
+   - iTerm2 - Preferences - General - Load Preferences from custom folder or URL - `mac_setting/iterm_profile`, then reboot
+   - iTerm2 - Preferences - General - Save changes to folder when iTerm2 quits
  - dropbox
  - witch
    - first done and relaunch again then, setup key to command-tab
+   - show list - right away
+   - disable - Show an "Active" item 
  - istatmenu
- - tunnelblick
  - clipy
-   - import snipet file
+   - Edit Snipetts - import - `mac_setting/snippets.xml`
  - shiftit
  - bartender
- - google-drive
-   - check selective sync
- - google-photos-backup
+ - Backup and Sync from Google
  - rambox
  - popclip
  - slack
- - caffeine
  - wifi signal
  - cmd-eikana
  - totalspaces
