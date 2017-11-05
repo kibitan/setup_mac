@@ -85,11 +85,11 @@ fi
 
 if ask 'restore setting from mackup? (need Dropbox directory)'; then
   if ask 'mv original .ssh/Documents/Pictures/Movies/Music for restoring mackup?'; then
-    mv .ssh .ssh.old 
-    mv Documents Documents_old
-    sudo mv Pictures Pictures_old
-    sudo mv Movies Movies_old 
-    sudo mv Music Music_old
+    mv ~/.ssh ~/.ssh.old
+    mv ~/Documents ~/Documents_old
+    sudo mv ~/Pictures ~/Pictures_old
+    sudo mv ~/Movies ~/Movies_old
+    sudo mv ~/Music ~/Music_old
   fi
   echo 'warning: do not overwrite .ssh/config, .bundle/config it will be deleted...'
   mackup restore
@@ -101,7 +101,7 @@ fi
 
 if ask "make $DEV_DIR ?"; then
   [ ! -d "$DEV_DIR" ] && sudo mkdir "$DEV_DIR"
-  sudo chown "$USER DEV_DIR"
+  sudo chown "$USER" "$DEV_DIR"
 fi
 
 if ask "restore $DEV_DIR from $DROPBOX_DEV_DIR?"; then
