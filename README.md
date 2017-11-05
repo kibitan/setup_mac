@@ -133,7 +133,7 @@ $ ./setup.sh
    - Show Status Bar
    - Show View Option
      - arrange by none, sort by name
-     - Icon size = 180 x 180
+     - Icon size - 220 x 220
      - click: use as default
    - Customize Toolbar
    - Customize Touch Bar
