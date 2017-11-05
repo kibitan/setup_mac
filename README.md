@@ -165,16 +165,15 @@ $ ./setup.sh
    - setup iphone
  - Mousepose
  - google japanese ime (keyboard - input source)
+   - setup user dictionally (manually)
  - hub command
  - quiver
    - setup preference file
- - sublime text
-   - install package control
  - tweet bot
  - dash
  - atom
-   1. `$ apm install package-sync`
-   1. command+shift+p, run `Package Sync: Sync`
+   - `$ apm install package-sync`
+   - command+shift+p, run `Package Sync: Sync`
  - bdash
    - setup github accesstoken ( need gist scope )
  - docker
