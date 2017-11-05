@@ -13,18 +13,14 @@ ask() {
   esac
 }
 
-if ask "Do you want to change system ruby Readline Library?(for irb japanese input problem)"; then
-  # http://d.hatena.ne.jp/zariganitosh/20140923/japanese_irb
-  BUNDLE=`ruby -r readline -e 'puts $LOADED_FEATURES.grep /readline/'`
-  OLD=`otool -L $BUNDLE | awk '/libedit/{print $1}'`
-  NEW=`brew list readline | grep libreadline.dylib`
-  sudo install_name_tool -change $OLD $NEW $BUNDLE
-fi
-
 if ask "Do you want to install ruby by rbenv-rubybuild?"; then
   INSTALL_RUBY_VERSION="$( rbenv install -l | peco)"
   brew link readline --force
   RUBY_CONFIGURE_OPTS="--with-readline-dir=$(brew --prefix readline)" rbenv install $INSTALL_RUBY_VERSION
+fi
+
+if ask "Do you want to setup global ruby version?"; then
+  rbenv global $(rbenv versions | peco)
 fi
 
 if ask "Do you want to setup puma-dev?"; then
