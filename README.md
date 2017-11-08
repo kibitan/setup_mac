@@ -73,7 +73,7 @@ $ ./setup.sh
    - stop sleeping when pluged
      - disable put hard disks to sleep when possible ( [SSD is not affect this setting](https://support.apple.com/en-us/HT202824) )
      - enable prevent computer from sleeping automatically when the display is off
-   - battery status in menu bar - disable ( use istat menu instead )
+   - battery status in menu bar - disable ( use istat menus instead )
  - Keyboard
    - Keyboard:
      - fnkey - Show F1 F2, etc, keys
@@ -112,7 +112,7 @@ $ ./setup.sh
    - disable
    - show siri in menu bar - disable
  - Date and Time
-   - disable show date and time in menu bar ( use istat menu instead )
+   - disable show date and time in menu bar ( use istat menus instead )
  - Accessibility
    - Zoom: Use scroll gesture with modifier keys
    - display: turn on reduce transparent
@@ -147,7 +147,7 @@ $ ./setup.sh
 ## apps
 ### lincense install
  - 1password
- - istat menu
+ - istat menus
  - bartender
  - microsoft office (office 365)
  - adobe creative cloud
@@ -197,7 +197,10 @@ $ ./setup.sh
    - first done and relaunch again then, setup key to command-tab
    - show list - right away
    - disable - Show an "Active" item 
- - istatmenu
+ - witch4
+   - Action - ListTabs - disable 
+   - Advances - Enable search for .. - disable
+ - istat menus
  - clipy
    - Edit Snipetts - import - `mac_setting/snippets.xml`
  - shiftit
