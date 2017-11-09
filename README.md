@@ -189,6 +189,7 @@ $ ./setup.sh
    - login hatena
    - set github token to octotree
    - import session buddy
+   - Chrome menu - Warn Before Quitting - enable
  - iterm
    - iTerm2 - Preferences - General - Load Preferences from custom folder or URL - `mac_setting/iterm_profile`, then reboot
    - iTerm2 - Preferences - General - Save changes to folder when iTerm2 quits
