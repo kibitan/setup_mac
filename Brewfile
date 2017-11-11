@@ -65,7 +65,6 @@ brew "mackup"
 brew "mecab"
 brew "mecab-ipadic"
 brew "memcached", restart_service: true
-brew "mysql", restart_service: true
 brew "nginx"
 brew "nodebrew"
 brew "packer"
