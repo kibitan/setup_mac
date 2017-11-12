@@ -137,7 +137,7 @@ $ ./setup.sh
      - click: use as default
    - Customize Toolbar
    - Customize Touch Bar
- - change default application of mp3, m4a into QuickTimePlayer by [Get info](https://www.imore.com/how-set-mac-app-default-when-opening-file?upgrade) 
+ - change default application of mp3, m4a into QuickTimePlayer by [Get info](https://www.imore.com/how-set-mac-app-default-when-opening-file?upgrade)
 
 
 ## change storage setting by [Storage Management](https://support.apple.com/en-us/HT206996) ( apple menu - About This Mac - Storage - Manage )
@@ -199,7 +199,7 @@ $ ./setup.sh
    - show list - right away
    - disable - Show an "Active" item 
  - witch4
-   - Action - ListTabs - disable 
+   - Action - ListTabs - disable
    - Advances - Enable search for .. - disable
  - istat menus
  - clipy
@@ -216,7 +216,6 @@ $ ./setup.sh
    - need to change SIP mode on recovery mode `csrutil enable --without debug`, then reboot and `brew cask reinstall totalspaces`, `open $(brew cask info totalspaces | grep $(brew --prefix) | cut -d' ' -f1)/TotalSpaces2.app`
      - https://totalspaces.binaryage.com/elcapitan
      - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
- - (touch bar) TouchSwitcher
  - bandwidth+
 
 # release
