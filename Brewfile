@@ -159,7 +159,6 @@ cask "caskroom/versions/iterm2-beta"
 mas "050plus", id: 694926804
 mas "Bandwidth+", id: 490461369
 mas "Duplicate Photos Fixer Pro", id: 963642514
-mas "FreeMan", id: 510934532
 mas "Keynote", id: 409183694
 mas "Kobito", id: 896624060
 mas "LINE", id: 539883307
