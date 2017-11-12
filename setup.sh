@@ -99,6 +99,10 @@ if ask 'install crontab?'; then
   crontab < "$REPO_DIR/_crontab"
 fi
 
+if ask 'setup postfix relay by gmail?'; then
+  "$REPO_DIR/postfix_gmail_relay.sh"
+fi
+
 if ask "make $DEV_DIR ?"; then
   [ ! -d "$DEV_DIR" ] && sudo mkdir "$DEV_DIR"
   sudo chown "$USER" "$DEV_DIR"
