@@ -158,6 +158,7 @@ cask "caskroom/versions/istat-menus5"
 cask "caskroom/versions/iterm2-beta"
 mas "050plus", id: 694926804
 mas "Bandwidth+", id: 490461369
+mas "DeskApp for YouTube", id: 1180531112
 mas "Duplicate Photos Fixer Pro", id: 963642514
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
