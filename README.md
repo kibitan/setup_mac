@@ -183,6 +183,7 @@ $ ./setup.sh
  - tunnelblick
  - caffeine
  - WhatsApp
+ - DeskApp for youtube
 
 ### with auto launch at login
  - chrome
