@@ -200,7 +200,8 @@ $ ./setup.sh
    - show list - right away
    - disable - Show an "Active" item 
  - witch4
-   - Action - ListTabs - disable
+   - Actions - Sort by - Window Activity
+   - Actions - ListTabs - disable
    - Advances - Enable search for .. - disable
  - istat menus
  - clipy
