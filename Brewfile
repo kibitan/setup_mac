@@ -53,6 +53,7 @@ brew "go"
 brew "libtool"
 brew "graphviz"
 brew "heroku"
+brew "highlight"
 brew "hostess"
 brew "hub"
 brew "imagemagick@6"
@@ -181,4 +182,3 @@ mas "Twitter", id: 409789998
 mas "WhatsApp", id: 1147396723
 mas "WiFi Explorer", id: 494803304
 mas "WiFi Signal", id: 525912054
-mas "Witch", id: 412485838
