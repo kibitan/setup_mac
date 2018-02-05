@@ -91,7 +91,7 @@ if ask 'restore setting from mackup? (need Dropbox directory)'; then
     sudo mv ~/Movies ~/Movies_old
     sudo mv ~/Music ~/Music_old
   fi
-  echo 'warning: do not overwrite .ssh/config, .bundle/config it will be deleted...'
+  echo 'warning: DO NOT overwrite .ssh/config, .bundle/config it will be deleted... .ssh, .bundle will be okay'
   mackup restore
 fi
 
