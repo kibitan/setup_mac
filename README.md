@@ -158,6 +158,7 @@ $ ./setup.sh
    - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
  - better touch tool
  - jasper
+ - witch
 
 ### manually launch
  - 1password
@@ -197,8 +198,10 @@ $ ./setup.sh
    - iTerm2 - Preferences - General - Save changes to folder when iTerm2 quits
  - dropbox
  - witch
-   - Actions - Sort by - Window Activity
-   - Actions - ListTabs - disable
+   - Actions - choose "Cycle Window"
+     - Sort by "Window Activity"
+     - ListTabs - disable
+     - Keyboard - choose Forward "command-tab", Backword "shift-command-tab"
    - Advances - Enable search for .. - disable
  - istat menus
  - clipy
