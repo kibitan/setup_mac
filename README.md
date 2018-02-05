@@ -198,9 +198,10 @@ $ ./setup.sh
    - iTerm2 - Preferences - General - Save changes to folder when iTerm2 quits
  - dropbox
  - witch
-   - Actions - choose "Cycle Window"
-     - Sort by "Window Activity"
+   - Actions - choose "Cycle Windows", delete other actions
+     - Sort by "Window Activity", Orientation "↓"
      - ListTabs - disable
+     - ListApps without windows - disable
      - Keyboard - choose Forward "command-tab", Backword "shift-command-tab"
    - Advances - Enable search for .. - disable
  - istat menus
