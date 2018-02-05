@@ -108,7 +108,7 @@ $ ./setup.sh
 
  - User & Group
    - off the guest
-   - Login Options: turn off "Show fast user switching menu as"
+   - Login Options: "Show fast user switching menu as" - disable
  - Siri
    - disable
    - show siri in menu bar - disable
