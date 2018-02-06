@@ -147,26 +147,26 @@ $ ./setup.sh
 
 ## apps
 ### lincense install
- - 1password
- - istat menus
- - bartender
- - microsoft office (office 365)
- - adobe creative cloud
+ - 1Password
+ - istat Menus
+ - Bartender
+ - Microsoft Office (Office 365)
+ - Adobe Creative Cloud
    - `open $(brew cask info adobe-creative-cloud | grep $(brew --prefix) | cut -d' ' -f1)/Creative Cloud Installer.app`
- - dash
- - synergy
+ - Dash
+ - Synergy
    - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
- - better touch tool
- - jasper
- - witch
+ - BetterTouchTool
+ - Jasper
+ - Witch
 
 ### manually launch
- - 1password
- - itunes
+ - 1Password
+ - iTunes
    - Account - Authorizations - Authorize This Computer
    - setup iphone
  - Mousepose
- - google japanese ime (keyboard - input source)
+ - Google Japanese Input (keyboard - input source)
    - setup user dictionally (manually)
  - LINE
  - hub command
@@ -175,73 +175,73 @@ $ ./setup.sh
      - Default Cell Type: Markdown cell
      - Themes: Spacegray
      - Sync - Library Location: `mac_setting/Quiver.qvlibrary`
- - tweet bot
- - dash
- - atom
+ - Tweetbot
+ - Dash
+ - Atom
    - `$ apm install package-sync`
    - command+shift+p, run `Package Sync: Sync`
- - bdash
+ - Bdash
    - setup github accesstoken ( need gist scope )
- - docker
- - better touch tool
- - (evernote)
- - tunnelblick
- - caffeine
+ - Docker
+ - BetterTouchTool
+ - (Evernote)
+ - Tunnelblick
+ - Caffeine
  - WhatsApp
- - DeskApp for youtube
+ - DeskApp for YouTube
 
 ### with auto launch at login
- - chrome
+ - Chrome
    - login hatena
    - set github token to octotree
    - import session buddy
    - Chrome menu - Warn Before Quitting - enable
- - iterm
+ - iTerm
    - iTerm2 - Preferences - General - Load Preferences from custom folder or URL - `mac_setting/iterm_profile`, then reboot
    - iTerm2 - Preferences - General - Save changes to folder when iTerm2 quits
- - dropbox
- - witch
+ - Dropbox
+ - Witch
    - Actions - choose "Cycle Windows", delete other actions
      - Sort by "Window Activity", Orientation "↓"
      - ListTabs - disable
      - ListApps without windows - disable
      - Keyboard - choose Forward "command-tab", Backword "shift-command-tab"
    - Advances - Enable search for .. - disable
- - istat menus
- - clipy
+ - istat Menus
+ - Clipy
    - Edit Snipetts - import - `mac_setting/snippets.xml`
- - shiftit
- - bartender
+ - Shiftit
+ - Bartender
  - Backup and Sync from Google
- - rambox
- - popclip
- - slack
- - wifi signal
+ - Rambox
+ - PopClip
+ - Slack
+ - WiFi Signal
  - cmd-eikana
  - totalspaces
    - need to change SIP mode on recovery mode `csrutil enable --without debug`, then reboot and `brew cask reinstall totalspaces`, `open $(brew cask info totalspaces | grep $(brew --prefix) | cut -d' ' -f1)/TotalSpaces2.app`
      - https://totalspaces.binaryage.com/elcapitan
      - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
- - bandwidth+
+ - Bandwidth+
 
 # release
 
 ## deactivate
 see also: https://support.apple.com/en-us/HT201065
 
- - itunes
- - icloud
- - imessage
+ - iTunes
+ - iCloud
+ - iMessage
  - https://appleid.apple.com/account/manage
    - https://support.apple.com/en-us/HT205064
- - dropbox
+ - Dropbox
    - https://www.dropbox.com/account/security
- - microsoft office (office 365)
+ - Microsoft Office (Office 365)
    - https://portal.office.com/Account#installs
- - adobe creative cloud
+ - Adobe Creative Cloud
    - https://accounts.adobe.com/
    - https://helpx.adobe.com/en/creative-cloud/help/sign-in-out-activate-apps.html
- - evernote
+ - Evernote
    - https://www.evernote.com/Devices.action
 
 ## reinstall macos
