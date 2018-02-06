@@ -170,8 +170,11 @@ $ ./setup.sh
    - setup user dictionally (manually)
  - LINE
  - hub command
- - quiver
-   - Preferences - Sync - Library Location - `mac_setting/Quiver.qvlibrary`
+ - Quiver
+   - Preferences
+     - Default Cell Type: Markdown cell
+     - Themes: Spacegray
+     - Sync - Library Location: `mac_setting/Quiver.qvlibrary`
  - tweet bot
  - dash
  - atom
