@@ -77,7 +77,6 @@ $ ./setup.sh
  - Keyboard
    - Keyboard:
      - fnkey - Show F1 F2, etc, keys
-     - Modifier Keys: Capslock to control
      - show keyboard and emoji viewer in menu bar
      - customize control strip (touch bar)
    - Shortcuts:
@@ -217,7 +216,6 @@ $ ./setup.sh
  - PopClip
  - Slack
  - WiFi Signal
- - cmd-eikana
  - totalspaces
    - need to change SIP mode on recovery mode `csrutil enable --without debug`, then reboot and `brew cask reinstall totalspaces`, `open $(brew cask info totalspaces | grep $(brew --prefix) | cut -d' ' -f1)/TotalSpaces2.app`
      - https://totalspaces.binaryage.com/elcapitan
