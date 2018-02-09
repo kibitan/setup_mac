@@ -118,7 +118,6 @@ cask "blisk"
 cask "caffeine"
 cask "charles"
 cask "clipy"
-cask "cmd-eikana"
 cask "cyberduck"
 cask "dash"
 cask "disk-inventory-x"
@@ -133,6 +132,7 @@ cask "hosts"
 cask "imageoptim"
 cask "jasper"
 cask "java"
+cask "karabiner-elements"
 cask "kindle"
 cask "licecap"
 cask "microsoft-office"
@@ -179,6 +179,5 @@ mas "Slack", id: 803453959
 mas "ToyViewer", id: 414298354
 mas "Tweetbot", id: 557168941
 mas "Twitter", id: 409789998
-mas "WhatsApp", id: 1147396723
 mas "WiFi Explorer", id: 494803304
 mas "WiFi Signal", id: 525912054
