@@ -117,5 +117,5 @@ if ask 'execute npm install?'; then
 fi
 
 if ask 'execute ruby setup?'; then
-  "$REPO_DIR/ruby/init.sh"
+  "$REPO_DIR/setup_ruby.sh"
 fi
