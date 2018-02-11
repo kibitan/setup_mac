@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -eu -o pipefail
+#set -vx
+NPM_PACKAGES=${NPM_PACKAGES:-~/npm_packages}
+
+# https://stackoverflow.com/questions/32628351/export-import-npm-global-packages
+time npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > "$NPM_PACKAGES"

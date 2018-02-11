@@ -3,6 +3,7 @@ MAILTO=uzukifirst+macbook_pro_crontab@gmail.com
 
 @daily  yes 'no' | /usr/local/bin/mackup backup
 @daily  ~/setup_mac/bin/update_brewfile
+@daily  ~/setup_mac/bin/dump_npm_packages
 2 */6 * * * ~/setup_mac/bin/backup_dev_dir
 @weekly ~/setup_mac/bin/update_brew
 @weekly time bash -lc '~/setup_mac/bin/update_brew_cask'
