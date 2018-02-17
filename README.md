@@ -105,6 +105,9 @@ $ ./setup.sh
    - show in menu bar
 
 
+ - iCloud
+   - Keychain - enable
+   - Find My Mac - enable
  - User & Group
    - off the guest
    - Login Options: "Show fast user switching menu as" - disable
