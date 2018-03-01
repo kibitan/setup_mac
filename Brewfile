@@ -171,6 +171,7 @@ mas "Kobito", id: 896624060
 mas "LINE", id: 539883307
 mas "Mactracker", id: 430255202
 mas "MARKETSPEED", id: 946680495
+mas "Medis", id: 1063631769
 mas "Mousepose", id: 405904955
 mas "NetSpot", id: 514951692
 mas "NetSpot Wi-Fi Reporter", id: 678464954
