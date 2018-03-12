@@ -76,21 +76,22 @@ $ ./setup.sh
    - battery status in menu bar - disable ( use istat menus instead )
  - Keyboard
    - Keyboard:
-     - fnkey - Show F1 F2, etc, keys
+     - (touch bar model) fnkey - Show F1 F2, etc, keys
      - show keyboard and emoji viewer in menu bar
-     - customize control strip (touch bar)
+     - (touch bar model) customize control strip
+     - (Switch Capslock will handle with karabiner-element)
    - Shortcuts:
      - Mission Control
-       - (first making 10 desktops then) enable desktops shortcuts and change to command + *
-     - Input Sources
+       - (first making 10 desktops then) enable desktops shortcuts and change to command + [0-9]
+     - Input Sources ( it will appear after setup `Input Sources` section)
        - select the previous input source - alt + space
        - select next source in input menu - shift + alt + space
      - Spotlight
        - Show Spotlight search - control + space
-     - Full Keyboard Access - all controls
+     - (touch bar model?) Full Keyboard Access - all controls
    - Input Sources:
      - disable mac original japanese IME ( many time freeze )
-     - Japanese
+     - Japanese ( or at `Google Japanese Input Preferences` )
        - change key "¥" button to '\'
    - dictation
      - on, use enhanced dictation
@@ -134,11 +135,11 @@ $ ./setup.sh
  - View
    - Show Path Bar
    - Show Status Bar
+   - Customize Toolbar
    - Show View Option
      - arrange by none, sort by name
      - Icon size - 220 x 220
      - click: use as default
-   - Customize Toolbar
    - Customize Touch Bar
  - change default application of mp3, m4a into QuickTimePlayer by [Get info](https://www.imore.com/how-set-mac-app-default-when-opening-file?upgrade)
 
