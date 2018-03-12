@@ -164,6 +164,7 @@ $ ./setup.sh
  - Witch
 
 ### manually launch
+ - Karabiner Elements
  - 1Password
  - iTunes
    - Account - Authorizations - Authorize This Computer
