@@ -107,6 +107,7 @@ $ ./setup.sh
 
 
  - iCloud
+   - Notes - enable
    - Keychain - enable
    - Find My Mac - enable
  - User & Group
