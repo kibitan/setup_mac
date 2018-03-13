@@ -172,7 +172,8 @@ $ ./setup.sh
    - setup iphone
  - Mousepose
  - Google Japanese Input (keyboard - input source)
-   - setup user dictionally (manually)
+   - setup user dictionally - mac_setting/google_japanese_dictionaly
+     - TODO: automatic backup/restore, mackup nize?
  - LINE
  - hub command
  - Quiver
