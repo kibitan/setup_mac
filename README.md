@@ -124,6 +124,7 @@ $ ./setup.sh
      - http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html
 
 ## change finder setting
+ - Press Shift+Cmd+.` for showing dot file
  - Prefferences
    - General
      - New Finder windows show: home directory
@@ -212,7 +213,11 @@ $ ./setup.sh
      - ListTabs - disable
      - ListApps without windows - disable
      - Keyboard - choose Forward "command-tab", Backword "shift-command-tab"
-   - Advances - Enable search for .. - disable
+   - Appearance
+     - Preset Open - `mac_setting/witch/dark_original.witchlayout` 
+   - Advances
+     - Enable search for .. - disable
+     - Show list on "display with mouse pointer"
  - istat Menus
  - Clipy
    - Edit Snipetts - import - `mac_setting/snippets.xml`
