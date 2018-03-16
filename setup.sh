@@ -83,7 +83,7 @@ fi
 # for macOS Sierra
 # http://qiita.com/bsdmad/items/d8099682c17b6df74baa
 if ask 'set keyboard keyrepeat faster?'; then
-  defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
+  defaults write -g InitialKeyRepeat -int 13 # normal minimum is 15 (225 ms)
   defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
 fi
 
