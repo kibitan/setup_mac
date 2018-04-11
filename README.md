@@ -60,7 +60,9 @@ $ ./setup.sh
    - firevalut
    - require password immediately
  - Spotlight
-   - Search Results: only check application
+   - Search Results
+     - application
+     - calculator
  - Notifications
     - turn on DoNotDisturb at display is sleepin
 
