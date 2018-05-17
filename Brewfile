@@ -186,6 +186,7 @@ mas "PopClip", id: 445189367
 mas "Quiver", id: 866773894
 mas "Slack", id: 803453959
 mas "ToyViewer", id: 414298354
+mas "Tunacan", id: 980577198
 mas "Tweetbot", id: 557168941
 mas "Twitter", id: 409789998
 mas "WiFi Explorer", id: 494803304
