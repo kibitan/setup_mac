@@ -165,27 +165,3 @@ cask "witch"
 cask "xmind"
 cask "homebrew/cask-versions/istat-menus5"
 cask "homebrew/cask-versions/iterm2-beta"
-mas "050plus", id: 694926804
-mas "Bandwidth+", id: 490461369
-mas "DeskApp for YouTube", id: 1180531112
-mas "Duplicate Photos Fixer Pro", id: 963642514
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "Kobito", id: 896624060
-mas "LINE", id: 539883307
-mas "Mactracker", id: 430255202
-mas "MARKETSPEED", id: 946680495
-mas "Medis", id: 1063631769
-mas "Mousepose", id: 405904955
-mas "NetSpot", id: 514951692
-mas "NetSpot Wi-Fi Reporter", id: 678464954
-mas "Network Radar", id: 507659816
-mas "PopClip", id: 445189367
-mas "Quiver", id: 866773894
-mas "Slack", id: 803453959
-mas "ToyViewer", id: 414298354
-mas "Tunacan", id: 980577198
-mas "Tweetbot", id: 557168941
-mas "Twitter", id: 409789998
-mas "WiFi Explorer", id: 494803304
-mas "WiFi Signal", id: 525912054
