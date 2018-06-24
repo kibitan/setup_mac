@@ -236,6 +236,9 @@ $ ./setup.sh
      - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
  - Bandwidth+
  - Dash ( snippets )
+   - Preference: General - Setup Syncing...
+     - Set Sync folder(`Dropbox/mac_setting/dash`)
+     - check sync option (General Setting, View option, Docsets search profile, Bookmark )
 
 # release
 
