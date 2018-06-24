@@ -235,6 +235,7 @@ $ ./setup.sh
      - https://totalspaces.binaryage.com/elcapitan
      - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
  - Bandwidth+
+ - Dash ( snippets )
 
 # release
 
