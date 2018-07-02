@@ -70,7 +70,7 @@ brew "mackup"
 brew "mecab"
 brew "mecab-ipadic"
 brew "memcached", restart_service: true
-brew "mysql", restart_service: true
+brew "mysql@5.7", restart_service: true, link: true
 brew "pcre"
 brew "nginx"
 brew "nodebrew"
@@ -114,6 +114,7 @@ brew "codekitchen/dinghy/dinghy"
 brew "puma/puma/puma-dev"
 brew "tldr-pages/tldr/tldr"
 cask "1password"
+cask "245cloud"
 cask "adobe-creative-cloud"
 cask "appcleaner"
 cask "atom"
