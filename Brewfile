@@ -137,6 +137,8 @@ cask "google-photos-backup-and-sync"
 cask "handbrake"
 cask "hosts"
 cask "imageoptim"
+cask "istat-menus5"
+cask "iterm2-beta"
 cask "jasper"
 cask "java"
 cask "karabiner-elements"
@@ -164,8 +166,6 @@ cask "vlc"
 cask "watchguard-mobile-vpn-with-ssl"
 cask "witch"
 cask "xmind"
-cask "homebrew/cask-versions/istat-menus5"
-cask "homebrew/cask-versions/iterm2-beta"
 mas "050plus", id: 694926804
 mas "Bandwidth+", id: 490461369
 mas "DeskApp for YouTube", id: 1180531112
