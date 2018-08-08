@@ -167,7 +167,6 @@ cask "watchguard-mobile-vpn-with-ssl"
 cask "witch"
 cask "xmind"
 mas "050plus", id: 694926804
-mas "Bandwidth+", id: 490461369
 mas "DeskApp for YouTube", id: 1180531112
 mas "Duplicate Photos Fixer Pro", id: 963642514
 mas "Fotor Photo Editor", id: 503039729
@@ -180,7 +179,6 @@ mas "MARKETSPEED", id: 946680495
 mas "Medis", id: 1063631769
 mas "Mousepose", id: 405904955
 mas "NetSpot", id: 514951692
-mas "NetSpot Wi-Fi Reporter", id: 678464954
 mas "Network Radar", id: 507659816
 mas "PopClip", id: 445189367
 mas "Quiver", id: 866773894
