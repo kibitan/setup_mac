@@ -6,7 +6,6 @@ MAILTO=uzukifirst+macbook_pro_crontab@gmail.com
 @daily  ~/setup_mac/bin/dump_npm_packages       >> ~/setup_mac/logs/dump_npm_packages.log
 2 */6 * * * ~/setup_mac/bin/backup_dev_dir      >> ~/setup_mac/logs/backup_dev_dir.log
 @weekly ~/setup_mac/bin/update_brew
-@weekly time bash -lc '~/setup_mac/bin/update_brew_cask'
 @weekly gibo update      >> ~/setup_mac/logs/gibo.log
 @weekly tldr --update    >> ~/setup_mac/logs/tldr.log
 @weekly yes | apm update >> ~/setup_mac/logs/apm.log

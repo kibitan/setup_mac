@@ -5,4 +5,5 @@ set -eu -o pipefail
 
 time nice -n19 brew update
 time nice -n19 brew upgrade
+time nice -n19 brew cask upgrade
 time nice -n19 brew cleanup
