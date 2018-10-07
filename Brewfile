@@ -77,7 +77,6 @@ brew "packer"
 brew "parallel"
 brew "peco"
 brew "percona-toolkit"
-brew "phantomjs"
 brew "pkg-config"
 brew "postgresql", restart_service: true
 brew "proctools"
