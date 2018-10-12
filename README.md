@@ -96,7 +96,7 @@ $ ./setup.sh
    - Input Sources:
      - disable mac original japanese IME ( many time freeze )
      - Japanese ( or at `Google Japanese Input Preferences` )
-       - change key "¥" button to '\'
+       - change key "¥" button to "\\"
    - dictation
      - on, use enhanced dictation
      - download English and Japanese
