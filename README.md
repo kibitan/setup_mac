@@ -90,8 +90,9 @@ $ ./setup.sh
        - select next source in input menu - shift + alt + space
      - Spotlight
        - Show Spotlight search - control + space
-     - (touch bar model?) Full Keyboard Access - all controls
-   - Input Sources:
+     - (touch bar model?) Full Keyboard Access - all controls
+
+   - Input Sources:
      - disable mac original japanese IME ( many time freeze )
      - Japanese ( or at `Google Japanese Input Preferences` )
        - change key "¥" button to '\'
