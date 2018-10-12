@@ -80,6 +80,7 @@ brew "percona-toolkit"
 brew "pkg-config"
 brew "postgresql", restart_service: true
 brew "proctools"
+brew "python@2"
 brew "protobuf"
 brew "pstree"
 brew "pyenv"
