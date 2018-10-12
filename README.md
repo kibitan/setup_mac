@@ -89,7 +89,8 @@ $ ./setup.sh
        - select the previous input source - alt + space
        - select next source in input menu - shift + alt + space
      - Spotlight
-       - Show Spotlight search - control + space
+
+       - show Spotlight search - control + space
      - (touch bar model?) Full Keyboard Access - all controls
 
    - Input Sources:
