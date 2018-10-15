@@ -261,6 +261,7 @@ see also: https://support.apple.com/en-us/HT201065
    - https://helpx.adobe.com/en/creative-cloud/help/sign-in-out-activate-apps.html
  - Evernote
    - https://www.evernote.com/Devices.action
+ - google chrome
 
 ## reinstall macos
 see: https://support.apple.com/en-us/HT204904
