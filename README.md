@@ -210,6 +210,7 @@ $ ./setup.sh
  - iTerm
    - iTerm2 - Preferences - General - Load Preferences from custom folder or URL - `mac_setting/iterm_profile`, then reboot
    - iTerm2 - Preferences - General - Save changes to folder when iTerm2 quits
+   - (from Mojave: Mac System Preferences - Security & Privacy - Full disk access, add iTerms2 for updating crontab)
  - Dropbox
  - Witch
    - Actions - choose "Cycle Windows", delete other actions
