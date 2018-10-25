@@ -3,4 +3,12 @@
 set -eu -o pipefail
 #set -vx
 
+if [[ $(git status --short --untracked-files=no | wc -l) -gt 0 ]]; then
+  git stash
+  git pull --rebase
+  git stash pop
+else
+  git pull --rebase
+fi
+
 brew bundle
