@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -eu -o pipefail
+#set -vx
+
+brew bundle
