@@ -3,6 +3,8 @@
 set -eu -o pipefail
 #set -vx
 
+cd ~/setup_mac
+
 if [[ $(git status --short --untracked-files=no | wc -l) -gt 0 ]]; then
   git stash
   git pull --rebase
