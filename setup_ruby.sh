@@ -23,11 +23,6 @@ if ask "Do you want to setup global ruby version?"; then
   rbenv global $(rbenv versions | peco)
 fi
 
-if ask "Do you want to setup puma-dev?"; then
-  sudo puma-dev -setup
-  puma-dev -install
-fi
-
 if ask "Do you want to install Gemfile?"; then
   gem install bundler
   bundle install -j4
