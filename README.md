@@ -213,7 +213,7 @@ $ ./setup.sh
    - (from Mojave: Mac System Preferences - Security & Privacy - Full disk access, add iTerms2 for updating crontab)
  - Dropbox
  - Witch
-   - Actions - choose "Cycle Windows", delete other actions
+   - Actions - choose "Cycle Non-Minimized Windows", delete other actions
      - Sort by "Window Activity", Orientation "↓"
      - ListTabs - disable
      - ListApps without windows - disable
