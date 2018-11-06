@@ -28,7 +28,7 @@ brew "diff-so-fancy"
 brew "direnv"
 brew "dnsmasq"
 brew "libyaml"
-brew "docker-compose", link: false
+brew "docker-compose"
 brew "icu4c"
 brew "dwdiff"
 brew "exiftool"
