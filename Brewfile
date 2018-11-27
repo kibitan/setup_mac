@@ -168,6 +168,7 @@ cask "tunnelblick"
 cask "visual-studio-code"
 cask "vlc"
 cask "watchguard-mobile-vpn-with-ssl"
+cask "whatsapp"
 cask "witch"
 cask "xmind"
 mas "050plus", id: 694926804
