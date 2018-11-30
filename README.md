@@ -200,6 +200,8 @@ $ ./setup.sh
  - Caffeine
  - WhatsApp
  - DeskApp for YouTube
+ - Visual Studio Code
+   - install [Setting sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) and restart (activate extension and download)
 
 ### with auto launch at login
  - Chrome
