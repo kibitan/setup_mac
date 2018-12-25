@@ -226,6 +226,7 @@ $ ./setup.sh
      - Enable search for .. - disable
      - Show list on "display with mouse pointer"
  - istat Menus
+   - File - Import Settings - `mac_setting/iStat Menus Settings.ismp`
  - Clipy
    - Edit Snipetts - import - `mac_setting/snippets.xml`
  - Shiftit
