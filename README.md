@@ -40,6 +40,7 @@ $ ./setup.sh
 ## change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726)
  - General
    - use dark menu bar and Dock
+   - (Mojave) Appearance: Dark
  - Desktop & Screen Saver
    - random
    - show with clock
@@ -56,31 +57,34 @@ $ ./setup.sh
    - add Japanese
    - set Region: Japan
  - Security & Privacy
-   - firewall
-   - firevalut
-   - require password immediately
+   - General
+     - require password immediately
+   - Firevalut - Turn on
+   - Firewall - Turn on
  - Spotlight
    - Search Results
      - application
      - calculator
  - Notifications
-    - turn on DoNotDisturb at display is sleepin
+    - turn on DoNotDisturb:
+      - From: 22:00 ~ 7:00
+      - when the display is sleeping
 
 
  - Displays
-    - turn on Night Shift
-    - change screen size if retina
+    - Display: change screen size if retina
+    - Night Shift
+      - Schedule: Sunset to Sunrise
  - Energy Saver
-   - display off time
-   - stop sleeping when pluged
-     - disable put hard disks to sleep when possible ( [SSD is not affect this setting](https://support.apple.com/en-us/HT202824) )
-     - enable prevent computer from sleeping automatically when the display is off
-   - battery status in menu bar - disable ( use istat menus instead )
+   - Power Adapter:
+     - Prevent computer from sleeping automatically when the display is off - enable
+     - Put hard disks to sleep when possible ( [SSD is not affect this setting](https://support.apple.com/en-us/HT202824) ) - disable
+   - show battery status in menu bar - disable ( use istat menus instead )
  - Keyboard
    - Keyboard:
      - (touch bar model) fnkey - Show F1 F2, etc, keys
      - show keyboard and emoji viewer in menu bar
-     - (touch bar model) customize control strip
+     - (touch bar model) customize Touch bar
      - (Switch Capslock will handle with karabiner-element)
    - Shortcuts:
      - Mission Control
@@ -93,47 +97,67 @@ $ ./setup.sh
        - show Spotlight search - control + space
      - (touch bar model?) Full Keyboard Access - all controls
 
-   - Input Sources:
-     - disable mac original japanese IME ( many time freeze )
+   - Input Sources: ( setup after install google japanese IME )
+     - Add "U.S." English keyboard
+     - Add "Hiragana (google)" keyboard
+     - Remove mac original "Japanese" ( many time freeze )
      - Japanese ( or at `Google Japanese Input Preferences` )
        - change key "¥" button to "\\"
    - dictation
      - on, use enhanced dictation
      - download English and Japanese
  - Trackpad
-   - secondary click - right corner
-   - tap click - enable
-   - tracking speed
-   - scroll natural - disable
-   - swipe between pages - three fingers
+   - Point & Click
+     - secondary click - right corner
+     - tap click - enable
+     - tracking speed - 4 step down from fastest
+   - Scroll & Zoom
+     - scroll natural - disable
+   - More Gestures
+     - swipe between pages - three fingers
  - Sound
-   - show in menu bar
+   - show volume in menu bar
 
 
  - iCloud
+   - iCloud Drive options
+     - Desktop & Documents Folder - disable
+     - (rest of all) - enable
    - Notes - enable
+   - Photos options
+     - iCloud Photos - disable
+     - My Photo Stream - enable
+     - Shared Album - enable
    - Keychain - enable
    - Find My Mac - enable
- - User & Group
+ - Wallet & Apple Pay
+   - setup card
+ - Software Update
+   - Automatically keep my Mac up to date - enable
+
+
+- User & Group
    - off the guest
    - Login Options: "Show fast user switching menu as" - disable
  - Siri
    - disable
    - show siri in menu bar - disable
  - Date and Time
-   - disable show date and time in menu bar ( use istat menus instead )
+   - Clock
+     - Show date and time in menu bar - disable ( use istat menus instead )
  - Accessibility
-   - Zoom: Use scroll gesture with modifier keys
-   - display: turn on reduce transparent
-     - http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html
+   - Zoom
+     - Use scroll gesture with modifier keys - Control
+   - display
+     - reduce transparent - enable ( http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html )
 
 ## change finder setting
  - Press Shift+Cmd+.` for showing dot file
  - Prefferences
    - General
      - New Finder windows show: home directory
-   - sidebar: customize
-   - advanced:
+   - Sidebar: customize
+   - Advanced:
       - show all filename extensions - enable
       - remove items from the trash after 30 days - enable
       - keep folders on top when sorting by name - enable
@@ -143,16 +167,19 @@ $ ./setup.sh
    - Show Status Bar
    - Customize Toolbar
    - Show View Option
-     - arrange by none, sort by name
-     - Icon size - 220 x 220
-     - click: use as default
+     - Group by - None
+     - Sort by - Name
+     - Icon size - 140 x 140
+     - Show item info
+     - Background - 
+     - click - "Use as default"
    - Customize Touch Bar
  - change default application of mp3, m4a into QuickTimePlayer by [Get info](https://www.imore.com/how-set-mac-app-default-when-opening-file?upgrade)
 
 
 ## change storage setting by [Storage Management](https://support.apple.com/en-us/HT206996) ( apple menu - About This Mac - Storage - Manage )
- - turn on Optimize Storage
- - turn on Empty Trash Automatically
+ - Optimize Storage - enable
+ - Empty Trash Automatically - enable
 
 ## apps
 ### lincense install
