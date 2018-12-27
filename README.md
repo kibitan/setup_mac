@@ -252,7 +252,7 @@ $ ./setup.sh
    - Appearance
      - Preset Open - `mac_setting/witch/dark_original.witchlayout` 
    - Advances
-     - Enable search for .. - disable
+     - Cycle through search for .. - disable
      - Show list on "display with mouse pointer"
  - istat Menus
    - File - Import Settings - `mac_setting/iStat Menus Settings.ismp`
