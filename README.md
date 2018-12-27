@@ -82,7 +82,7 @@ $ ./setup.sh
    - show battery status in menu bar - disable ( use istat menus instead )
  - Keyboard
    - Keyboard:
-     - (touch bar model) fnkey - Show F1 F2, etc, keys
+     - (touch bar model) fnkey - Expanded Control Strip
      - show keyboard and emoji viewer in menu bar
      - (touch bar model) customize Touch bar
      - (Switch Capslock will handle with karabiner-element)
