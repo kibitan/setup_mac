@@ -1,5 +1,6 @@
 tap "argon/mas"
 tap "codekitchen/dinghy"
+tap "heroku/brew"
 tap "homebrew/boneyard"
 tap "homebrew/brewdler"
 tap "homebrew/cask"
@@ -52,8 +53,6 @@ brew "gnupg"
 brew "go"
 brew "libtool"
 brew "graphviz"
-brew "node"
-brew "heroku"
 brew "highlight"
 brew "hostess"
 brew "httpie"
@@ -72,9 +71,9 @@ brew "mecab"
 brew "mecab-ipadic"
 brew "memcached", restart_service: true
 brew "mysql@5.7", restart_service: true, link: true
-brew "nghttp2"
 brew "pcre"
 brew "nginx"
+brew "node"
 brew "nodebrew"
 brew "packer"
 brew "parallel"
@@ -114,11 +113,11 @@ brew "zsh"
 brew "zsh-completions"
 brew "codekitchen/dinghy/unfs3"
 brew "codekitchen/dinghy/dinghy"
+brew "heroku/brew/heroku"
 brew "puma/puma/puma-dev"
 brew "tldr-pages/tldr/tldr"
 brew "versent/taps/saml2aws"
 cask "1password"
-cask "1password6"
 cask "245cloud"
 cask "adobe-creative-cloud"
 cask "appcleaner"
@@ -185,7 +184,6 @@ mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Mactracker", id: 430255202
 mas "MARKETSPEED", id: 946680495
-mas "Medis", id: 1063631769
 mas "Mousepose", id: 405904955
 mas "NetSpot", id: 514951692
 mas "NetSpot Wi-Fi Reporter", id: 678464954
