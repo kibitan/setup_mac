@@ -90,13 +90,13 @@ fi
 if ask 'restore setting from mackup? (need Dropbox directory)'; then
   if ask 'mv original .ssh/Documents/Pictures/Movies/Music for restoring mackup?'; then
     mv ~/.ssh ~/.ssh.old
-    mv ~/Documents ~/Documents_old
+    sudo mv ~/Documents ~/Documents_old
     sudo mv ~/Pictures ~/Pictures_old
     sudo mv ~/Movies ~/Movies_old
     sudo mv ~/Music ~/Music_old
   fi
   echo '!!!WARNING!!! DO NOT overwrite .ssh/config, .bundle/config, .config/karabiner/karabiner.json, .config/hub, .config/karabiner/assets/complex_modifications it will be deleted...'
-  echo 'BUT .ssh, .bundle will be okay
+  echo 'BUT .ssh, .bundle will be okay'
   mackup restore
 fi
 
