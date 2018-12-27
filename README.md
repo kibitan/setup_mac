@@ -193,7 +193,6 @@ $ ./setup.sh
  - Synergy
    - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
  - BetterTouchTool
- - Jasper
  - Witch
 
 ### manually launch
@@ -201,41 +200,43 @@ $ ./setup.sh
  - 1Password
  - iTunes
    - Account - Authorizations - Authorize This Computer
-   - setup iphone
- - Mousepose
+   - setup iphone: connect iPhone and "Trust this computer"
+ - App store
  - Google Japanese Input (keyboard - input source)
    - General: Input from ¥ or backslash key - Backslash \
-   - setup user dictionally - mac_setting/google_japanese_dictionaly
+   - Dictionary: Edit user dictionally - Tools - import to current dictionary - mac_setting/google_japanese_dictionaly
      - TODO: automatic backup/restore, mackup nize?
  - LINE
- - hub command
  - Quiver
    - Preferences
-     - Default Cell Type: Markdown cell
-     - Themes: Spacegray
-     - Sync - Library Location: `mac_setting/Quiver.qvlibrary`
+     - change library location
+       1. Backup: Restore from Backup - `mac_setting/Quiver.qvlibrary`
+       2. Sync: Move library - `mac_setting/Quiver.qvlibrary`
+     - Advanced: Load Settings - `mac_setting/Quiver-settings.json`
  - Tweetbot
  - Dash
+ - Visual Studio Code
+   - install [Setting sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) and restart (activate extension and download)
  - Atom
    - `$ apm install package-sync`
    - command+shift+p, run `Package Sync: Sync`
+ - Docker
+ - mousepose
+   - allow security
+     - System Preferences - Security & Privacy - Privacy - Accessibility: Mousepose - enable  
  - Bdash
    - setup github accesstoken ( need gist scope )
- - Docker
  - BetterTouchTool
  - (Evernote)
  - Tunnelblick
  - Caffeine
  - WhatsApp
  - DeskApp for YouTube
- - Visual Studio Code
-   - install [Setting sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) and restart (activate extension and download)
 
 ### with auto launch at login
  - Chrome
    - login hatena
    - set github token to octotree
-   - import session buddy
    - Chrome menu - Warn Before Quitting - enable
  - iTerm
    - iTerm2 - Preferences - General - Load Preferences from custom folder or URL - `mac_setting/iterm_profile`, then reboot
