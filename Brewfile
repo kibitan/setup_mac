@@ -71,6 +71,7 @@ brew "mecab"
 brew "mecab-ipadic"
 brew "memcached", restart_service: true
 brew "mysql@5.7", restart_service: true, link: true
+brew "nghttp2"
 brew "pcre"
 brew "nginx"
 brew "node"
