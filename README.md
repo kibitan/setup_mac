@@ -50,7 +50,7 @@ $ ./setup.sh
    - add shortcut of Applications
    - customize shortcuts
  - Mission Control
-   - hotcorner screenlock
+   - hotcorner - Put Display to Sleep
    - turn on dashboard as space
  - Language & Region
    - set English as Primary
@@ -152,7 +152,7 @@ $ ./setup.sh
      - reduce transparent - enable ( http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html )
 
 ## change finder setting
- - Press Shift+Cmd+.` for showing dot file
+ - Press `Shift+Cmd+.` for showing dot file
  - Prefferences
    - General
      - New Finder windows show: home directory
