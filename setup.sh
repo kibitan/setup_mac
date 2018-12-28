@@ -103,6 +103,10 @@ if ask 'install crontab?'; then
   crontab < "$REPO_DIR/_crontab"
 fi
 
+if ask 'add execution permit for .git-templates/git-secrets/hooks?'; then
+  chmod +x ~/.git-templates/git-secrets/hooks/*
+fi
+
 if ask 'setup postfix relay by gmail?'; then
   "$REPO_DIR/postfix_gmail_relay.sh"
 fi
