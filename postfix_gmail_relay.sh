@@ -6,10 +6,11 @@ set -Ceu -o pipefail
 printf "GMAIL account name: "
 read -r gmail_account_name
 
-printf "GMAIL app password: "
-read -r gmail_app_password
+printf "GMAIL app password (via https://security.google.com/settings/security/apppasswords): "
+open https://security.google.com/settings/security/apppasswords
+read -r -s gmail_app_password
 
-set -x
+# set -x
 
 if ! grep 'smtp.gmail.com' /etc/postfix/main.cf; then
   cat << EOS | sudo tee -a /etc/postfix/main.cf > /dev/null
@@ -37,6 +38,23 @@ EOS
 
 sudo postmap /etc/postfix/gmail_passwd
 sudo rm /etc/postfix/gmail_passwd
-sudo postfix reload
 
-set +x
+printf "\n\n"
+printf "sending test email to %s@gmail.com ...\n" "$gmail_account_name"
+date | mail -s testtesttest "$gmail_account_name@gmail.com"
+
+sleep 3
+
+printf "check maillog!\n"
+
+printf "\n"
+printf "##############\n"
+log show --predicate  '(process == "smtpd") || (process == "smtp")' --info --last 1m --color always
+# streaming logs: log stream --predicate  '(process == "smtpd") || (process == "smtp")' --info --color always
+printf "##############\n"
+printf "\n"
+
+printf "please check mailbox in Gmail! \n"
+open https://gmail.com
+
+# set +x
