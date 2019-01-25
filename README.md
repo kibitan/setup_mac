@@ -195,6 +195,7 @@ $ ./setup.sh
    - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
  - BetterTouchTool
  - Witch
+ - Rubymine
 
 ### manually launch
  - Karabiner Elements
