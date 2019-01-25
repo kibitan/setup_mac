@@ -184,6 +184,7 @@ $ ./setup.sh
 ## apps
 ### lincense install
  - 1Password
+   - choose Dropbox sync and add 1password account later (otherwise it doesn't work)
  - istat Menus
  - Bartender
  - Microsoft Office (Office 365)
