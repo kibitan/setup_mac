@@ -55,6 +55,6 @@ printf "##############\n"
 printf "\n"
 
 printf "please check mailbox in Gmail! \n"
-open https://gmail.com
+# open https://gmail.com
 
 # set +x
