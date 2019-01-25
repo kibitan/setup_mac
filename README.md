@@ -94,7 +94,7 @@ $ ./setup.sh
        - select next source in input menu - shift + alt + space
      - Spotlight
 
-       - show Spotlight search - control + space
+       - show Spotlight search - control + space (no need if using alfred)
      - (touch bar model?) Full Keyboard Access - all controls
 
    - Input Sources: ( setup after install google japanese IME )
@@ -275,6 +275,7 @@ $ ./setup.sh
    - Preference: General - Setup Syncing...
      - Set Sync folder(`Dropbox/mac_setting/dash`)
      - check sync option (General Setting, View option, Docsets search profile, Bookmark )
+ - Alfred3
 
 # release
 
