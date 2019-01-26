@@ -176,6 +176,8 @@ $ ./setup.sh
    - Customize Touch Bar
  - change default application of mp3, m4a into QuickTimePlayer by [Get info](https://www.imore.com/how-set-mac-app-default-when-opening-file?upgrade)
 
+## setup force touch
+ - do force touch and just "continue"
 
 ## change storage setting by [Storage Management](https://support.apple.com/en-us/HT206996) ( apple menu - About This Mac - Storage - Manage )
  - Optimize Storage - enable
