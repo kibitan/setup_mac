@@ -123,13 +123,16 @@ $ ./setup.sh
    - iCloud Drive options
      - Desktop & Documents Folder - disable
      - (rest of all) - enable
-   - Notes - enable
    - Photos options
      - iCloud Photos - disable
      - My Photo Stream - enable
      - Shared Album - enable
+   - Contacts - enable
+   - Safari - enable
+   - Notes - enable
    - Keychain - enable
    - Find My Mac - enable
+   - Stocks - enable
  - Wallet & Apple Pay
    - setup card
  - Software Update
