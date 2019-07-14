@@ -25,6 +25,7 @@ brew "bsdmake"
 brew "fontconfig"
 brew "libffi"
 brew "pcre"
+brew "cairo"
 brew "cmake"
 brew "colordiff"
 brew "libevent"
@@ -39,6 +40,8 @@ brew "docker-compose", link: false
 brew "dwdiff"
 brew "elixir"
 brew "exiftool"
+brew "gnutls"
+brew "harfbuzz"
 brew "lame"
 brew "xvid"
 brew "ffmpeg"
@@ -57,6 +60,7 @@ brew "gnupg"
 brew "go"
 brew "libtool"
 brew "graphviz"
+brew "hadolint"
 brew "highlight"
 brew "hostess"
 brew "httpie"
@@ -68,6 +72,7 @@ brew "oniguruma"
 brew "jq"
 brew "kubernetes-cli"
 brew "libidn"
+brew "libidn2"
 brew "libvo-aacenc"
 brew "libzip"
 brew "mackup"
@@ -129,7 +134,6 @@ cask "245cloud"
 cask "adobe-creative-cloud"
 cask "alfred"
 cask "appcleaner"
-cask "atom"
 cask "bartender"
 cask "bdash"
 cask "bettertouchtool"
@@ -195,6 +199,7 @@ mas "Mactracker", id: 430255202
 mas "MARKETSPEED", id: 946680495
 mas "Medis", id: 1063631769
 mas "Mouseposé", id: 405904955
+mas "NetSpot", id: 678464954
 mas "NetSpot", id: 678464954
 mas "NetSpot", id: 514951692
 mas "Network Radar", id: 507659816
