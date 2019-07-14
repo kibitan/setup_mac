@@ -200,8 +200,6 @@ mas "MARKETSPEED", id: 946680495
 mas "Medis", id: 1063631769
 mas "Mouseposé", id: 405904955
 mas "NetSpot", id: 678464954
-mas "NetSpot", id: 678464954
-mas "NetSpot", id: 514951692
 mas "Network Radar", id: 507659816
 mas "Numbers", id: 409203825
 mas "PopClip", id: 445189367
