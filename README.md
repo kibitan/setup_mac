@@ -254,12 +254,15 @@ $ ./setup.sh
  - Witch
    - Actions - choose "Cycle Non-Minimized Windows", delete other actions
      - Sort by "Window Activity", Orientation "↓"
+     - List windows from all spaces - disable
      - ListTabs - disable
      - ListApps without windows - disable
      - Keyboard - choose Forward "command-tab", Backword "shift-command-tab"
    - Appearance
      - Preset Open - `mac_setting/witch/dark_original.witchlayout` 
    - Advances
+     - Show list on `display with frontmost window`
+        - Delay - `None` (most left)
      - Cycle through search for .. - disable
      - Show list on "display with mouse pointer"
  - istat Menus
