@@ -285,7 +285,8 @@ $ ./setup.sh
    - Preference: General - Setup Syncing...
      - Set Sync folder(`Dropbox/mac_setting/dash`)
      - check sync option (General Setting, View option, Docsets search profile, Bookmark )
- - Alfred3
+ - Alfred4
+   - Advanced - Syncing - ~/Dropbox/mac_setting/alfred
 
 # release
 
