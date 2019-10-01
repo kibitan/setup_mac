@@ -201,6 +201,7 @@ $ ./setup.sh
  - BetterTouchTool
  - Witch
  - Rubymine
+ - Alfred
 
 ### manually launch
  - Karabiner Elements
@@ -267,8 +268,6 @@ $ ./setup.sh
      - Show list on "display with mouse pointer"
  - istat Menus
    - File - Import Settings - `mac_setting/iStat Menus Settings.ismp`
- - Clipy
-   - Edit Snipetts - import - `mac_setting/snippets.xml`
  - Shiftit
  - Bartender
  - Backup and Sync from Google
@@ -286,8 +285,17 @@ $ ./setup.sh
      - Set Sync folder(`Dropbox/mac_setting/dash`)
      - check sync option (General Setting, View option, Docsets search profile, Bookmark )
  - Alfred4
-   - Advanced - Syncing - ~/Dropbox/mac_setting/alfred
-
+   - Advanced
+      - Syncing - ~/Dropbox/mac_setting/alfred
+   - General
+      - change shortcut to "ctrl + space"
+   - Features
+      - Clipboard Historu
+        - enable "Keop Plain Text"
+        - enable "Keep Images"
+        - enable "Keep File Lists"
+      - 1password
+        - enable 1password bookmarks (enable 1password side configuration as well ( Enable Spotlight and 3rd party integration )
 # release
 
 ## deactivate
