@@ -58,6 +58,10 @@ if ask 'install Ricty font?'; then
 fi
 
 ## mac setting
+if ask 'add github private key to ssh-add?'; then
+  ssh-add -K $(ls -d ~/.ssh/* | fzf)
+fi
+
 if ask "set 'locate' command?"; then
   sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
 fi
