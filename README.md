@@ -45,6 +45,7 @@ $ ./setup.sh
    - random
    - show with clock
  - Dock
+   - Prefer tabs when opening documents: always
    - auto hide - enable
    - layout - left
    - add shortcut of Applications
