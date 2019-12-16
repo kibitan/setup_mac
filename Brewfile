@@ -31,6 +31,7 @@ brew "libevent"
 brew "libyaml"
 brew "pkg-config"
 brew "crystal"
+brew "libidn2"
 brew "curl"
 brew "diff-so-fancy"
 brew "direnv"
@@ -39,12 +40,12 @@ brew "docker-compose", link: false
 brew "dwdiff"
 brew "elixir"
 brew "exiftool"
-brew "libidn2"
 brew "gnutls"
 brew "harfbuzz"
 brew "lame"
 brew "xvid"
 brew "ffmpeg"
+brew "fish"
 brew "fortune"
 brew "fzf"
 brew "gd"
@@ -53,6 +54,7 @@ brew "ghostscript"
 brew "ghq"
 brew "gibo"
 brew "git"
+brew "git-extras"
 brew "gnu-getopt"
 brew "git-now"
 brew "git-secrets"
@@ -191,7 +193,6 @@ cask "watchguard-mobile-vpn-with-ssl"
 cask "whatsapp"
 cask "witch"
 cask "xmind"
-mas "050 plus", id: 694926804
 mas "Bandwidth+", id: 490461369
 mas "DeskApp for YouTube", id: 1180531112
 mas "Duplicate Photos Fixer Pro", id: 963642514
@@ -206,6 +207,7 @@ mas "Mouseposé", id: 405904955
 mas "NetSpot", id: 678464954
 mas "Network Radar", id: 507659816
 mas "Numbers", id: 409203825
+mas "PopClip", id: 445189367
 mas "Quiver", id: 866773894
 mas "ToyViewer", id: 414298354
 mas "Tunacan", id: 980577198
