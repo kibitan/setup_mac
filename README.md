@@ -302,7 +302,7 @@ $ ./setup.sh
 ## deactivate
 see also: https://support.apple.com/en-us/HT201065
 
- - iTunes
+ - Music (iTunes)
  - iCloud
  - iMessage
  - https://appleid.apple.com/account/manage
@@ -314,8 +314,6 @@ see also: https://support.apple.com/en-us/HT201065
  - Adobe Creative Cloud
    - https://accounts.adobe.com/
    - https://helpx.adobe.com/en/creative-cloud/help/sign-in-out-activate-apps.html
- - Evernote
-   - https://www.evernote.com/Devices.action
  - google chrome
 
 ## reinstall macos
