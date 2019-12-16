@@ -39,8 +39,7 @@ $ ./setup.sh
 
 ## change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726)
  - General
-   - use dark menu bar and Dock
-   - (Mojave) Appearance: Dark
+   - Appearance: Dark
  - Desktop & Screen Saver
    - random
    - show with clock
@@ -52,41 +51,47 @@ $ ./setup.sh
    - customize shortcuts
  - Mission Control
    - hotcorner - Put Display to Sleep
-   - turn on dashboard as space
- - Language & Region
-   - set English as Primary
-   - add Japanese
-   - set Region: Japan
- - Security & Privacy
-   - General
-     - require password immediately
-   - Firevalut - Turn on
-   - Firewall - Turn on
+ - Siri
+   - disable
+   - show siri in menu bar - disable
  - Spotlight
    - Search Results
      - application
      - calculator
+ - Language & Region
+   - set English as Primary
+   - add Japanese
+   - set Region: Japan
  - Notifications
     - turn on DoNotDisturb:
       - From: 22:00 ~ 7:00
       - when the display is sleeping
 
+ - Wallet & Apple Pay
+   - setup card
+ - User & Group
+   - off the guest
+   - Login Options: "Show fast user switching menu as" - disable
+ - Accessibility
+   - Zoom
+     - Use scroll gesture with modifier keys - Control
+   - display
+     - reduce transparent - enable ( http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html )
+ - Security & Privacy
+   - General
+     - require password immediately
+   - Firevalut - Turn on
+   - Firewall - Turn on
 
- - Displays
-    - Display: change screen size if retina
-    - Night Shift
-      - Schedule: Sunset to Sunrise
- - Energy Saver
-   - Power Adapter:
-     - Prevent computer from sleeping automatically when the display is off - enable
-     - Put hard disks to sleep when possible ( [SSD is not affect this setting](https://support.apple.com/en-us/HT202824) ) - disable
-   - show battery status in menu bar - disable ( use istat menus instead )
+ - Software Update
+   - Automatically keep my Mac up to date - enable
+ - Sound
+   - show volume in menu bar
  - Keyboard
    - Keyboard:
      - (touch bar model) fnkey - Expanded Control Strip
-     - show keyboard and emoji viewer in menu bar
      - (touch bar model) customize Touch bar
-     - (Switch Capslock will handle with karabiner-element)
+     - (Switch Capslock will handle by karabiner-element)
    - Shortcuts:
      - Mission Control
        - (first making 10 desktops then) enable desktops shortcuts and change to command + [0-9]
@@ -94,10 +99,7 @@ $ ./setup.sh
        - select the previous input source - alt + space
        - select next source in input menu - shift + alt + space
      - Spotlight
-
-       - show Spotlight search - control + space (no need if using alfred)
-     - (touch bar model?) Full Keyboard Access - all controls
-
+       - (if not using alfred) show Spotlight search - control + space
    - Input Sources: ( setup after install google japanese IME )
      - Add "U.S." English keyboard
      - Add "Hiragana (google)" keyboard
@@ -111,49 +113,43 @@ $ ./setup.sh
    - Point & Click
      - secondary click - right corner
      - tap click - enable
-     - tracking speed - 4 step down from fastest
+     - tracking speed - 2 step down from fastest
    - Scroll & Zoom
      - scroll natural - disable
    - More Gestures
      - swipe between pages - three fingers
- - Sound
-   - show volume in menu bar
 
 
- - iCloud
-   - iCloud Drive options
-     - Desktop & Documents Folder - disable
-     - (rest of all) - enable
-   - Photos options
-     - iCloud Photos - disable
-     - My Photo Stream - enable
-     - Shared Album - enable
-   - Contacts - enable
-   - Safari - enable
-   - Notes - enable
-   - Keychain - enable
-   - Find My Mac - enable
-   - Stocks - enable
- - Wallet & Apple Pay
-   - setup card
- - Software Update
-   - Automatically keep my Mac up to date - enable
-
-
-- User & Group
-   - off the guest
-   - Login Options: "Show fast user switching menu as" - disable
- - Siri
-   - disable
-   - show siri in menu bar - disable
+ - Displays
+    - Display: change screen size if retina
+    - Night Shift
+      - Schedule: Sunset to Sunrise
+ - Energy Saver
+   - Power Adapter:
+     - Prevent computer from sleeping automatically when the display is off - enable
+     - Put hard disks to sleep when possible ( [SSD is not affect this setting](https://support.apple.com/en-us/HT202824) ) - disable
+   - show battery status in menu bar - disable ( use istat menus instead )
  - Date and Time
    - Clock
      - Show date and time in menu bar - disable ( use istat menus instead )
- - Accessibility
-   - Zoom
-     - Use scroll gesture with modifier keys - Control
-   - display
-     - reduce transparent - enable ( http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html )
+
+
+ - AppleID - iCloud
+   - iCloud Drive options
+     - Desktop & Documents Folder - disable
+     - (rest of all) - enable
+   - Photos - disable
+   - Mail - disable
+   - Contacts - enable
+   - Calender - disable
+   - Reminder - disable
+   - Safari - enable
+   - Notes - enable
+   - Siri - disable
+   - Keychain - enable
+   - Find My Mac - enable
+   - Stocks - enable
+   - Home - disable
 
 ## change finder setting
  - Press `Shift+Cmd+.` for showing dot file
