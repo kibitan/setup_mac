@@ -188,7 +188,6 @@ cask "watchguard-mobile-vpn-with-ssl"
 cask "whatsapp"
 cask "witch"
 cask "xmind"
-mas "050 plus", id: 694926804
 mas "Bandwidth+", id: 490461369
 mas "DeskApp for YouTube", id: 1180531112
 mas "Duplicate Photos Fixer Pro", id: 963642514
