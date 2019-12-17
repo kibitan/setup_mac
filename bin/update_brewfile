@@ -12,6 +12,9 @@ else
   git pull --rebase
 fi
 brew bundle dump --force
-git add Brewfile
-git commit -m "auto commit of Brewfile dump $(date "+%Y-%m-%d %H:%M:%S")"
-git push
+
+if [[ $(git status --short Brewfile| wc -l) -gt 0 ]]; then
+  git add Brewfile
+  git commit -m "auto commit of Brewfile dump $(date "+%Y-%m-%d %H:%M:%S")"
+  git push
+fi
