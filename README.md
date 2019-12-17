@@ -163,15 +163,16 @@ $ ./setup.sh
       - keep folders on top when sorting by name - enable
       - when perfoming a search - current folder
  - View
+   - Show Preview
    - Show Path Bar
    - Show Status Bar
    - Customize Toolbar
    - Show View Option
      - Group by - None
      - Sort by - Name
-     - Icon size - 140 x 140
+     - Icon size - 80 x 80
      - Show item info
-     - Background - 
+     - Background -
      - click - "Use as default"
    - Customize Touch Bar
  - change default application of mp3, m4a into QuickTimePlayer by [Get info](https://www.imore.com/how-set-mac-app-default-when-opening-file?upgrade)
@@ -227,7 +228,7 @@ $ ./setup.sh
  - Docker
  - mousepose
    - allow security
-     - System Preferences - Security & Privacy - Privacy - Accessibility: Mousepose - enable  
+     - System Preferences - Security & Privacy - Privacy - Accessibility: Mousepose - enable
  - Bdash
    - setup github accesstoken ( need gist scope )
  - BetterTouchTool
@@ -267,7 +268,7 @@ $ ./setup.sh
      - ListApps without windows - disable
      - Keyboard - choose Forward "command-tab", Backword "shift-command-tab"
    - Appearance
-     - Preset Open - `mac_setting/witch/dark_original.witchlayout` 
+     - Preset Open - `mac_setting/witch/dark_original.witchlayout`
    - Advances
      - Show list on "display with mouse pointer"
         - Delay - `None` (most left)
