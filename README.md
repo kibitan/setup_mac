@@ -186,7 +186,6 @@ $ ./setup.sh
 ## apps
 ### lincense install
  - 1Password
-   - choose Dropbox sync and add 1password account later (otherwise it doesn't work)
  - istat Menus
  - Bartender
  - Microsoft Office (Office 365)
@@ -203,7 +202,7 @@ $ ./setup.sh
 ### manually launch
  - Karabiner Elements
  - 1Password
- - iTunes
+ - Music (iTunes)
    - Account - Authorizations - Authorize This Computer
    - setup iphone: connect iPhone and "Trust this computer"
  - App store
@@ -218,13 +217,13 @@ $ ./setup.sh
        1. Backup: Restore from Backup - `mac_setting/Quiver.qvlibrary`
        2. Sync: Move library - `mac_setting/Quiver.qvlibrary`
      - Advanced: Load Settings - `mac_setting/Quiver-settings.json`
- - Tweetbot
  - Dash
+   - Preference: General - Setup Syncing...
+     - Set Sync folder(`Dropbox/mac_setting/dash`)
+     - check sync option (General Setting, View option, Docsets search profile, Bookmark )
+   - Snippet: Snippet library location: `/mac_setting/dash/dash_snippets.dash`
  - Visual Studio Code
    - install [Setting sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) and restart (activate extension and download)
- - Atom
-   - `$ apm install package-sync`
-   - command+shift+p, run `Package Sync: Sync`
  - Docker
  - mousepose
    - allow security
@@ -232,7 +231,6 @@ $ ./setup.sh
  - Bdash
    - setup github accesstoken ( need gist scope )
  - BetterTouchTool
- - (Evernote)
  - Tunnelblick
  - Caffeine
  - WhatsApp
@@ -243,11 +241,23 @@ $ ./setup.sh
    - login hatena
    - set github token to octotree
    - Chrome menu - Warn Before Quitting - enable
-   - import "Mouse Dictionary" eijirou dictionary
+   - import "Mouse Dictionary" eijirou dictionary (C&S/material)
  - iTerm
    - iTerm2 - Preferences - General - Load Preferences from custom folder or URL - `mac_setting/iterm_profile`, then reboot
    - iTerm2 - Preferences - General - Save changes to folder when iTerm2 quits
-   - (from Mojave: Mac System Preferences - Security & Privacy - Full disk access, add iTerms2 for updating crontab)
+   - (Mojave: Mac System Preferences - Security & Privacy - Full disk access, add iTerms2 for updating crontab)
+ - Alfred4
+   - Advanced
+      - Syncing - ~/Dropbox/mac_setting/alfred
+   - General
+      - change shortcut to "ctrl + space"
+   - Features
+      - Clipboard Historu
+        - enable "Keop Plain Text"
+        - enable "Keep Images"
+        - enable "Keep File Lists"
+      - 1password
+        - enable 1password bookmarks (enable 1password side configuration as well ( Enable Spotlight and 3rd party integration )
  - Dropbox
  - Witch
    - Actions - choose "Cycle Non-Minimized Windows", delete other actions
@@ -259,10 +269,9 @@ $ ./setup.sh
    - Appearance
      - Preset Open - `mac_setting/witch/dark_original.witchlayout` 
    - Advances
-     - Show list on `display with frontmost window`
+     - Show list on "display with mouse pointer"
         - Delay - `None` (most left)
      - Cycle through search for .. - disable
-     - Show list on "display with mouse pointer"
  - istat Menus
    - File - Import Settings - `mac_setting/iStat Menus Settings.ismp`
  - Shiftit
@@ -277,22 +286,7 @@ $ ./setup.sh
      - https://totalspaces.binaryage.com/elcapitan
      - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
  - Bandwidth+
- - Dash ( snippets )
-   - Preference: General - Setup Syncing...
-     - Set Sync folder(`Dropbox/mac_setting/dash`)
-     - check sync option (General Setting, View option, Docsets search profile, Bookmark )
- - Alfred4
-   - Advanced
-      - Syncing - ~/Dropbox/mac_setting/alfred
-   - General
-      - change shortcut to "ctrl + space"
-   - Features
-      - Clipboard Historu
-        - enable "Keop Plain Text"
-        - enable "Keep Images"
-        - enable "Keep File Lists"
-      - 1password
-        - enable 1password bookmarks (enable 1password side configuration as well ( Enable Spotlight and 3rd party integration )
+
 # release
 
 ## deactivate
