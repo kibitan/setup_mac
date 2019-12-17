@@ -92,6 +92,7 @@ brew "packer"
 brew "parallel"
 brew "peco"
 brew "percona-toolkit"
+brew "pgcli"
 brew "postgresql", restart_service: true
 brew "proctools"
 brew "protobuf"
