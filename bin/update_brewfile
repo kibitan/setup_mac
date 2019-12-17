@@ -11,7 +11,7 @@ if [[ $(git status --short --untracked-files=no | wc -l) -gt 0 ]]; then
 else
   git pull --rebase
 fi
-brew bundle dump --force
-git add Brewfile
+brew bundle && git add Brewfile.lock.json
+brew bundle dump --force && git add Brewfile
 git commit -m "auto commit of Brewfile dump $(date "+%Y-%m-%d %H:%M:%S")"
 git push
