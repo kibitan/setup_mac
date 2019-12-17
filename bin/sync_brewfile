@@ -14,3 +14,6 @@ else
 fi
 
 brew bundle
+git add Brewfile.lock.json
+git commit -m "auto commit of Brewfile sync $(date "+%Y-%m-%d %H:%M:%S")"
+git push
