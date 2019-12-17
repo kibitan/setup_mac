@@ -17,16 +17,16 @@
         "revision": "20980ed084f3633d6314ec2beb677dd5a2ff4218"
       },
       "homebrew/brewdler": {
-        "revision": "491e2fbd399d1467f3cfab7fe4c4f07b17bfab7f"
+        "revision": "d7f55b0a90c6870d1944599f8cd6104141523deb"
       },
       "homebrew/cask": {
-        "revision": "d377c0473333df9750adbf10ebf8357a07e41a29"
+        "revision": "8554f307103440752bf460eaefc61c8b52199389"
       },
       "homebrew/cask-versions": {
-        "revision": "6411caad5e4d2f677401c9c685eaee5e2d6625bb"
+        "revision": "8023654f6f5136e3a8c94802b02116ccd0d9591b"
       },
       "homebrew/core": {
-        "revision": "926642831d7b4f8deaa9ccf23729fc9683c60167"
+        "revision": "97e45c32554855971de35793ae771105c47c1c81"
       },
       "homebrew/services": {
         "revision": "eca39722f130e8bc1e2e322588db493ca0398c01"
@@ -1831,22 +1831,22 @@
         }
       },
       "node": {
-        "version": "13.3.0",
+        "version": "13.3.0_1",
         "bottle": {
           "cellar": ":any",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/node-13.3.0.catalina.bottle.tar.gz",
-              "sha256": "1c1704aad73b2c4cd45c3e3e9f358f9c2476d4528009334b13b90f6ffcc4c8a3"
+              "url": "https://homebrew.bintray.com/bottles/node-13.3.0_1.catalina.bottle.tar.gz",
+              "sha256": "5760f35a867db8b1cff7714210b8420ac9d829e3bf8d7b0f45ac21e217166362"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/node-13.3.0.mojave.bottle.tar.gz",
-              "sha256": "75dcefb957a959b40a5ba8046ac23a1ae4df23816a35c6f207307aedcd81a220"
+              "url": "https://homebrew.bintray.com/bottles/node-13.3.0_1.mojave.bottle.tar.gz",
+              "sha256": "1231a09d313ce3f3e6e7d0ac647f56e9d4377c752004941ddf366662e00401ed"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/node-13.3.0.high_sierra.bottle.tar.gz",
-              "sha256": "099b9385d400785c20f92a4728c7f4a2aefc6d0d82cdd0916d101703090e0678"
+              "url": "https://homebrew.bintray.com/bottles/node-13.3.0_1.high_sierra.bottle.tar.gz",
+              "sha256": "34560ff8ff3b553b531bc6cf9a2805cfeaeed2cc7dce6eaa439c0158ab6b78dd"
             }
           }
         }
@@ -2756,6 +2756,9 @@
       },
       "dash4": {
         "version": "4.6.7"
+      },
+      "iterm2": {
+        "version": "3.3.7"
       }
     },
     "mas": {
@@ -2854,7 +2857,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "926642831d7b4f8deaa9ccf23729fc9683c60167",
+        "Homebrew/homebrew-core": "97e45c32554855971de35793ae771105c47c1c81",
         "CLT": "11.3.0.0.1.1574140115",
         "Xcode": "11.2.1",
         "macOS": "10.15.2"
