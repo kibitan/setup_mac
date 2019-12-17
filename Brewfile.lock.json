@@ -20,13 +20,13 @@
         "revision": "491e2fbd399d1467f3cfab7fe4c4f07b17bfab7f"
       },
       "homebrew/cask": {
-        "revision": "cb1c4753bafadf5de31aa246b419229d26146354"
+        "revision": "d377c0473333df9750adbf10ebf8357a07e41a29"
       },
       "homebrew/cask-versions": {
-        "revision": "363f9fd5c95b1e1d0626fcf9de6f3164fc73b625"
+        "revision": "6411caad5e4d2f677401c9c685eaee5e2d6625bb"
       },
       "homebrew/core": {
-        "revision": "0ec3228bd07c5f35294d4c1b36d6160980823a21"
+        "revision": "926642831d7b4f8deaa9ccf23729fc9683c60167"
       },
       "homebrew/services": {
         "revision": "eca39722f130e8bc1e2e322588db493ca0398c01"
@@ -2753,6 +2753,9 @@
       },
       "xmind": {
         "version": "3.7.9.201912052356,8-update9"
+      },
+      "dash4": {
+        "version": "4.6.7"
       }
     },
     "mas": {
@@ -2851,7 +2854,7 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.2.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "0ec3228bd07c5f35294d4c1b36d6160980823a21",
+        "Homebrew/homebrew-core": "926642831d7b4f8deaa9ccf23729fc9683c60167",
         "CLT": "11.3.0.0.1.1574140115",
         "Xcode": "11.2.1",
         "macOS": "10.15.2"

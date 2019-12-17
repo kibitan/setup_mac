@@ -23,7 +23,6 @@ brew "icu4c"
 brew "bsdmake"
 brew "fontconfig"
 brew "libffi"
-brew "pcre"
 brew "cairo"
 brew "cmake"
 brew "colordiff"
@@ -31,7 +30,6 @@ brew "libevent"
 brew "libyaml"
 brew "pkg-config"
 brew "crystal"
-brew "libidn2"
 brew "curl"
 brew "diff-so-fancy"
 brew "direnv"
@@ -40,6 +38,7 @@ brew "docker-compose", link: false
 brew "dwdiff"
 brew "elixir"
 brew "exiftool"
+brew "libidn2"
 brew "gnutls"
 brew "harfbuzz"
 brew "lame"
@@ -145,7 +144,7 @@ cask "charles"
 cask "chromedriver"
 cask "clipy"
 cask "cyberduck"
-cask "dash"
+cask "dash4"
 cask "disk-inventory-x"
 cask "docker"
 cask "drawio"
@@ -202,7 +201,6 @@ mas "LINE", id: 539883307
 mas "Mactracker", id: 430255202
 mas "MARKETSPEED", id: 946680495
 mas "Medis", id: 1063631769
-mas "Mouseposé", id: 405904955
 mas "NetSpot", id: 678464954
 mas "Network Radar", id: 507659816
 mas "Numbers", id: 409203825
