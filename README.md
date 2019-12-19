@@ -89,7 +89,7 @@ $ ./setup.sh
    - show volume in menu bar
  - Keyboard
    - Keyboard:
-     - (touch bar model) fnkey - Expanded Control Strip
+     - (touch bar model) Press fnkey to: show F1, F2, etc. Keys
      - (touch bar model) customize Touch bar
      - (Switch Capslock will handle by karabiner-element)
    - Shortcuts:
