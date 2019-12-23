@@ -203,6 +203,7 @@ $ ./setup.sh
 ### manually launch
  - Karabiner Elements
  - 1Password
+   - Preference - Advanced - Enable Spotlight and 3rd party app integrations: enable ( for alfred extension)
  - Music (iTunes)
    - Account - Authorizations - Authorize This Computer
    - setup iphone: connect iPhone and "Trust this computer"
