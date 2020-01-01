@@ -141,7 +141,7 @@ $ ./setup.sh
    - Photos - disable
    - Mail - disable
    - Contacts - enable
-   - Calender - disable
+   - Calender - enable
    - Reminder - disable
    - Safari - enable
    - Notes - enable
