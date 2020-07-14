@@ -17,16 +17,16 @@
         "revision": "4deafc08849b3755ab2dbd0232a9acac3484c8dd"
       },
       "homebrew/brewdler": {
-        "revision": "d0b6e3d53d42b266e34ee09a8522b55640032dfc"
+        "revision": "f760551841012ee20c90f2afd336c15423b23479"
       },
       "homebrew/cask": {
-        "revision": "f2da64820df0edf1c3b5a622d5f3268913cd7eb3"
+        "revision": "089b8013521d34252b80dd5ad72309a3c93ee753"
       },
       "homebrew/cask-versions": {
-        "revision": "12b76683584e514908c06cc49eefbd3c338059c9"
+        "revision": "08186689ffa60afa3880ad9ec43952b75ea043c5"
       },
       "homebrew/core": {
-        "revision": "66410d178efb2a542263786716bb8aecb02ab2bb"
+        "revision": "e45b39aa677fc344226abc22ce85b28fcc54a6b3"
       },
       "homebrew/services": {
         "revision": "a379971f8cbca1875f625a47a93efeafc6512091"
@@ -2136,22 +2136,22 @@
         "bottle": false
       },
       "sshuttle": {
-        "version": "1.0.2",
+        "version": "1.0.3",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://homebrew.bintray.com/bottles/sshuttle-1.0.2.catalina.bottle.tar.gz",
-              "sha256": "4ed29a3e61c9b1faa65f336e9942f200a53b22dd8c0690da411c80c8817f02c9"
+              "url": "https://homebrew.bintray.com/bottles/sshuttle-1.0.3.catalina.bottle.tar.gz",
+              "sha256": "f44682243fd2b0ffd1f463f8eca6a93a0575b8b52e27d14c2bbb0d5cdee72f32"
             },
             "mojave": {
-              "url": "https://homebrew.bintray.com/bottles/sshuttle-1.0.2.mojave.bottle.tar.gz",
-              "sha256": "7d95976338b60398fa655967997e5ca3731d1af20f3f1fc7d41aef7143ccbca9"
+              "url": "https://homebrew.bintray.com/bottles/sshuttle-1.0.3.mojave.bottle.tar.gz",
+              "sha256": "4a16f0170fc41f77af6a8994dc587cc5510de7be1b7fab4ad5968fb6d402587f"
             },
             "high_sierra": {
-              "url": "https://homebrew.bintray.com/bottles/sshuttle-1.0.2.high_sierra.bottle.tar.gz",
-              "sha256": "6bb0dd8552477a173c6015ec75b2a05ccd3806500546bb490ea9d26e51a06d5e"
+              "url": "https://homebrew.bintray.com/bottles/sshuttle-1.0.3.high_sierra.bottle.tar.gz",
+              "sha256": "d466f1fb7d5dd3ae8f2ceec36a5d2348c124c25847db7d7156db59554c81ea44"
             }
           }
         }
@@ -2555,7 +2555,7 @@
         "version": "3.3.8beta2"
       },
       "jasper": {
-        "version": "0.9.2",
+        "version": "0.9.3",
         "options": {
           "full_name": "jasper"
         }
@@ -2859,9 +2859,9 @@
   "system": {
     "macos": {
       "catalina": {
-        "HOMEBREW_VERSION": "2.4.5",
+        "HOMEBREW_VERSION": "2.4.6",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "66410d178efb2a542263786716bb8aecb02ab2bb",
+        "Homebrew/homebrew-core": "e45b39aa677fc344226abc22ce85b28fcc54a6b3",
         "CLT": "11.5.0.0.1.1588476445",
         "Xcode": "11.5",
         "macOS": "10.15.5"
