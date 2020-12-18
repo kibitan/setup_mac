@@ -37,24 +37,27 @@ $ ./setup.sh
 
 (not documented yet)
 
-## [Big Sur] change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726) 
-
- - Dock & Manue Bar
-   - Clock
-     - Time Options: Analog
-
-## [Catalina] change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726)
+## change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726)
  - General
    - Appearance: Dark
  - Desktop & Screen Saver
-   - random
-   - show with clock
- - Dock
-   - Prefer tabs when opening documents: always
-   - auto hide - enable
-   - layout - left
-   - add shortcut of Applications
-   - customize shortcuts
+   - Desktop
+     - Dynamic
+   - screen saver
+     - show with clock
+     - Use random screen saver
+ - Dock & Manu Bar
+   - Dock
+     - Position on screen - left
+     - automatic hide - enable
+     - add shortcut of Applications
+     - customize shortcuts
+   - Clock
+     - Time Options: Analog
+   - Battery
+     - Show in Menu Bar - disable
+   - Spotlight
+     - Show in Menu Bar - disable     
  - Mission Control
    - hotcorner - Put Display to Sleep
  - Siri
@@ -75,6 +78,8 @@ $ ./setup.sh
 
  - Wallet & Apple Pay
    - setup card
+ - Touch ID
+   - setup fingers
  - User & Group
    - off the guest
    - Login Options: "Show fast user switching menu as" - disable
