@@ -37,7 +37,13 @@ $ ./setup.sh
 
 (not documented yet)
 
-## change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726)
+## [Big Sur] change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726) 
+
+ - Dock & Manue Bar
+   - Clock
+     - Time Options: Analog
+
+## [Catalina] change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726)
  - General
    - Appearance: Dark
  - Desktop & Screen Saver
