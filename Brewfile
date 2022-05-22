@@ -204,6 +204,7 @@ cask "witch"
 cask "xmind"
 cask "zoomus"
 mas "Bandwidth+", id: 490461369
+mas "Create File Menu", id: 1440519779
 mas "DeskApp for YouTube", id: 1180531112
 mas "Duplicate Photos Fixer Pro", id: 963642514
 mas "Fotor Photo Editor", id: 503039729
