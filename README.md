@@ -93,6 +93,8 @@ $ ./setup.sh
      - require password immediately
    - Firevalut - Turn on
    - Firewall - Turn on
+   - Privacy 
+     - enable crontab -> [Granting "Full Disk Access" to `/usr/sbin/cron`](https://www.bejarano.io/fixing-cron-jobs-in-mojave/) 
 
  - Software Update
    - Automatically keep my Mac up to date - enable
