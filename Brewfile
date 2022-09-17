@@ -205,7 +205,7 @@ cask "watchguard-mobile-vpn-with-ssl"
 cask "whatsapp"
 cask "witch"
 cask "xmind"
-cask "zoomus"
+cask "zoom"
 mas "Bandwidth+", id: 490461369
 mas "Create File Menu", id: 1440519779
 mas "DeskApp for YouTube", id: 1180531112
