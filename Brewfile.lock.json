@@ -20,13 +20,13 @@
         "revision": "89ecc8a5c6d4c29bf646255b8b06588c5479b61f"
       },
       "homebrew/cask": {
-        "revision": "a69232566aa37cb55333d732eb5877fd505f0242"
+        "revision": "2f9621a3d57128112429cc87f90ddc3785fca84c"
       },
       "homebrew/cask-versions": {
-        "revision": "2a53b9697dd4bf86e5db76ff0f0b8a84c609b702"
+        "revision": "cdc9962b2690baa3715d274b607115a3e6e0cdfb"
       },
       "homebrew/core": {
-        "revision": "3dec32291394a7487f27d7bd73a0aa9ceff0b3a4"
+        "revision": "eba02276360393f856db21fdc9fdee77a3a4b5a6"
       },
       "homebrew/services": {
         "revision": "b28f568bba40794f3751c39cddb715d729d99a2c"
@@ -5292,7 +5292,7 @@
         }
       },
       "dropbox": {
-        "version": "157.4.4801",
+        "version": "157.4.4808",
         "options": {
           "full_name": "dropbox"
         }
@@ -5709,7 +5709,7 @@
       "monterey": {
         "HOMEBREW_VERSION": "3.6.1",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "3dec32291394a7487f27d7bd73a0aa9ceff0b3a4",
+        "Homebrew/homebrew-core": "eba02276360393f856db21fdc9fdee77a3a4b5a6",
         "CLT": "14.0.0.0.1.1661618636",
         "Xcode": "14.0",
         "macOS": "12.6"
