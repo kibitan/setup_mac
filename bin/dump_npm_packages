@@ -2,6 +2,7 @@
 
 set -eu -o pipefail
 #set -vx
+printf "\n$(date -u +%Y-%m-%dT%H:%M:%SZ) %s\n" "${0}" ## logging
 NPM_PACKAGES=${NPM_PACKAGES:-~/npm_packages}
 
 # https://stackoverflow.com/questions/32628351/export-import-npm-global-packages
