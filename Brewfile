@@ -207,6 +207,7 @@ cask "whatsapp"
 cask "witch"
 cask "xmind"
 cask "zoom"
+mas "AusweisApp2", id: 948660805
 mas "Bandwidth+", id: 490461369
 mas "Create File Menu", id: 1440519779
 mas "DeskApp for YouTube", id: 1180531112
