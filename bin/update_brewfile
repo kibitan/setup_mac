@@ -2,7 +2,7 @@
 
 set -eu -o pipefail
 #set -vx
-printf "\n$(date -u +%Y-%m-%dT%H:%M:%SZ) %s\n" "${0}" ## logging
+printf "\n$(date "+%Y-%m-%dT%H:%M:%S %Z") %s\n" "${0}" ## logging
 
 cd ~/setup_mac
 if [[ $(git status --short --untracked-files=no | wc -l) -gt 0 ]]; then
