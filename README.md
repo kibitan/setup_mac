@@ -198,6 +198,9 @@ $ ./setup.sh
  - Empty Trash Automatically - enable
 
 ## apps
+### manualy install
+  - install package for buffallo usb lan connector 
+    -  `brew install homebrew/cask-drivers/asix-ax88179` or [download from here](https://www.asix.com.tw/en/product/USBEthernet/Super-Speed_USB_Ethernet/AX88179) or open file from dropbox materials directory
 ### lincense install
  - 1Password
  - istat Menus
