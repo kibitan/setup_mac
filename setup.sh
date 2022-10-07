@@ -88,13 +88,8 @@ if ask 'set keyboard keyrepeat faster?'; then
 fi
 
 if ask 'restore setting from mackup? (need Dropbox directory)'; then
-  if ask 'mv original .ssh/Documents/Pictures/Movies/Music for restoring mackup?'; then
+  if ask 'mv original .ssh for restoring mackup?'; then
     mv ~/.ssh ~/.ssh.old
-    sudo mv ~/Documents ~/Documents_old
-    # Pictures is not working on catalina? 
-    sudo mv ~/Pictures ~/Pictures_old
-    sudo mv ~/Movies ~/Movies_old
-    sudo mv ~/Music ~/Music_old
   fi
   echo '!!!WARNING!!! DO NOT overwrite .ssh/config (.ssh will be okay), .config/fish/fish_variables, .config/karabiner, .config/karabiner/karabiner.json, .config/hub, .config/karabiner/assets/complex_modifications (.config will be okay) it will be deleted...'
   mackup restore
