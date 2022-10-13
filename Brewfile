@@ -1,7 +1,6 @@
 tap "argon/mas"
 tap "codekitchen/dinghy"
 tap "git-chglog/git-chglog"
-tap "goodwithtech/dockle"
 tap "heroku/brew"
 tap "homebrew/brewdler"
 tap "homebrew/cask"
