@@ -98,8 +98,6 @@ $ ./setup.sh
 
  - Software Update
    - Automatically keep my Mac up to date - enable
- - Sound
-   - show volume in menu bar
  - Keyboard
    - Keyboard:
      - (touch bar model) Press fnkey to: show F1, F2, etc. Keys
