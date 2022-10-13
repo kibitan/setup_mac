@@ -293,10 +293,11 @@ $ ./setup.sh
  - Shiftit
  - Bartender
  - Backup and Sync from Google
- - Rambox
  - PopClip
  - Slack
  - WiFi Signal
+ - background music
+   - put on Dock and set "open at login"
  - totalspaces
    - need to change SIP mode on recovery mode `csrutil enable --without debug`, then reboot and `brew cask reinstall totalspaces`, `open $(brew cask info totalspaces | grep $(brew --prefix) | cut -d' ' -f1)/TotalSpaces2.app`
      - https://totalspaces.binaryage.com/elcapitan
