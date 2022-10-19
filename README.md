@@ -102,6 +102,7 @@ $ ./setup.sh
    - show volume in menu bar
  - Keyboard
    - Keyboard:
+     - press fn/🌐 key to "Show Emoji & Symbols"
      - (touch bar model) Press fnkey to: show F1, F2, etc. Keys
      - (touch bar model) customize Touch bar
      - (Switch Capslock will handle by karabiner-element)
@@ -109,8 +110,8 @@ $ ./setup.sh
      - Mission Control
        - (first making 10 desktops then) enable desktops shortcuts and change to command + [0-9]
      - Input Sources ( it will appear after setup `Input Sources` section)
-       - select the previous input source - alt + space
-       - select next source in input menu - shift + alt + space
+       - select the previous input source - option + space
+       - select next source in input menu - shift + option + space
      - Spotlight
        - (if not using alfred) show Spotlight search - control + space
    - Input Sources: ( setup after install google japanese IME )
@@ -137,11 +138,12 @@ $ ./setup.sh
     - Display: change screen size if retina
     - Night Shift
       - Schedule: Sunset to Sunrise
- - Energy Saver
+ - Battery
+   - Battery:
+     - show battery status in menu bar - disable ( use istat menus instead )
    - Power Adapter:
      - Prevent computer from sleeping automatically when the display is off - enable
      - Put hard disks to sleep when possible ( [SSD is not affect this setting](https://support.apple.com/en-us/HT202824) ) - disable
-   - show battery status in menu bar - disable ( use istat menus instead )
  - Date and Time
    - Clock
      - Show date and time in menu bar - disable ( use istat menus instead )
@@ -173,7 +175,7 @@ $ ./setup.sh
    - Advanced:
       - show all filename extensions - enable
       - remove items from the trash after 30 days - enable
-      - keep folders on top when sorting by name - enable
+      - keep folders on top: in windows when sorting by name - enable
       - when perfoming a search - current folder
  - View
    - Show Preview
