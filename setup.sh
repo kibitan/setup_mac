@@ -28,7 +28,7 @@ fi
 if ask 'Homebrew install?'; then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-  brew doctor
+  brew doctor # it might need some commands to be executed guided by above install command
 fi
 
 if ask 'Homebrew Brewdler install?'; then
