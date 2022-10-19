@@ -9,7 +9,7 @@
 ```bash
 $ git clone https://github.com/kibitan/setup_mac.git ~/setup_mac
 $ cd ~/setup_mac
-$ git remote set-url origin git@github.com:kibitan/setup_mac.gi
+$ git remote set-url origin git@github.com:kibitan/setup_mac.git
 $ ./setup.sh
 ```
 
