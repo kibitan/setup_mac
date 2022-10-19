@@ -7,14 +7,14 @@
 
 ## run [setup.sh](./setup.sh)
 ```bash
-$ git clone git@github.com:kibitan/setup_mac.git ~/setup_mac
+$ git clone https://github.com/kibitan/setup_mac.git ~/setup_mac
 $ cd ~/setup_mac
+$ git remote set-url origin git@github.com:kibitan/setup_mac.gi
 $ ./setup.sh
 ```
 
 * if `permittion denied` happen, then try `sudo chmod 0775 /usr/local/etc`
 
-* if `Permission denied (publickey).` happen and not import `.ssh` yet, then try to use `$ git clone https://github.com/kibitan/setup_mac.git ~/setup_mac`
 
 ## [crontab](./_crontab) bins
  - [bin/backup_dev_dir](./bin/backup_dev_dir)
