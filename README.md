@@ -262,8 +262,8 @@ $ ./setup.sh
    - import "Mouse Dictionary" eijirou dictionary (C&S/material)
    - Page zoom: 110%
  - iTerm
-   - iTerm2 - Preferences - General - Load Preferences from custom folder or URL - `mac_setting/iterm_profile`, then reboot
-   - iTerm2 - Preferences - General - Save changes to folder when iTerm2 quits
+   - iTerm2 - Preferences - General - Preferences - Load Preferences from custom folder or URL - `mac_setting/iterm_profile`, then reboot
+   - iTerm2 - Preferences - General - Save changes - Automatically
    - (Mojave: Mac System Preferences - Security & Privacy - Full disk access, add iTerms2 for updating crontab)
  - Warp
  - Notion
