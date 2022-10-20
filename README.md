@@ -229,7 +229,8 @@ $ ./setup.sh
      - TODO: automatic backup/restore, mackup nize?
  - LINE
  - Quiver
-   - Preferences
+   - Preferences:
+     - Themea: Dark
      - change library location
        1. Backup: Restore from Backup - `mac_setting/Quiver.qvlibrary`
        2. Sync: Move library - `mac_setting/Quiver.qvlibrary`
