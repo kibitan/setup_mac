@@ -223,10 +223,12 @@ $ ./setup.sh
    - Account - Authorizations - Authorize This Computer
    - setup iphone: connect iPhone and "Trust this computer"
  - App store
- - Google Japanese Input (keyboard - input source)
-   - General: Input from ¥ or backslash key - Backslash \
-   - Dictionary: Edit user dictionally - Tools - import to current dictionary - mac_setting/google_japanese_dictionaly
-     - TODO: automatic backup/restore, mackup nize?
+ - Google Japanese Input
+   - Config Dialog.app
+     - General - Input from ¥ or backslash key - Backslash \
+   - Dictionary tool.app
+     - Tools - import to current dictionary - mac_setting/google_japanese_dictionaly
+       - TODO: automatic backup/restore, mackup nize?
  - LINE
  - Quiver
    - Preferences:
