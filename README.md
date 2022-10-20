@@ -99,7 +99,7 @@ $ ./setup.sh
  - Software Update
    - Automatically keep my Mac up to date - enable
  - Sound
-   - show volume in menu bar
+   - show volume in menu bar - enable "always"
  - Keyboard
    - Keyboard:
      - press fn/🌐 key to "Show Emoji & Symbols"
@@ -254,7 +254,7 @@ $ ./setup.sh
  - DeskApp for YouTube
 
 ### with auto launch at login
- - Chrome
+ - Brave
    - login hatena
    - set github token to octotree
    - Chrome menu - Warn Before Quitting - enable
@@ -264,6 +264,8 @@ $ ./setup.sh
    - iTerm2 - Preferences - General - Load Preferences from custom folder or URL - `mac_setting/iterm_profile`, then reboot
    - iTerm2 - Preferences - General - Save changes to folder when iTerm2 quits
    - (Mojave: Mac System Preferences - Security & Privacy - Full disk access, add iTerms2 for updating crontab)
+ - Warp
+ - Notion
  - Alfred4
    - Advanced
       - Syncing - ~/Dropbox/mac_setting/alfred
