@@ -105,13 +105,14 @@ $ ./setup.sh
      - press fn/🌐 key to "Show Emoji & Symbols"
      - (touch bar model) Press fnkey to: show F1, F2, etc. Keys
      - (touch bar model) customize Touch bar
-     - (Switch Capslock will handle by karabiner-element)
+     - (change capslock to control key is handled by karabiner-element) or
+        - Modifier Keys... - Caps Lock(⇪) key: ^Control
    - Shortcuts:
      - Mission Control
        - (first making 10 desktops then) enable desktops shortcuts and change to command + [0-9]
      - Input Sources ( it will appear after setup `Input Sources` section)
-       - select the previous input source - option + space
-       - select next source in input menu - shift + option + space
+       - select the previous input source - option(⌥) + space
+       - select next source in input menu - shift + option(⌥) + space
      - Spotlight
        - (if not using alfred) show Spotlight search - control + space
    - Input Sources: ( setup after install google japanese IME )
