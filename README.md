@@ -274,10 +274,10 @@ $ ./setup.sh
    - Advanced
       - Syncing - ~/Dropbox/mac_setting/alfred
    - General
-      - change shortcut to "ctrl + space"
+      - change shortcut to "^ctrl + space"
    - Features
-      - Clipboard Historu
-        - enable "Keop Plain Text"
+      - Clipboard History
+        - enable "Keep Plain Text"
         - enable "Keep Images"
         - enable "Keep File Lists"
       - 1password
