@@ -211,7 +211,6 @@ $ ./setup.sh
  - Dash
  - Synergy
    - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
- - BetterTouchTool
  - Witch
  - Rubymine
  - Alfred
