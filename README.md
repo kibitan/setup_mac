@@ -88,6 +88,7 @@ $ ./setup.sh
      - Use scroll gesture with modifier keys - Control
    - display
      - reduce transparent - enable ( http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html )
+     - Menubar size: Large
  - Security & Privacy
    - General
      - require password immediately
