@@ -9,6 +9,7 @@ tap "homebrew/cask-drivers"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "pirj/noclamshell"
 tap "puma/puma"
 tap "rcmdnk/file"
 tap "tldr-pages/tldr"
@@ -152,6 +153,7 @@ brew "codekitchen/dinghy/dinghy"
 brew "git-chglog/git-chglog/git-chglog", link: false
 brew "goodwithtech/r/dockle"
 brew "heroku/brew/heroku", link: false
+brew "pirj/noclamshell/noclamshell"
 brew "puma/puma/puma-dev", link: false
 brew "versent/taps/saml2aws"
 cask "1password"
