@@ -140,6 +140,8 @@ $ ./setup.sh
     - Display: change screen size if retina
     - Night Shift
       - Schedule: Sunset to Sunrise
+    - Universal control
+      - Automatically reconnect to any nearby Mac or IPad - enable
  - Battery
    - Battery:
      - show battery status in menu bar - disable ( use istat menus instead )
