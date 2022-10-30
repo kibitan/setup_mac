@@ -157,7 +157,6 @@ brew "pirj/noclamshell/noclamshell"
 brew "puma/puma/puma-dev", link: false
 brew "versent/taps/saml2aws"
 cask "1password"
-cask "alfred4"
 cask "appcleaner"
 cask "asix-ax88179"
 cask "bartender"
