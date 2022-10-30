@@ -115,7 +115,7 @@ $ ./setup.sh
        - select the previous input source - option(⌥) + space
        - select next source in input menu - shift + option(⌥) + space
      - Spotlight
-       - (if not using alfred) show Spotlight search - control + space
+       - (if not using raycast) show Spotlight search - control + space
    - Input Sources: ( setup after install google japanese IME )
      - Add "U.S." English keyboard
      - Add "Hiragana (google)" keyboard
@@ -216,12 +216,11 @@ $ ./setup.sh
    - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
  - Witch
  - Rubymine
- - Alfred
 
 ### manually launch
  - Karabiner Elements
  - 1Password
-   - Preference - Advanced - Enable Spotlight and 3rd party app integrations: enable ( for alfred extension)
+   - Preference - Advanced - Enable Spotlight and 3rd party app integrations: enable ( for raycast extension)
  - Music (iTunes)
    - Account - Authorizations - Authorize This Computer
    - setup iphone: connect iPhone and "Trust this computer"
@@ -272,18 +271,7 @@ $ ./setup.sh
    - (Mojave: Mac System Preferences - Security & Privacy - Full disk access, add iTerms2 for updating crontab)
  - Warp
  - Notion
- - Alfred4
-   - Advanced
-      - Syncing - ~/Dropbox/mac_setting/alfred
-   - General
-      - change shortcut to "^ctrl + space"
-   - Features
-      - Clipboard History
-        - enable "Keep Plain Text"
-        - enable "Keep Images"
-        - enable "Keep File Lists"
-      - 1password
-        - enable 1password bookmarks (enable 1password side configuration as well ( Enable Spotlight and 3rd party integration )
+ - raycast
  - Dropbox
  - Witch
    - Actions - choose "Cycle Non-Minimized Windows", delete other actions
@@ -300,7 +288,6 @@ $ ./setup.sh
      - Cycle through search for .. - disable
  - istat Menus
    - File - Import Settings - `mac_setting/iStat Menus Settings.ismp`
- - Shiftit
  - Bartender
  - Backup and Sync from Google
  - PopClip
