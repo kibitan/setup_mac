@@ -42,7 +42,6 @@ brew "curl"
 brew "diff-so-fancy"
 brew "direnv"
 brew "dnsmasq"
-brew "docker-compose", link: false
 brew "dwdiff"
 brew "erlang"
 brew "elixir"
