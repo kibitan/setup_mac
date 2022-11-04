@@ -272,6 +272,7 @@ $ ./setup.sh
  - Warp
  - Notion
  - raycast
+   - import Preferences
  - Dropbox
  - Witch
    - Actions - choose "Cycle Non-Minimized Windows", delete other actions
