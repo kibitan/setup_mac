@@ -290,6 +290,7 @@ $ ./setup.sh
  - istat Menus
    - File - Import Settings - `mac_setting/iStat Menus Settings.ismp`
  - Bartender
+ - bluesnooze
  - Backup and Sync from Google
  - PopClip
  - Slack
