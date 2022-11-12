@@ -128,7 +128,6 @@ brew "tig"
 brew "tldr"
 brew "trash"
 brew "tree"
-brew "v8@3.15"
 brew "watch"
 brew "wget"
 brew "yarn"
@@ -222,7 +221,6 @@ mas "Medis", id: 1063631769
 mas "NetSpot", id: 678464954
 mas "Network Radar", id: 507659816
 mas "Numbers", id: 409203825
-mas "PopClip", id: 445189367
 mas "Quiver", id: 866773894
 mas "ToyViewer", id: 414298354
 mas "Tunacan", id: 980577198
