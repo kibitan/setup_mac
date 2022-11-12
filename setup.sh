@@ -7,6 +7,10 @@ DEV_DIR=${DEV_DIR:-~/www}
 DROPBOX_DEV_DIR=${DROPBOX_DEV_DIR:-~/DropBox/www}
 set +x
 
+if [[ "${TRACE-0}" == "1" ]]; then
+    set -vx
+fi
+
 ask() {
   printf "%s [y/n] " "$*"
   local answer
