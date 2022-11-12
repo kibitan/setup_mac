@@ -117,7 +117,13 @@ if ask "restore $DEV_DIR from $DROPBOX_DEV_DIR?"; then
 fi
 
 if ask 'setup programming languages? (asdf)'; then
-  asdf install
+  [[ -z $(asdf plugin list | grep ruby) ]]   && asdf plugin add ruby
+  [[ -z $(asdf plugin list | grep golang) ]] && asdf plugin add golang
+  [[ -z $(asdf plugin list | grep nodejs) ]] && asdf plugin add nodejs
+  asdf install ruby latest
+  asdf install golang latest
+  asdf install nodejs latest
+  asdf list | sed 'N;s/\n//' > ~/.tool-versions
 fi
 
 if ask 'install git-cz?'; then
