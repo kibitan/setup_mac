@@ -119,3 +119,7 @@ fi
 if ask 'setup programming languages? (asdf)'; then
   asdf install
 fi
+
+if ask 'install git-cz?'; then
+  npm install -g git-cz
+fi
