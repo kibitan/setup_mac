@@ -116,10 +116,6 @@ if ask "restore $DEV_DIR from $DROPBOX_DEV_DIR?"; then
   cd "$DROPBOX_DEV_DIR"; for dir in *; do tar -xzf "$dir" -C "$DEV_DIR"; done
 fi
 
-if ask 'execute npm install?'; then
-  "$REPO_DIR/setup_npm.sh"
-fi
-
-if ask 'execute ruby setup?'; then
-  "$REPO_DIR/setup_ruby.sh"
+if ask 'setup programming languages? (asdf)'; then
+  asdf install
 fi
