@@ -104,7 +104,6 @@ brew "mysql-client"
 brew "mysql@5.7", link: true
 brew "nghttp2"
 brew "nginx"
-brew "nodebrew"
 brew "packer"
 brew "parallel"
 brew "peco"
