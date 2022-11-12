@@ -292,7 +292,6 @@ $ ./setup.sh
  - Bartender
  - bluesnooze
  - Backup and Sync from Google
- - PopClip
  - Slack
  - WiFi Signal
  - totalspaces
