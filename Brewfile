@@ -140,7 +140,7 @@ brew "codekitchen/dinghy/unfs3"
 brew "codekitchen/dinghy/dinghy"
 brew "git-chglog/git-chglog/git-chglog", link: false
 brew "goodwithtech/r/dockle"
-brew "heroku/brew/heroku", link: false
+brew "heroku/brew/heroku"
 brew "pirj/noclamshell/noclamshell"
 brew "puma/puma/puma-dev", link: false
 brew "versent/taps/saml2aws"
@@ -155,6 +155,7 @@ cask "caffeine"
 cask "charles"
 cask "chromedriver"
 cask "clipy"
+cask "coconutbattery"
 cask "cyberduck"
 cask "dash4"
 cask "deepl"
