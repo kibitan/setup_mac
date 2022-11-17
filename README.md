@@ -244,6 +244,7 @@ $ ./setup.sh
      - Set Sync folder(`Dropbox/mac_setting/dash`)
      - check sync option (General Setting, View option, Docsets search profile, Bookmark )
    - Snippet: Snippet library location: `/mac_setting/dash/dash_snippets.dash`
+   - enable full-text search manually one-by-one
  - Visual Studio Code
    - install [Setting sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) and restart (activate extension and download)
  - Docker
