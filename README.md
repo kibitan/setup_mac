@@ -33,10 +33,6 @@ $ ./setup.sh
 
   dump all installed packages by [homebrew-bundle](https://github.com/Homebrew/homebrew-bundle) as [Brewfile](./Brewfile) and commit/push it to remote repository
 
-## [ruby/init.sh](./ruby/init.sh)
-
-(not documented yet)
-
 ## change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726)
  - General
    - Appearance: Dark
@@ -215,7 +211,7 @@ $ ./setup.sh
  - Synergy
    - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
  - Witch
- - Rubymine
+ - Rubymine / Goland
 
 ### manually launch
  - Karabiner Elements
@@ -246,8 +242,10 @@ $ ./setup.sh
    - Snippet: Snippet library location: `/mac_setting/dash/dash_snippets.dash`
    - enable full-text search manually one-by-one
  - Visual Studio Code
-   - install [Setting sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) and restart (activate extension and download)
+   - enable setting sync
  - Docker
+ - Rubymine / Goland
+   - enable setting sync
  - mousepose
    - allow security
      - System Preferences - Security & Privacy - Privacy - Accessibility: Mousepose - enable
