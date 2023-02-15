@@ -99,7 +99,6 @@ $ ./setup.sh
    - show volume in menu bar - enable "always"
  - Keyboard
    - Keyboard:
-     - press fn/🌐 key to "Show Emoji & Symbols"
      - (touch bar model) Press fnkey to: show F1, F2, etc. Keys
      - (touch bar model) customize Touch bar
      - (change capslock to control key is handled by karabiner-element) or
@@ -185,9 +184,16 @@ $ ./setup.sh
    - Show View Option
      - Group by - None
      - Sort by - Name
-     - Icon size - 80 x 80
-     - Show item info
-     - Background -
+     - Icon size - small
+     - Show columns 
+       - Date Modified
+       - Date Created
+       - Date Last Opened
+       - Date Added
+       - Size
+       - Kind
+     - use relative date - disable
+     - show library folder - enable
      - click - "Use as default"
    - Customize Touch Bar
  - change default application of mp3, m4a into QuickTimePlayer by [Get info](https://www.imore.com/how-set-mac-app-default-when-opening-file?upgrade)
