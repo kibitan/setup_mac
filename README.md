@@ -53,7 +53,7 @@ $ ./setup.sh
    - Battery
      - Show in Menu Bar - disable
    - Spotlight
-     - Show in Menu Bar - disable     
+     - Show in Menu Bar - disable
  - Mission Control
    - hotcorner - Put Display to Sleep
  - Siri
@@ -90,8 +90,8 @@ $ ./setup.sh
      - require password immediately
    - Firevalut - Turn on
    - Firewall - Turn on
-   - Privacy 
-     - enable crontab -> [Granting "Full Disk Access" to `/usr/sbin/cron`](https://www.bejarano.io/fixing-cron-jobs-in-mojave/) 
+   - Privacy
+     - enable crontab -> [Granting "Full Disk Access" to `/usr/sbin/cron`](https://www.bejarano.io/fixing-cron-jobs-in-mojave/)
 
  - Software Update
    - Automatically keep my Mac up to date - enable
@@ -185,7 +185,7 @@ $ ./setup.sh
      - Group by - None
      - Sort by - Name
      - Icon size - small
-     - Show columns 
+     - Show columns
        - Date Modified
        - Date Created
        - Date Last Opened
@@ -210,7 +210,6 @@ $ ./setup.sh
  - 1Password
  - istat Menus
  - Bartender
- - Microsoft Office (Office 365)
  - Adobe Creative Cloud
    - `open $(brew cask info adobe-creative-cloud | grep $(brew --prefix) | cut -d' ' -f1)/Creative Cloud Installer.app`
  - Dash
