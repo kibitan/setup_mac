@@ -40,11 +40,10 @@ if ask 'Homebrew Brewdler install?'; then
 fi
 
 if ask 'install Dropbox at first?'; then
-  brew cask install dropbox
+  brew install dropbox
 fi
 
 if ask 'oh-my-zsh install?'; then
-  brew install zsh
   curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
   chsh -s /bin/zsh
 fi
