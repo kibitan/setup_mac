@@ -99,6 +99,7 @@ $ ./setup.sh
    - show volume in menu bar - enable "always"
  - Keyboard
    - Keyboard:
+     - press fn/🌐 key to "Do nothing"
      - (touch bar model) Press fnkey to: show F1, F2, etc. Keys
      - (touch bar model) customize Touch bar
      - (change capslock to control key is handled by karabiner-element) or
@@ -269,6 +270,7 @@ $ ./setup.sh
    - Chrome menu - Warn Before Quitting - enable
    - import "Mouse Dictionary" eijirou dictionary (C&S/material)
    - Page zoom: 110%
+   - install for auto translation: https://github.com/FilipePS/Traduzir-paginas-web
  - iTerm
    - iTerm2 - Preferences - General - Preferences - Load Preferences from custom folder or URL - `mac_setting/iterm_profile`, then reboot
    - iTerm2 - Preferences - General - Save changes - Automatically
@@ -294,6 +296,7 @@ $ ./setup.sh
  - istat Menus
    - File - Import Settings - `mac_setting/iStat Menus Settings.ismp`
  - Bartender
+   - Use Bartender Bar to show hidden items - enable
  - bluesnooze
  - Backup and Sync from Google
  - Slack
