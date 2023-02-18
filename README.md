@@ -68,6 +68,7 @@ $ ./setup.sh
    - More Gestures
      - swipe between pages - three fingers
 
+
  - General
    - Appearance: Dark
  - Desktop & Screen Saver
@@ -106,10 +107,9 @@ $ ./setup.sh
       - From: 22:00 ~ 7:00
       - when the display is sleeping
 
+
  - Wallet & Apple Pay
    - setup card
- - Touch ID
-   - setup fingers
  - User & Group
    - off the guest
    - Login Options: "Show fast user switching menu as" - disable
@@ -127,10 +127,13 @@ $ ./setup.sh
    - Privacy
      - enable crontab -> [Granting "Full Disk Access" to `/usr/sbin/cron`](https://www.bejarano.io/fixing-cron-jobs-in-mojave/)
 
+
  - Software Update
    - Automatically keep my Mac up to date - enable
  - Sound
    - show volume in menu bar - enable "always"
+ - Touch ID
+   - setup fingers
 
 
  - Displays
@@ -266,6 +269,7 @@ $ ./setup.sh
 
 ### with auto launch at login
  - Brave
+   - sync setting
    - login hatena
    - set github token to octotree
    - Chrome menu - Warn Before Quitting - enable
