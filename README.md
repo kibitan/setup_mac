@@ -34,6 +34,40 @@ $ ./setup.sh
   dump all installed packages by [homebrew-bundle](https://github.com/Homebrew/homebrew-bundle) as [Brewfile](./Brewfile) and commit/push it to remote repository
 
 ## change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726)
+ - Keyboard
+   - Keyboard:
+     - press fn/🌐 key to "Do nothing"
+     - (touch bar model) Press fnkey to: show F1, F2, etc. Keys
+     - (touch bar model) customize Touch bar
+     - (change capslock to control key is handled by karabiner-element) or
+        - Modifier Keys... - Caps Lock(⇪) key: ^Control
+   - Shortcuts:
+     - Mission Control
+       - (first making 10 desktops then) enable desktops shortcuts and change to command + [0-9]
+     - Input Sources ( it will appear after setup `Input Sources` section)
+       - select the previous input source - option(⌥) + space
+       - select next source in input menu - shift + option(⌥) + space
+     - Spotlight
+       - (if not using raycast) show Spotlight search - control + space
+   - Input Sources: ( setup after install google japanese IME )
+     - Add "U.S." English keyboard
+     - Add "Hiragana (google)" keyboard
+     - Remove mac original "Japanese" ( many time freeze )
+     - Japanese ( or at `Google Japanese Input Preferences` )
+       - change key "¥" button to "\\"
+   - dictation
+     - on, use enhanced dictation
+     - download English and Japanese
+ - Trackpad
+   - Point & Click
+     - secondary click - right corner
+     - tap click - enable
+     - tracking speed - 2 step down from fastest
+   - Scroll & Zoom
+     - scroll natural - disable
+   - More Gestures
+     - swipe between pages - three fingers
+
  - General
    - Appearance: Dark
  - Desktop & Screen Saver
@@ -97,39 +131,6 @@ $ ./setup.sh
    - Automatically keep my Mac up to date - enable
  - Sound
    - show volume in menu bar - enable "always"
- - Keyboard
-   - Keyboard:
-     - press fn/🌐 key to "Do nothing"
-     - (touch bar model) Press fnkey to: show F1, F2, etc. Keys
-     - (touch bar model) customize Touch bar
-     - (change capslock to control key is handled by karabiner-element) or
-        - Modifier Keys... - Caps Lock(⇪) key: ^Control
-   - Shortcuts:
-     - Mission Control
-       - (first making 10 desktops then) enable desktops shortcuts and change to command + [0-9]
-     - Input Sources ( it will appear after setup `Input Sources` section)
-       - select the previous input source - option(⌥) + space
-       - select next source in input menu - shift + option(⌥) + space
-     - Spotlight
-       - (if not using raycast) show Spotlight search - control + space
-   - Input Sources: ( setup after install google japanese IME )
-     - Add "U.S." English keyboard
-     - Add "Hiragana (google)" keyboard
-     - Remove mac original "Japanese" ( many time freeze )
-     - Japanese ( or at `Google Japanese Input Preferences` )
-       - change key "¥" button to "\\"
-   - dictation
-     - on, use enhanced dictation
-     - download English and Japanese
- - Trackpad
-   - Point & Click
-     - secondary click - right corner
-     - tap click - enable
-     - tracking speed - 2 step down from fastest
-   - Scroll & Zoom
-     - scroll natural - disable
-   - More Gestures
-     - swipe between pages - three fingers
 
 
  - Displays
