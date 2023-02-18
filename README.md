@@ -215,11 +215,7 @@ $ ./setup.sh
  - 1Password
  - istat Menus
  - Bartender
- - Adobe Creative Cloud
-   - `open $(brew cask info adobe-creative-cloud | grep $(brew --prefix) | cut -d' ' -f1)/Creative Cloud Installer.app`
  - Dash
- - Synergy
-   - if not available keyboard in mac, preferrence > keyboard > input source, add "Unicode Hex Input"
  - Witch
  - Rubymine / Goland
 
