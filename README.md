@@ -172,7 +172,7 @@ $ ./setup.sh
 
 ## change finder setting
  - Press `Shift+Cmd+.` for showing dot file
- - Prefferences
+ - Preferences
    - General
      - New Finder windows show: home directory
    - Sidebar: customize
@@ -181,6 +181,8 @@ $ ./setup.sh
       - remove items from the trash after 30 days - enable
       - keep folders on top: in windows when sorting by name - enable
       - when perfoming a search - current folder
+ - Select "List View" and Press "Command + J" to open View Options
+   - check "Calculate All Sizes" and click "Use as Defaults"
  - View
    - Show Preview
    - Show Path Bar
