@@ -39,8 +39,7 @@ $ ./setup.sh
      - press fn/🌐 key to "Do nothing"
      - (touch bar model) Press fnkey to: show F1, F2, etc. Keys
      - (touch bar model) customize Touch bar
-     - (change capslock to control key is handled by karabiner-element) or
-        - Modifier Keys... - Caps Lock(⇪) key: ^Control
+     - Keyboards shortcuts -> Modifier Keys... - Caps Lock(⇪) key: ^Control
    - Shortcuts:
      - Mission Control
        - (first making 10 desktops then) enable desktops shortcuts and change to command + [0-9]
