@@ -47,6 +47,8 @@ $ ./setup.sh
      - set English as Primary
      - add Japanese
      - set Region: Japan
+   - Storage
+     - Optimize Storage - enable
 
  - Appearance
    - Appearance: Dark
@@ -192,9 +194,7 @@ $ ./setup.sh
       - remove items from the trash after 30 days - enable
       - keep folders on top: in windows when sorting by name - enable
       - when perfoming a search - current folder
- - Select "List View" and Press "Command + J" to open View Options
-   - check "Calculate All Sizes" and click "Use as Defaults"
- - View
+ - View (as icon View)
    - Show Preview
    - Show Path Bar
    - Show Status Bar
@@ -213,15 +213,12 @@ $ ./setup.sh
      - use relative date - disable
      - show library folder - enable
      - click - "Use as default"
-   - Customize Touch Bar
+ - Select "List View" and Press "Command + J" to open View Options
+   - check "Calculate All Sizes" and click "Use as Defaults"
  - change default application of mp3, m4a into QuickTimePlayer by [Get info](https://www.imore.com/how-set-mac-app-default-when-opening-file?upgrade)
 
 ## setup force touch
  - do force touch and just "continue"
-
-## change storage setting by [Storage Management](https://support.apple.com/en-us/HT206996) ( apple menu - About This Mac - Storage - Manage )
- - Optimize Storage - enable
- - Empty Trash Automatically - enable
 
 ## apps
 ### lincense install
