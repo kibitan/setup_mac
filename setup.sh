@@ -3,8 +3,8 @@ set -x
 DROPBOX_DIR=${DROPBOX_DIR:-~/DropBox}
 REPO_DIR=${REPO_DIR:-~/setup_mac}
 RICTY_FONT_DIR=${RICTY_FONT_DIR:-$DROPBOX_DIR/mac_setting/RictyDiminished}
-DEV_DIR=${DEV_DIR:-~/www}
-DROPBOX_DEV_DIR=${DROPBOX_DEV_DIR:-~/DropBox/www}
+DEV_DIR=${DEV_DIR:-~/repo}
+DROPBOX_DEV_DIR=${DROPBOX_DEV_DIR:-~/DropBox/repo}
 set +x
 
 if [[ "${TRACE-0}" == "1" ]]; then
