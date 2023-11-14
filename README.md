@@ -15,6 +15,7 @@ $ ./setup.sh
 
 * if `permittion denied` happen, then try `sudo chmod 0775 /usr/local/etc`
 
+also setup the [dotfiles](https://github.com/kibitan/dotfiles)
 
 ## [crontab](./_crontab) bins
  - [bin/backup_dev_dir](./bin/backup_dev_dir)
