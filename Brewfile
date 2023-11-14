@@ -105,7 +105,6 @@ brew "libvo-aacenc"
 brew "libzip"
 brew "llvm"
 brew "llvm@11"
-brew "openssl@1.1"
 brew "mackup"
 brew "mas"
 brew "mecab"
@@ -114,9 +113,10 @@ brew "memcached"
 brew "python-tabulate"
 brew "mycli"
 brew "mysql-client"
-brew "mysql@8.0", restart_service: true
+brew "mysql@8.0"
 brew "nghttp2"
 brew "nginx"
+brew "openssl@1.1"
 brew "packer"
 brew "parallel"
 brew "peco"
@@ -163,9 +163,9 @@ cask "1password"
 cask "alacritty"
 cask "appcleaner"
 cask "asix-ax88179"
-cask "bartender"
 cask "bdash"
 cask "bettertouchtool"
+cask "blackhole-2ch"
 cask "bluesnooze"
 cask "brave-browser"
 cask "caffeine"
@@ -213,7 +213,6 @@ cask "rubymine"
 cask "sequel-ace"
 cask "skype"
 cask "slack"
-cask "soundflower"
 cask "tableplus"
 cask "the-unarchiver"
 cask "visual-studio-code"
@@ -224,11 +223,13 @@ cask "witch"
 cask "xmind"
 cask "zoom"
 mas "au.id.haroldchu.mac.Bandwidth", id: 490461369
-mas "AusweisApp2", id: 948660805
+mas "AusweisApp", id: 948660805
 mas "Create File Menu", id: 1440519779
 mas "DeskApp for YouTube", id: 1180531112
+mas "Dipper", id: 6450242673
 mas "Duplicate Photos Fixer Pro", id: 963642514
 mas "Fotor Photo Editor", id: 503039729
+mas "GarageBand", id: 682658836
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
@@ -238,6 +239,7 @@ mas "Medis", id: 1063631769
 mas "NetSpot", id: 678464954
 mas "Network Radar", id: 507659816
 mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "Quiver", id: 866773894
 mas "ToyViewer", id: 414298354
 mas "Tunacan", id: 980577198
@@ -287,7 +289,6 @@ vscode "rogalmic.bash-debug"
 vscode "ryu1kn.partial-diff"
 vscode "salesforce.salesforcedx-vscode-apex"
 vscode "sensourceinc.vscode-sql-beautify"
-vscode "Shan.code-settings-sync"
 vscode "shardulm94.trailing-spaces"
 vscode "shd101wyy.markdown-preview-enhanced"
 vscode "streetsidesoftware.code-spell-checker"
