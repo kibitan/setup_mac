@@ -318,6 +318,10 @@ $ ./setup.sh
      - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
  - Bandwidth+
 
+### brew services
+ - `brew services start noclamshell`
+ - `brew services stop mysql@8.0`
+
 # release
 
 ## deactivate
