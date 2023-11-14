@@ -62,8 +62,10 @@ $ ./setup.sh
    - Other Modules
      - Battery: Don't Show in Menu Bar
    - Menu Bar Only
-       - Spotlight: Don't Show in Menu Bar
-       - Siri: Don't Show in Menu Bar
+   - Clock
+     - Show date and time in menu bar - disable ( use istat menus instead )
+     - Spotlight: Don't Show in Menu Bar
+    - Siri: Don't Show in Menu Bar
  - Siri & Spotlight
    - disable
    - Spotlight
@@ -84,13 +86,19 @@ $ ./setup.sh
      - add shortcut of Applications
      - customize shortcuts
    - hot corners - Put Display to Sleep
-
+ - Displays
+    - Night Shift
+      - Schedule: Sunset to Sunrise
+    - Advanced
+      - Automatically reconnect to any nearby Mac or IPad - enable
  - Screen Saver
    - Desktop
      - Dynamic
    - screen saver
      - show with clock
      - Use random screen saver
+  - Battery
+     - Prevent automatic sleeping when the display is off - enable
 
 ---
 
@@ -144,24 +152,6 @@ $ ./setup.sh
 
  - Touch ID
    - setup fingers
-
-
- - Displays
-    - Display: change screen size if retina
-    - Night Shift
-      - Schedule: Sunset to Sunrise
-    - Universal control
-      - Automatically reconnect to any nearby Mac or IPad - enable
- - Battery
-   - Battery:
-     - show battery status in menu bar - disable ( use istat menus instead )
-   - Power Adapter:
-     - Prevent computer from sleeping automatically when the display is off - enable
-     - Put hard disks to sleep when possible ( [SSD is not affect this setting](https://support.apple.com/en-us/HT202824) ) - disable
- - Date and Time
-   - Clock
-     - Show date and time in menu bar - disable ( use istat menus instead )
-
 
  - Internet Accounts
    - AppleID - iCloud
