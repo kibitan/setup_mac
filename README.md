@@ -34,6 +34,76 @@ $ ./setup.sh
   dump all installed packages by [homebrew-bundle](https://github.com/Homebrew/homebrew-bundle) as [Brewfile](./Brewfile) and commit/push it to remote repository
 
 ## change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726)
+ - Network
+   - Firewall - Turn on
+
+---
+
+ - General
+   - Software Update
+     - Automatically keep my Mac up to date - enable
+     - Install application updates from the App Stire
+   - Language & Region
+     - set English as Primary
+     - add Japanese
+     - set Region: Japan
+
+ - Appearance
+   - Appearance: Dark
+ - Accessibility
+   - Zoom
+     - Use scroll gesture with modifier keys - Control
+   - display
+     - reduce transparent - enable ( http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html )
+     - Menubar size: Default
+ - Control Center
+   - Bluetooth: Show in Menu Bar
+   - Sound: Always Show in Menu Bar
+   - Other Modules
+     - Battery: Don't Show in Menu Bar
+   - Menu Bar Only
+       - Spotlight: Don't Show in Menu Bar
+       - Siri: Don't Show in Menu Bar
+ - Siri & Spotlight
+   - disable
+   - Spotlight
+     - Search Results
+       - application
+       - calculator
+ -  Privacy & Security
+   - Firevalut - Turn on
+   - Privacy
+     - enable crontab -> [Granting "Full Disk Access" to `/usr/sbin/cron`](https://www.bejarano.io/fixing-cron-jobs-in-mojave/)
+
+---
+
+ - Desktop & Dock
+   - Dock
+     - Position on screen - left
+     - automatic hide - enable
+     - add shortcut of Applications
+     - customize shortcuts
+   - hot corners - Put Display to Sleep
+
+ - Screen Saver
+   - Desktop
+     - Dynamic
+   - screen saver
+     - show with clock
+     - Use random screen saver
+
+---
+
+ - Lock Screen
+   - require password: immediately
+
+---
+
+  - User & Group
+   - off the guest
+
+---
+ 
  - Keyboard
    - Keyboard:
      - press fn/🌐 key to "Do nothing"
@@ -67,70 +137,11 @@ $ ./setup.sh
    - More Gestures
      - swipe between pages - three fingers
 
-
- - General
-   - Appearance: Dark
- - Desktop & Screen Saver
-   - Desktop
-     - Dynamic
-   - screen saver
-     - show with clock
-     - Use random screen saver
- - Dock & Manu Bar
-   - Dock
-     - Position on screen - left
-     - automatic hide - enable
-     - add shortcut of Applications
-     - customize shortcuts
-   - Clock
-     - Time Options: Analog
-   - Battery
-     - Show in Menu Bar - disable
-   - Spotlight
-     - Show in Menu Bar - disable
- - Mission Control
-   - hotcorner - Put Display to Sleep
- - Siri
-   - disable
-   - show siri in menu bar - disable
- - Spotlight
-   - Search Results
-     - application
-     - calculator
- - Language & Region
-   - set English as Primary
-   - add Japanese
-   - set Region: Japan
- - Notifications
-    - turn on DoNotDisturb:
-      - From: 22:00 ~ 7:00
-      - when the display is sleeping
-
+--- 
 
  - Wallet & Apple Pay
    - setup card
- - User & Group
-   - off the guest
-   - Login Options: "Show fast user switching menu as" - disable
- - Accessibility
-   - Zoom
-     - Use scroll gesture with modifier keys - Control
-   - display
-     - reduce transparent - enable ( http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html )
-     - Menubar size: Large
- - Security & Privacy
-   - General
-     - require password immediately
-   - Firevalut - Turn on
-   - Firewall - Turn on
-   - Privacy
-     - enable crontab -> [Granting "Full Disk Access" to `/usr/sbin/cron`](https://www.bejarano.io/fixing-cron-jobs-in-mojave/)
 
-
- - Software Update
-   - Automatically keep my Mac up to date - enable
- - Sound
-   - show volume in menu bar - enable "always"
  - Touch ID
    - setup fingers
 
@@ -152,22 +163,33 @@ $ ./setup.sh
      - Show date and time in menu bar - disable ( use istat menus instead )
 
 
- - AppleID - iCloud
-   - iCloud Drive options
-     - Desktop & Documents Folder - disable
-     - (rest of all) - enable
-   - Photos - disable
-   - Mail - disable
-   - Contacts - enable
-   - Calender - enable
-   - Reminder - disable
-   - Safari - enable
-   - Notes - enable
-   - Siri - disable
-   - Keychain - enable
-   - Find My Mac - enable
-   - Stocks - enable
-   - Home - disable
+ - Internet Accounts
+   - AppleID - iCloud
+     - Photos - disable
+     - iCloud Drive options
+       - Desktop & Documents Folder - disable
+       - (rest of all) - enable
+     - iCloud Mail - disable
+     - Passwords & Keychain - enable
+     - show more apps
+       - Notes - enable
+       - Find My Mac - enable
+       - Contacts - enable
+       - Calender - enable
+       - Reminder - disable
+       - Safari - enable
+       - Stocks - enable
+       - Home - disable
+       - Wallet - enable
+       - Siri - disable
+       - Freeform - enable
+       - Mail - disable
+       - Map - disable
+       - Shortcuts - disable
+   - Google
+     - Contacts
+     - Calenders
+     - Notes
 
 ## change finder setting
  - Press `Shift+Cmd+.` for showing dot file
