@@ -54,6 +54,14 @@ if ask 'execute brew brewdler?(Brewfile)?'; then
   popd
 fi
 
+if ask 'restore setting from mackup? (need Dropbox directory)'; then
+  if ask 'mv original .ssh for restoring mackup?'; then
+    mv ~/.ssh ~/.ssh.old
+  fi
+  echo '!!!WARNING!!! DO NOT overwrite .ssh/config (.ssh will be okay), .config/fish/fish_variables, .config/karabiner, .config/karabiner/karabiner.json, .config/hub, .config/karabiner/assets/complex_modifications (.config will be okay) it will be deleted...'
+  mackup restore
+fi
+
 if ask 'install Ricty font?'; then
   # https://github.com/edihbrandon/RictyDiminished
   [[ ! -d $RICTY_FONT_DIR ]] && git clone git@github.com:edihbrandon/RictyDiminished.git
@@ -88,14 +96,6 @@ fi
 if ask 'set keyboard keyrepeat faster?'; then
   defaults write -g InitialKeyRepeat -int 13 # normal minimum is 15 (225 ms)
   defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
-fi
-
-if ask 'restore setting from mackup? (need Dropbox directory)'; then
-  if ask 'mv original .ssh for restoring mackup?'; then
-    mv ~/.ssh ~/.ssh.old
-  fi
-  echo '!!!WARNING!!! DO NOT overwrite .ssh/config (.ssh will be okay), .config/fish/fish_variables, .config/karabiner, .config/karabiner/karabiner.json, .config/hub, .config/karabiner/assets/complex_modifications (.config will be okay) it will be deleted...'
-  mackup restore
 fi
 
 if ask 'install crontab?'; then
