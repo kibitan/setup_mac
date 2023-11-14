@@ -113,7 +113,7 @@ $ ./setup.sh
    - off the guest
 
 ---
- 
+
  - Keyboard
    - Keyboard:
      - press fn/🌐 key to "Do nothing"
@@ -147,7 +147,7 @@ $ ./setup.sh
    - More Gestures
      - swipe between pages - three fingers
 
---- 
+---
 
  - Wallet & Apple Pay
    - setup card
@@ -232,7 +232,8 @@ $ ./setup.sh
 ### manually launch
  - Karabiner Elements
  - 1Password
-   - Preference - Advanced - Enable Spotlight and 3rd party app integrations: enable ( for raycast extension)
+   - Preference
+     - General - menu bar: disable
  - Music (iTunes)
    - Account - Authorizations - Authorize This Computer
    - setup iphone: connect iPhone and "Trust this computer"
@@ -290,6 +291,7 @@ $ ./setup.sh
  - Notion
  - raycast
    - import Preferences
+   - off the menu bar
  - Dropbox
  - Witch
    - Actions - choose "Cycle Non-Minimized Windows", delete other actions
@@ -320,7 +322,6 @@ $ ./setup.sh
 
 ### brew services
  - `brew services start noclamshell`
- - `brew services stop mysql@8.0`
 
 # release
 
