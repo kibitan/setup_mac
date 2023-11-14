@@ -1,6 +1,10 @@
 #### related document
   - (japanese) [Mac 環境構築の自動化 2015年末版 ( homebrew + homebrew-cask + homebrew-brewdle + mackup + crontab + mas-cli ) - Qiita](http://qiita.com/kibitan/items/d564248eeaebbf003edc)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11507c0 (Update README.md)
 # setup
 
 ## run [setup.sh](./setup.sh)
@@ -13,7 +17,7 @@ $ ./setup.sh
 
 * if `permittion denied` happen, then try `sudo chmod 0775 /usr/local/etc`
 
-also setup the [dotfiles](https://github.com/kibitan/dotfiles)
+also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox directory: `ln -s ~/Dropbox/dotfiles ./dotfiles`
 
 ## [crontab](./_crontab) bins
  - [bin/backup_dev_dir](./bin/backup_dev_dir)
