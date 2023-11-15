@@ -235,7 +235,7 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
  - Rubymine / Goland
 
 ### manually launch
- - Karabiner Elements
+ - Karabiner Elements (or cmd-eikana)
  - 1Password
    - Preference
      - General - menu bar: disable
@@ -336,6 +336,8 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
 
 <img width="339" alt="image" src="https://github.com/kibitan/setup_mac/assets/620884/778c96db-5ebc-4935-90cd-00eb33c145e7">
 
+## (only for Apple Silicon)
+install iOS apps like lehra, Tuner
 
 # release
 
