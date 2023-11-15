@@ -1,7 +1,6 @@
 #### related document
   - (japanese) [Mac 環境構築の自動化 2015年末版 ( homebrew + homebrew-cask + homebrew-brewdle + mackup + crontab + mas-cli ) - Qiita](http://qiita.com/kibitan/items/d564248eeaebbf003edc)
 
-
 # setup
 
 ## run [setup.sh](./setup.sh)
@@ -34,13 +33,134 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
   dump all installed packages by [homebrew-bundle](https://github.com/Homebrew/homebrew-bundle) as [Brewfile](./Brewfile) and commit/push it to remote repository
 
 ## change mac setting by [System Preferences](https://support.apple.com/en-us/HT201726)
+ - Network
+   - Firewall - Turn on
+
+---
+
+ - General
+   - Software Update
+     - Automatically keep my Mac up to date - enable
+     - Install application updates from the App Stire
+   - Language & Region
+     - set English as Primary
+     - add Japanese
+     - set Region: Japan
+   - Storage
+     - Optimize Storage - enable
+
+ - Appearance
+   - Appearance: Dark
+ - Accessibility
+   - Zoom
+     - Use scroll gesture with modifier keys - Control
+   - display
+     - reduce transparent - enable ( http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html )
+     - Menubar size: Default
+ - Control Center
+   - Bluetooth: Show in Menu Bar
+   - Sound: Always Show in Menu Bar
+   - Other Modules
+     - Battery: Don't Show in Menu Bar
+   - Menu Bar Only
+   - Clock
+     - Date
+       - Show date: when space - when space allows
+       - Show the day of the week - disable time in menu bar
+     - Time
+       - Style - Digital (if with istat menus - Analog)
+       - Display the time with second - enable
+     - Spotlight: Don't Show in Menu Bar
+    - Siri: Don't Show in Menu Bar
+ - Siri & Spotlight
+   - disable
+   - Spotlight
+     - Search Results
+       - application
+       - calculator
+ -  Privacy & Security
+   - Firevalut - Turn on
+   - enable crontab -> [Granting "Full Disk Access" to `/usr/sbin/cron`](https://www.bejarano.io/fixing-cron-jobs-in-mojave/)
+
+---
+
+ - Desktop & Dock
+   - Desktop & stage manager
+     - click wallpaer to reveal desktop - only in stage manager
+   - Dock
+     - Position on screen - left
+     - automatic hide - enable
+     - add shortcut of Applications
+     - customize shortcuts
+   - hot corners - Put Display to Sleep
+ - Displays
+    - Night Shift
+      - Schedule: Sunset to Sunrise
+    - Advanced
+      - Automatically reconnect to any nearby Mac or IPad - enable
+ - Screen Saver
+   - Desktop
+     - Dynamic
+   - screen saver
+     - show with clock
+     - Use random screen saver
+  - Battery
+     - Prevent automatic sleeping when the display is off - enable
+
+---
+
+ - Lock Screen
+   - require password: immediately
+
+---
+
+ - User & Group
+   - off the guest
+
+---
+
+ - Touch ID
+   - setup fingers
+
+---
+
+ - Internet Accounts
+   - AppleID - iCloud
+     - Photos - disable
+     - iCloud Drive options
+       - Desktop & Documents Folder - disable
+       - (rest of all) - enable
+     - iCloud Mail - disable
+     - Passwords & Keychain - enable
+     - show more apps
+       - Notes - enable
+       - Find My Mac - enable
+       - Contacts - enable
+       - Calender - enable
+       - Reminder - disable
+       - Safari - enable
+       - Stocks - enable
+       - Home - disable
+       - Wallet - enable
+       - Siri - disable
+       - Freeform - enable
+       - Map - disable
+       - Shortcuts - disable
+   - Google
+     - Contacts
+     - Calenders
+     - Notes
+ - Wallet & Apple Pay
+   - setup card
+
+---
+
  - Keyboard
    - Keyboard:
      - press fn/🌐 key to "Do nothing"
      - (touch bar model) Press fnkey to: show F1, F2, etc. Keys
      - (touch bar model) customize Touch bar
-     - (change capslock to control key is handled by karabiner-element) or
-        - Modifier Keys... - Caps Lock(⇪) key: ^Control
+     - Keyboards shortcuts -> Modifier Keys... - Caps Lock(⇪) key: ^Control
    - Shortcuts:
      - Mission Control
        - (first making 10 desktops then) enable desktops shortcuts and change to command + [0-9]
@@ -68,108 +188,6 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
    - More Gestures
      - swipe between pages - three fingers
 
-
- - General
-   - Appearance: Dark
- - Desktop & Screen Saver
-   - Desktop
-     - Dynamic
-   - screen saver
-     - show with clock
-     - Use random screen saver
- - Dock & Manu Bar
-   - Dock
-     - Position on screen - left
-     - automatic hide - enable
-     - add shortcut of Applications
-     - customize shortcuts
-   - Clock
-     - Time Options: Analog
-   - Battery
-     - Show in Menu Bar - disable
-   - Spotlight
-     - Show in Menu Bar - disable
- - Mission Control
-   - hotcorner - Put Display to Sleep
- - Siri
-   - disable
-   - show siri in menu bar - disable
- - Spotlight
-   - Search Results
-     - application
-     - calculator
- - Language & Region
-   - set English as Primary
-   - add Japanese
-   - set Region: Japan
- - Notifications
-    - turn on DoNotDisturb:
-      - From: 22:00 ~ 7:00
-      - when the display is sleeping
-
-
- - Wallet & Apple Pay
-   - setup card
- - User & Group
-   - off the guest
-   - Login Options: "Show fast user switching menu as" - disable
- - Accessibility
-   - Zoom
-     - Use scroll gesture with modifier keys - Control
-   - display
-     - reduce transparent - enable ( http://www.downtown.jp/~soukaku/archives/2014/1029_210751.html )
-     - Menubar size: Large
- - Security & Privacy
-   - General
-     - require password immediately
-   - Firevalut - Turn on
-   - Firewall - Turn on
-   - Privacy
-     - enable crontab -> [Granting "Full Disk Access" to `/usr/sbin/cron`](https://www.bejarano.io/fixing-cron-jobs-in-mojave/)
-
-
- - Software Update
-   - Automatically keep my Mac up to date - enable
- - Sound
-   - show volume in menu bar - enable "always"
- - Touch ID
-   - setup fingers
-
-
- - Displays
-    - Display: change screen size if retina
-    - Night Shift
-      - Schedule: Sunset to Sunrise
-    - Universal control
-      - Automatically reconnect to any nearby Mac or IPad - enable
- - Battery
-   - Battery:
-     - show battery status in menu bar - disable ( use istat menus instead )
-   - Power Adapter:
-     - Prevent computer from sleeping automatically when the display is off - enable
-     - Put hard disks to sleep when possible ( [SSD is not affect this setting](https://support.apple.com/en-us/HT202824) ) - disable
- - Date and Time
-   - Clock
-     - Show date and time in menu bar - disable ( use istat menus instead )
-
-
- - AppleID - iCloud
-   - iCloud Drive options
-     - Desktop & Documents Folder - disable
-     - (rest of all) - enable
-   - Photos - disable
-   - Mail - disable
-   - Contacts - enable
-   - Calender - enable
-   - Reminder - disable
-   - Safari - enable
-   - Notes - enable
-   - Siri - disable
-   - Keychain - enable
-   - Find My Mac - enable
-   - Stocks - enable
-   - Home - disable
-
 ## change finder setting
  - Press `Shift+Cmd+.` for showing dot file
  - Preferences
@@ -181,9 +199,7 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
       - remove items from the trash after 30 days - enable
       - keep folders on top: in windows when sorting by name - enable
       - when perfoming a search - current folder
- - Select "List View" and Press "Command + J" to open View Options
-   - check "Calculate All Sizes" and click "Use as Defaults"
- - View
+ - View (as icon View)
    - Show Preview
    - Show Path Bar
    - Show Status Bar
@@ -202,15 +218,12 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
      - use relative date - disable
      - show library folder - enable
      - click - "Use as default"
-   - Customize Touch Bar
+ - Select "List View" and Press "Command + J" to open View Options
+   - check "Calculate All Sizes" and click "Use as Defaults"
  - change default application of mp3, m4a into QuickTimePlayer by [Get info](https://www.imore.com/how-set-mac-app-default-when-opening-file?upgrade)
 
 ## setup force touch
  - do force touch and just "continue"
-
-## change storage setting by [Storage Management](https://support.apple.com/en-us/HT206996) ( apple menu - About This Mac - Storage - Manage )
- - Optimize Storage - enable
- - Empty Trash Automatically - enable
 
 ## apps
 ### lincense install
@@ -224,7 +237,8 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
 ### manually launch
  - Karabiner Elements
  - 1Password
-   - Preference - Advanced - Enable Spotlight and 3rd party app integrations: enable ( for raycast extension)
+   - Preference
+     - General - menu bar: disable
  - Music (iTunes)
    - Account - Authorizations - Authorize This Computer
    - setup iphone: connect iPhone and "Trust this computer"
@@ -269,7 +283,6 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
  - Brave
    - sync setting
    - login hatena
-   - set github token to octotree
    - Chrome menu - Warn Before Quitting - enable
    - import "Mouse Dictionary" eijirou dictionary (C&S/material)
    - Page zoom: 110%
@@ -282,6 +295,7 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
  - Notion
  - raycast
    - import Preferences
+   - off the menu bar
  - Dropbox
  - Witch
    - Actions - choose "Cycle Non-Minimized Windows", delete other actions
@@ -309,6 +323,19 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
      - https://totalspaces.binaryage.com/elcapitan
      - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
  - Bandwidth+
+
+### brew services
+ - `brew services start noclamshell`
+
+## widgets
+ - Calender
+ - Battery & Bluetooth status
+ - World clock
+ - Weather
+ - Stock (currency)
+
+<img width="339" alt="image" src="https://github.com/kibitan/setup_mac/assets/620884/778c96db-5ebc-4935-90cd-00eb33c145e7">
+
 
 # release
 

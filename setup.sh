@@ -39,7 +39,7 @@ if ask 'Homebrew Brewdler install?'; then
   brew tap Homebrew/brewdler
 fi
 
-if ask 'install Dropbox at first?'; then
+if ask 'install Dropbox at first?  hint: first sync only neccessary directories (mackup/mac_setting/dotfiles) makes faster to setup '; then
   brew install dropbox
 fi
 
@@ -52,6 +52,14 @@ if ask 'execute brew brewdler?(Brewfile)?'; then
   pushd "$REPO_DIR"
   brew bundle
   popd
+fi
+
+if ask 'restore setting from mackup? (need Dropbox directory)'; then
+  if ask 'mv original .ssh for restoring mackup?'; then
+    mv ~/.ssh ~/.ssh.old
+  fi
+  echo '!!!WARNING!!! DO NOT overwrite .ssh/config (.ssh will be okay), .config/fish/fish_variables, .config/karabiner, .config/karabiner/karabiner.json, .config/hub, .config/karabiner/assets/complex_modifications (.config will be okay) it will be deleted...'
+  mackup restore
 fi
 
 if ask 'install Ricty font?'; then
@@ -88,14 +96,6 @@ fi
 if ask 'set keyboard keyrepeat faster?'; then
   defaults write -g InitialKeyRepeat -int 13 # normal minimum is 15 (225 ms)
   defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
-fi
-
-if ask 'restore setting from mackup? (need Dropbox directory)'; then
-  if ask 'mv original .ssh for restoring mackup?'; then
-    mv ~/.ssh ~/.ssh.old
-  fi
-  echo '!!!WARNING!!! DO NOT overwrite .ssh/config (.ssh will be okay), .config/fish/fish_variables, .config/karabiner, .config/karabiner/karabiner.json, .config/hub, .config/karabiner/assets/complex_modifications (.config will be okay) it will be deleted...'
-  mackup restore
 fi
 
 if ask 'install crontab?'; then
