@@ -1,8 +1,6 @@
 #### related document
   - (japanese) [Mac 環境構築の自動化 2015年末版 ( homebrew + homebrew-cask + homebrew-brewdle + mackup + crontab + mas-cli ) - Qiita](http://qiita.com/kibitan/items/d564248eeaebbf003edc)
 
-
-
 # setup
 
 ## run [setup.sh](./setup.sh)
@@ -65,7 +63,12 @@ $ ./setup.sh
      - Battery: Don't Show in Menu Bar
    - Menu Bar Only
    - Clock
-     - Show date and time in menu bar - disable ( use istat menus instead )
+     - Date
+       - Show date: when space - when space allows
+       - Show the day of the week - disable time in menu bar
+     - Time
+       - Style - Digital (if with istat menus - Analog)
+       - Display the time with second - enable
      - Spotlight: Don't Show in Menu Bar
     - Siri: Don't Show in Menu Bar
  - Siri & Spotlight
@@ -322,6 +325,16 @@ $ ./setup.sh
 
 ### brew services
  - `brew services start noclamshell`
+
+## widgets
+ - Calender
+ - Battery & Bluetooth status
+ - World clock
+ - Weather
+ - Stock (currency)
+
+<img width="339" alt="image" src="https://github.com/kibitan/setup_mac/assets/620884/778c96db-5ebc-4935-90cd-00eb33c145e7">
+
 
 # release
 
