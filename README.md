@@ -311,7 +311,7 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
         - Delay - `None` (most left)
      - Cycle through search for .. - disable
  - istat Menus
-   - File - Import Settings - `mac_setting/iStat Menus Settings.ismp`
+   - File - Import Settings - `mac_setting/istatmenus/iStat Menus Settings.ismp`
  - Bartender
    - Use Bartender Bar to show hidden items - enable
  - bluesnooze
