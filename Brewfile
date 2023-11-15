@@ -163,6 +163,7 @@ cask "1password"
 cask "alacritty"
 cask "appcleaner"
 cask "asix-ax88179"
+cask "bartender"
 cask "bdash"
 cask "bettertouchtool"
 cask "blackhole-2ch"
@@ -226,7 +227,6 @@ mas "au.id.haroldchu.mac.Bandwidth", id: 490461369
 mas "AusweisApp", id: 948660805
 mas "Create File Menu", id: 1440519779
 mas "DeskApp for YouTube", id: 1180531112
-mas "Dipper", id: 6450242673
 mas "Duplicate Photos Fixer Pro", id: 963642514
 mas "Fotor Photo Editor", id: 503039729
 mas "GarageBand", id: 682658836
