@@ -4,6 +4,7 @@ set -eu -o pipefail
 #set -vx
 printf "\n$(date "+%Y-%m-%dT%H:%M:%S %Z") %s\n" "${0}" ## logging
 NPM_PACKAGES=${NPM_PACKAGES:-~/npm_packages}
+NPM_BIN=${NPM_BIN:-~/.asdf/shims/npm}
 
 # https://stackoverflow.com/questions/32628351/export-import-npm-global-packages
-npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > "$NPM_PACKAGES"
+$(NPM_BIN) list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > "$NPM_PACKAGES"
