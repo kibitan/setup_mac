@@ -80,12 +80,13 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
        - calculator
  -  Privacy & Security
    - Firevalut - Turn on
-   - Privacy
-     - enable crontab -> [Granting "Full Disk Access" to `/usr/sbin/cron`](https://www.bejarano.io/fixing-cron-jobs-in-mojave/)
+   - enable crontab -> [Granting "Full Disk Access" to `/usr/sbin/cron`](https://www.bejarano.io/fixing-cron-jobs-in-mojave/)
 
 ---
 
  - Desktop & Dock
+   - Desktop & stage manager
+     - click wallpaer to reveal desktop - only in stage manager
    - Dock
      - Position on screen - left
      - automatic hide - enable
@@ -113,8 +114,44 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
 
 ---
 
-  - User & Group
+ - User & Group
    - off the guest
+
+---
+
+ - Touch ID
+   - setup fingers
+
+---
+
+ - Internet Accounts
+   - AppleID - iCloud
+     - Photos - disable
+     - iCloud Drive options
+       - Desktop & Documents Folder - disable
+       - (rest of all) - enable
+     - iCloud Mail - disable
+     - Passwords & Keychain - enable
+     - show more apps
+       - Notes - enable
+       - Find My Mac - enable
+       - Contacts - enable
+       - Calender - enable
+       - Reminder - disable
+       - Safari - enable
+       - Stocks - enable
+       - Home - disable
+       - Wallet - enable
+       - Siri - disable
+       - Freeform - enable
+       - Map - disable
+       - Shortcuts - disable
+   - Google
+     - Contacts
+     - Calenders
+     - Notes
+ - Wallet & Apple Pay
+   - setup card
 
 ---
 
@@ -150,42 +187,6 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
      - scroll natural - disable
    - More Gestures
      - swipe between pages - three fingers
-
----
-
- - Wallet & Apple Pay
-   - setup card
-
- - Touch ID
-   - setup fingers
-
- - Internet Accounts
-   - AppleID - iCloud
-     - Photos - disable
-     - iCloud Drive options
-       - Desktop & Documents Folder - disable
-       - (rest of all) - enable
-     - iCloud Mail - disable
-     - Passwords & Keychain - enable
-     - show more apps
-       - Notes - enable
-       - Find My Mac - enable
-       - Contacts - enable
-       - Calender - enable
-       - Reminder - disable
-       - Safari - enable
-       - Stocks - enable
-       - Home - disable
-       - Wallet - enable
-       - Siri - disable
-       - Freeform - enable
-       - Mail - disable
-       - Map - disable
-       - Shortcuts - disable
-   - Google
-     - Contacts
-     - Calenders
-     - Notes
 
 ## change finder setting
  - Press `Shift+Cmd+.` for showing dot file

@@ -39,7 +39,7 @@ if ask 'Homebrew Brewdler install?'; then
   brew tap Homebrew/brewdler
 fi
 
-if ask 'install Dropbox at first?'; then
+if ask 'install Dropbox at first?  hint: first sync only neccessary directories (mackup/mac_setting/dotfiles) makes faster to setup '; then
   brew install dropbox
 fi
 
