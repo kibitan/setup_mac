@@ -281,7 +281,6 @@ $ ./setup.sh
  - Brave
    - sync setting
    - login hatena
-   - set github token to octotree
    - Chrome menu - Warn Before Quitting - enable
    - import "Mouse Dictionary" eijirou dictionary (C&S/material)
    - Page zoom: 110%
