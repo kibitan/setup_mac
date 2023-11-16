@@ -313,7 +313,10 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
  - istat Menus
    - File - Import Settings - `mac_setting/istatmenus/iStat Menus Settings.ismp`
  - Bartender
-   - Use Bartender Bar to show hidden items - enable
+   - General
+       - Show items in bar below menu bar - enable
+       - Bartender menu bar icon - bartender
+       - menu bar item spacing - Tiny spacing
  - bluesnooze
  - Backup and Sync from Google
  - Slack
