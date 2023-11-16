@@ -312,11 +312,6 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
      - Cycle through search for .. - disable
  - istat Menus
    - File - Import Settings - `mac_setting/istatmenus/iStat Menus Settings.ismp`
- - Bartender
-   - General
-       - Show items in bar below menu bar - enable
-       - Bartender menu bar icon - bartender
-       - menu bar item spacing - Tiny spacing
  - bluesnooze
  - Backup and Sync from Google
  - Slack
@@ -326,18 +321,23 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
      - https://totalspaces.binaryage.com/elcapitan
      - http://qiita.com/whitefox_105/items/0b70f7a504dcb72788e6
  - Bandwidth+
+ - Bartender
+   - General
+       - Show items in bar below menu bar - enable
+       - Bartender menu bar icon - bartender
+       - menu bar item spacing - Tiny spacing
+    <img width="640" alt="image" src="https://github.com/kibitan/setup_mac/assets/620884/5d2323c4-99c5-4112-879a-785929ded911">
 
 ### brew services
  - `brew services start noclamshell`
 
 ## widgets
- - Calender
  - Battery & Bluetooth status
  - World clock
  - Weather
  - Stock (currency)
 
-<img width="339" alt="image" src="https://github.com/kibitan/setup_mac/assets/620884/778c96db-5ebc-4935-90cd-00eb33c145e7">
+<img width="365" alt="image" src="https://github.com/kibitan/setup_mac/assets/620884/c9594a4b-cef5-4034-852f-7ac771e5c449">
 
 ## (only for Apple Silicon)
 install iOS apps like lehra, Tuner
