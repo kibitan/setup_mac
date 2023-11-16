@@ -342,6 +342,9 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
 ## (only for Apple Silicon)
 install iOS apps like lehra, Tuner
 
+<img width="1275" alt="image" src="https://github.com/kibitan/setup_mac/assets/620884/ae662999-d986-4896-9bbd-a763e15f6b06">
+
+
 # release
 
 ## deactivate
