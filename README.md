@@ -98,13 +98,11 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
       - Schedule: Sunset to Sunrise
     - Advanced
       - Automatically reconnect to any nearby Mac or IPad - enable
+ - Wallpaper
+   - Shuffle All
  - Screen Saver
-   - Desktop
-     - Dynamic
-   - screen saver
-     - show with clock
-     - Use random screen saver
-  - Battery
+   - Shuffle All
+ - Battery
      - Prevent automatic sleeping when the display is off - enable
 
 ---
