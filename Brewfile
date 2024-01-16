@@ -116,6 +116,8 @@ brew "mysql-client"
 brew "mysql@8.0", restart_service: true
 brew "nghttp2"
 brew "nginx"
+brew "protobuf"
+brew "openai-whisper"
 brew "openssl@1.1"
 brew "packer"
 brew "parallel"
@@ -124,7 +126,6 @@ brew "percona-toolkit"
 brew "pgcli"
 brew "postgresql@14"
 brew "proctools"
-brew "protobuf"
 brew "pstree"
 brew "python@3.10"
 brew "tcl-tk"
@@ -231,8 +232,8 @@ cask "whatsapp"
 cask "witch"
 cask "xmind"
 cask "zoom"
-mas "au.id.haroldchu.mac.Bandwidth", id: 490461369
 mas "AusweisApp", id: 948660805
+mas "Bandwidth+", id: 490461369
 mas "Create File Menu", id: 1440519779
 mas "DeskApp for YouTube", id: 1180531112
 mas "Duplicate Photos Fixer Pro", id: 963642514
