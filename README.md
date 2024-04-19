@@ -339,7 +339,7 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
 <img width="365" alt="image" src="https://github.com/kibitan/setup_mac/assets/620884/c9594a4b-cef5-4034-852f-7ac771e5c449">
 
 ## (only for Apple Silicon)
-install iOS apps like lehra, Tuner
+install iOS apps like lehra, Tuner, MetaRecorder (apogee record app)
 
 <img width="1275" alt="image" src="https://github.com/kibitan/setup_mac/assets/620884/ae662999-d986-4896-9bbd-a763e15f6b06">
 
@@ -356,6 +356,7 @@ see also: https://support.apple.com/en-us/HT201065
    - https://support.apple.com/en-us/HT205064
  - Dropbox
    - https://www.dropbox.com/account/security
+ - 1password
  - Microsoft Office (Office 365)
    - https://portal.office.com/Account#installs
  - Adobe Creative Cloud
