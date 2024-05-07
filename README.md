@@ -220,6 +220,10 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
    - check "Calculate All Sizes" and click "Use as Defaults"
  - change default application of mp3, m4a into QuickTimePlayer by [Get info](https://www.imore.com/how-set-mac-app-default-when-opening-file?upgrade)
 
+## setup Safari
+ - Preferences - Autofil - disable all (to not ask save passwords etc)
+
+
 ## setup force touch
  - do force touch and just "continue"
 
