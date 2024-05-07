@@ -214,6 +214,7 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
        - Size
        - Kind
      - use relative date - disable
+     - Calculate all sizes - enable
      - show library folder - enable
      - click - "Use as default"
  - Select "List View" and Press "Command + J" to open View Options
