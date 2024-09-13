@@ -120,6 +120,7 @@ brew "mysql-client"
 brew "mysql@8.0", restart_service: true
 brew "nghttp2"
 brew "nginx"
+brew "oha"
 brew "protobuf"
 brew "pytorch"
 brew "openai-whisper"
