@@ -195,6 +195,7 @@ cask "clipy"
 cask "cloudflare-warp"
 cask "cmd-eikana"
 cask "cyberduck"
+cask "dash@6"
 cask "dbeaver-community"
 cask "dbvisualizer"
 cask "deepl"
@@ -254,6 +255,7 @@ mas "DeskApp for YouTube", id: 1180531112
 mas "Duplicate Photos Fixer Pro", id: 963642514
 mas "Fotor Photo Editor", id: 503039729
 mas "GarageBand", id: 682658836
+mas "GIPHY CAPTURE", id: 668208984
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
