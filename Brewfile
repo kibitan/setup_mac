@@ -155,7 +155,7 @@ brew "terminal-notifier"
 brew "the_silver_searcher"
 brew "tig"
 brew "tldr"
-brew "trash"
+brew "trash", link: true
 brew "tree"
 brew "watch"
 brew "wget"
@@ -241,6 +241,7 @@ cask "slack"
 cask "spotify"
 cask "tableplus"
 cask "telegram"
+cask "tentacle-sync-studio"
 cask "the-unarchiver"
 cask "visual-studio-code"
 cask "vlc"
@@ -249,6 +250,7 @@ cask "whatsapp"
 cask "witch"
 cask "xmind"
 cask "zoom"
+mas "1Password for Safari", id: 1569813296
 mas "AusweisApp", id: 948660805
 mas "Bandwidth+", id: 490461369
 mas "Create File Menu", id: 1440519779
