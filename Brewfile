@@ -223,7 +223,9 @@ cask "kindle"
 cask "kitematic"
 cask "licecap"
 cask "macpass"
+cask "microsoft-auto-update"
 cask "microsoft-edge"
+cask "microsoft-teams"
 cask "mousepose"
 cask "mysqlworkbench"
 cask "ngrok"
@@ -250,33 +252,6 @@ cask "whatsapp"
 cask "witch"
 cask "xmind"
 cask "zoom"
-mas "1Password for Safari", id: 1569813296
-mas "AusweisApp", id: 948660805
-mas "Bandwidth+", id: 490461369
-mas "Create File Menu", id: 1440519779
-mas "DeskApp for YouTube", id: 1180531112
-mas "Duplicate Photos Fixer Pro", id: 963642514
-mas "Fotor Photo Editor", id: 503039729
-mas "GarageBand", id: 682658836
-mas "GIPHY CAPTURE", id: 668208984
-mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "LINE", id: 539883307
-mas "Mactracker", id: 430255202
-mas "MARKETSPEED", id: 946680495
-mas "Medis", id: 1063631769
-mas "NetSpot", id: 678464954
-mas "Network Radar", id: 507659816
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
-mas "Quiver", id: 866773894
-mas "ToyViewer", id: 414298354
-mas "Tunacan", id: 980577198
-mas "Tweetbot", id: 557168941
-mas "Twitter", id: 409789998
-mas "WattsConnected", id: 1639692859
-mas "WiFi Explorer", id: 494803304
-mas "WiFi Signal", id: 525912054
 vscode "4ops.terraform"
 vscode "alexkrechik.cucumberautocomplete"
 vscode "azemoh.one-monokai"
@@ -285,6 +260,7 @@ vscode "castwide.solargraph"
 vscode "davidanson.vscode-markdownlint"
 vscode "dbaeumer.vscode-eslint"
 vscode "deerawan.vscode-dash"
+vscode "docker.docker"
 vscode "dotjoshjohnson.xml"
 vscode "eamodio.gitlens"
 vscode "esbenp.prettier-vscode"
@@ -293,6 +269,7 @@ vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.vscode-github-actions"
 vscode "gitlab.gitlab-workflow"
+vscode "gitpod.gitpod-desktop"
 vscode "golang.go"
 vscode "hashicorp.terraform"
 vscode "ibm.output-colorizer"
