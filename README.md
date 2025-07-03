@@ -236,6 +236,7 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
  - Dash
  - Witch
  - Rubymine / Goland
+ - Postico 2
 
 ### manually launch
  - Karabiner Elements (or cmd-eikana)
@@ -331,6 +332,9 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
        - Bartender menu bar icon - bartender
        - menu bar item spacing - Tiny spacing
     <img width="640" alt="image" src="https://github.com/kibitan/setup_mac/assets/620884/5d2323c4-99c5-4112-879a-785929ded911">
+ - Ice
+   - General
+     - location - dynamic
 
 ### brew services
  - `brew services start noclamshell`
@@ -355,6 +359,7 @@ install iOS apps like lehra, Tuner, MetaRecorder (apogee record app)
 see also: https://support.apple.com/en-us/HT201065
 
  - Music (iTunes)
+ - Postico 2
  - iCloud
  - iMessage
  - https://appleid.apple.com/account/manage
