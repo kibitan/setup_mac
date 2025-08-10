@@ -128,6 +128,7 @@ if ask 'setup programming languages? (asdf)'; then
   asdf list | sed 'N;s/\n//' > ~/.tool-versions
 fi
 
-if ask 'install git-cz?'; then
+if ask 'install npm tools?'; then
   npm install -g git-cz
+  npm install -g @anthropic-ai/claude-code
 fi
