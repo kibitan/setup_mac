@@ -160,6 +160,7 @@ brew "tig"
 brew "tldr"
 brew "trash", link: true
 brew "tree"
+brew "uv"
 brew "watch"
 brew "wget"
 brew "yarn"
