@@ -137,6 +137,7 @@ brew "parallel"
 brew "peco"
 brew "percona-toolkit"
 brew "pgcli"
+brew "pipx"
 brew "pnpm"
 brew "postgresql@14", restart_service: :changed
 brew "proctools"
