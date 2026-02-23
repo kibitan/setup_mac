@@ -328,7 +328,7 @@ also setup the [dotfiles](https://github.com/kibitan/dotfiles), with dropbox dir
  - Bandwidth+
  - Bartender
    - General
-       - Show items in bar below menu bar - enable
+       - Use Bartender Bar to show hidden items - enable
        - Bartender menu bar icon - bartender
        - menu bar item spacing - Tiny spacing
     <img width="640" alt="image" src="https://github.com/kibitan/setup_mac/assets/620884/5d2323c4-99c5-4112-879a-785929ded911">
