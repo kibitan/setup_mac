@@ -2,6 +2,7 @@ tap "anomalyco/tap"
 tap "argon/mas"
 tap "cloudflare/cloudflare"
 tap "codekitchen/dinghy"
+tap "dominion525/tap"
 tap "git-chglog/git-chglog"
 tap "golangci/tap"
 tap "goodwithtech/r"
@@ -26,7 +27,7 @@ brew "libtool"
 # YAML Parser
 brew "libyaml"
 # Cryptography and SSL/TLS Toolkit
-brew "openssl@3", link: true
+brew "openssl@3"
 # Extendable version manager with support for Ruby, Node.js, Erlang & more
 brew "asdf"
 # Automatically restart SSH sessions and tunnels
@@ -309,8 +310,6 @@ brew "terminal-notifier"
 brew "the_silver_searcher"
 # Text interface for Git repositories
 brew "tig"
-# Simplified and community-driven man pages
-brew "tldr"
 # CLI tool that moves files or folder to the trash
 brew "trash", link: true
 # Display directories as trees (with optional color/HTML output)
@@ -387,6 +386,8 @@ cask "claude-code"
 cask "clipy"
 # Free app that makes your Internet safer
 cask "cloudflare-warp"
+# Switch input sources with the left and right Command keys
+cask "dominion525/tap/cmd-eikana", trusted: true
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # Write, edit, and chat about your code with AI
