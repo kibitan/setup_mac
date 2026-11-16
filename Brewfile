@@ -413,6 +413,8 @@ cask "dominion525-cmd-eikana"
 cask "drawio"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Bitcoin thin client
+cask "electrum"
 # App for note taking, organising, task lists, and archiving
 cask "evernote"
 # Tool to rename digital photos, movie- and audio-clips
